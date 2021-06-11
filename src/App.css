@@ -22,7 +22,6 @@ body {
   background-image: url("./Image/theprotest.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  
   background-color: white;
   min-height: 100vh;
   display: flex;
@@ -38,11 +37,35 @@ body {
   font-weight: bold;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+} */
+
+.button-tertiary {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	/* background:linear-gradient(to bottom, #B8D29A 5%, #B8D29A 100%); */
+	background-color:#1C84B0;
+	border-radius:10px;
+	/* border:1px solid #4e6096; */
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.button-tertiary:hover {
+	background:linear-gradient(to bottom, #7CAD41 5%, #B8D29A 100%);
+	background-color:#476e9e;
+}
+.button-tertiary:active {
+	position:relative;
+	top:1px;
 }

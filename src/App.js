@@ -1,4 +1,6 @@
 import logo from './logo.png';
+import NavBar from './NavBar'
+import Jumbotron from './Jumbotron'
 import './App.css';
 
 function App() {
@@ -9,17 +11,23 @@ function App() {
         <p>
           {/* Edit <code>src/App.js</code> and save to reload. */}
         </p>
+      {/* This area should link to the first home page of site */}
         <a
           className="App-link"
-          href="https://www.pexels.com/photo/dad-and-daughter-having-fun-and-laughing-while-looking-at-the-smartphone-6140198/"
+          href="./navbar"
           target="_blank"
           rel="noopener noreferrer"
           
+          
         >
+        <button className="button-tertiary" type="submit">
           CLICK TO ENTER
+        </button>
         </a>
        
       </header>
+      <NavBar />
+      <Jumbotron />
     </div>
   );
 }
