@@ -1,96 +1,65 @@
-import React, { Component } from 'react'
-
-import Jumbotron from 'react-bootstrap/Jumbotron';
-import Container from 'react-bootstrap/Container';
+import React from 'react'
+//import Jumbotron from 'react-bootstrap/Jumbotron';
+//import Container from 'react-bootstrap/Container';
 //import ReactDOM from 'react-dom'
 //import AnchorLink from 'react-anchor-link-smooth-scroll'
 import 'bootstrap/dist/css/bootstrap.css';
 import "bootstrap/dist/css/bootstrap.min.css";
+//import logo from './logo.png';
 
 
 
-
-export default class NavBar extends Component {
-    render() {
-        return (
-            <div>
-        
-            <nav className="navbar navbar-expand-md navbar-dark bg-dark mb-3">
-                 <div className="container-fluid">
-                     <a href="j4f" className="navbar-brand mr-3">J4F</a>
-                     <a href="ourteam" className="navbar-brand mr-3">Our Team</a>
-                     <a href="partnerships" className="navbar-brand mr-3">Partnerships</a>
-                     <a href="familyinstitute" className="navbar-brand mr-3">Family Institute</a>
-                     <a href="policy" className="navbar-brand mr-3">Policy</a>
-                     <a href="trainings" className="navbar-brand mr-3">Trainings</a>
                    
-    </div>
-    </nav>
+function NavBar() {
+    return (
+        <div>
+            <nav className="navbar navbar sticky-top navbar-expand-md bg=light variant=light mb-5">
+                {/* <nav className="navbar sticky-top navbar-light bg-light"> */}
+                <div className="container-fluid">
+                {/* <img src={logo} className="App-logo" height="45px" width="150px" alt="logo" /> */}
+                     <a href="j4f" className="navbar-brand mr-3"><h1><strong>J4F</strong></h1></a> 
+                        <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                             <span className="navbar-toggler-icon"></span>
+                         </button> 
 
-  
-  <div>
-        <Jumbotron fluid>
-        <Container>
-          <h1>Fluid jumbotron</h1>
-          <p>
-            This is a modified jumbotron that occupies the entire horizontal space of
-            its parent.
-          </p>
-        </Container>
-      </Jumbotron>
-        <div className="collapse navbar-collapse" id="navbarCollapse">
-            <div className="navbar-nav">
-                <a href="ourteam" className="nav-item nav-link active">Our Team</a>
-                <a href="partnerships" clasNames="nav-item nav-link">Partnerships</a>
-                <a href="families" className="nav-item nav-link">Families</a>
-                <a href="policy" className="nav-item nav-link">Policy</a>
-                <a href="trainings" className="nav-item nav-link">Trainings</a>
-            </div> 
-                 <div class="navbar-nav ml-auto">
-                    <a href="register" class="nav-item nav-link">Register</a>
-                    <a href="login" class="nav-item nav-link">Login</a>
-                </div> 
-            
-          
-             </div>  
+                            <div className="collapse navbar-collapse" id="navbarCollapse">
+                                <div className="navbar-nav">
+                                    {/* <a href="home" className="nav-item nav-link active">Home</a> */}
+                                    <i class="fas fa-users"></i><a href="staff" className="nav-item nav-link">Staff</a>
+                                    
+                                    <a href="partnerships" className="nav-item nav-link">Partnerships</a>
+                                    <a href="institute" className="nav-item nav-link">Institute</a>
+                                    <a href="policy" className="nav-item nav-link">Policy</a>
+                                    <a href="trainings" className="nav-item nav-link">Trainings</a>
+                                </div>
 
-
- <div>
-        <Jumbotron fluid>
-        <Container>
-          <h1>Fluid jumbotron</h1>
-          <p>
-            This is a modified jumbotron that occupies the entire horizontal space of
-            its parent.
-          </p>
-        </Container>
-      </Jumbotron>
-        <div className="collapse navbar-collapse" id="navbarCollapse">
-            <div className="navbar-nav">
-                <a href="ourteam" className="nav-item nav-link active">Our Team</a>
-                <a href="partnerships" clasNames="nav-item nav-link">Partnerships</a>
-                <a href="families" className="nav-item nav-link">Families</a>
-                <a href="policy" className="nav-item nav-link">Policy</a>
-                <a href="trainings" className="nav-item nav-link">Trainings</a>
-            </div> 
-                <div class="navbar-nav ml-auto">
-                    <a href="register" class="nav-item nav-link">Register</a>
-                    <a href="login" class="nav-item nav-link">Login</a>
-                </div> 
-            
-          
-            </div> 
-    </div>
-
-</div>
-</div>
-
+                                    <div className="navbar-nav ml-auto">
+                                        <a href="search" className="nav-item nav-link">Search</a>
+                                        <a href="report" className="nav-item nav-link">Download Report</a>
+                                    </div>
+                            </div>
+                        </div>    
+                    
+            </nav>
+        </div>
+        
     
     )
-
-                
-        
-
-    }
 }
 
+// export default NavBar
+    
+            
+
+
+
+
+          
+
+
+ 
+
+   
+        
+export default NavBar
+            

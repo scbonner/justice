@@ -1,7 +1,7 @@
 import React from 'react'
 //import '../Logo/index'
-import { Link } from 'react-router-dom'
-import { Button } from 'bootstrap/dist/css/bootstrap.css'
+//import { Link } from 'react-router-dom'
+//import { Button } from 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import './jumbotron.css'
 
@@ -38,9 +38,9 @@ function Jumbotron() {
                         </a></center> */}
 
               </div>
-              <Link to={'/navbar/ourteam'}>
+                    {/* <Link to={'/navbar/ourteam'}>
                        <Button > View Profile </Button>
-                     </Link>
+                     </Link> */}
       <div className="col-lg-6">
 <br />
 <br />

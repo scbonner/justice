@@ -1,6 +1,6 @@
-body {
-  opacity: 0.5;
-}
+/* body {
+  
+} */
 
 
 .App {
@@ -30,6 +30,7 @@ body {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  opacity: 0.5;
 }
 
 .App-link {
@@ -69,3 +70,23 @@ body {
 	position:relative;
 	top:1px;
 }
+
+.navbar-nav .nav-item nav-link {
+  color: #1C84B0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.map-container-5{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  .map-container-5 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
