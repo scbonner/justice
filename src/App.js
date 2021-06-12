@@ -1,14 +1,14 @@
 import logo from './logo.png';
 import NavBar from './NavBar'
 //import GeoMap from './GeoMap'
-//import Jumbotron from './Jumbotron'
+import Jumbotron from './Jumbotron'
 // import Home from './Home';
 // import Staff from './Staff';
 // import Institute from './Institute';
 // import Partnerships from './Partnerships';
 // import Policy from './Policy';
 // import Trainings from './Trainings';
-// import Footer from './Footer'
+import Footer from './Footer'
 //import { Button } from 'bootstrap/dist/css/bootstrap.css'
 //import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
@@ -53,7 +53,8 @@ function App() {
 
         </a>
       </header>
-     
+      <Jumbotron />
+     <Footer />
       {/* <Jumbotron />  */}
       {/* <div className="button">
    <a href="home.html" className="btn btn-secondary">HOME</a> 

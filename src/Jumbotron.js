@@ -11,64 +11,75 @@ import './jumbotron.css'
 function Jumbotron() {
     return (
       
+
+      <div class="jumbotron jumbotron-fluid bg-info text-white">
+      <div class="container text-sm-center pt-5">
+        <h1 class="display-2">Full Stack Conf</h1>
+        <p class="lead">A One-day Conference About All Things JavaScript!</p>        
+        <div class="btn-group mt-4" role="group" aria-label="Callout buttons">
+          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#register">Register Now</button>
+          <a class="btn btn-light btn-lg" href="#speakers">See Speakers</a>
+        </div>        
+      </div>
+    </div>
       
      
       
-      <div className="jumbotron bg-cover">
-      <div className='container'>
-        <div className="jumbotron jumbotron-fluid bg-white">
-        {/* <div class="jumbotron jumbotron-fluid bg-dark"> */}
-          <div className='container'>
-            <div className="container"> 
-              <div className="row">
-                  <div className="col-lg-6">
-                  <img src="https://www.justice4families.org/wp-content/themes/j4f/images/logo.png" alt="Justice For Families"></img>
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                    <h5 className="display-4" ml='20px'><center>MISSION</center></h5>
+//       <div className="jumbotron bg-cover">
+//       <div className='container'>
+//         <div className="jumbotron jumbotron-fluid bg-white">
+//         {/* <div class="jumbotron jumbotron-fluid bg-dark"> */}
+//           <div className='container'>
+//             <div className="container"> 
+//               <div className="row">
+//                   <div className="col-lg-6">
+//                   <img src="https://www.justice4families.org/wp-content/themes/j4f/images/logo.png" alt="Justice For Families"></img>
+//                   <br />
+//                   <br />
+//                   <br />
+//                   <br />
+//                   <br />
+//                     <h5 className="display-4" ml='20px'><center>MISSION</center></h5>
                     
-                      <p className="lead">The mission at Justice for Families is to stop the youth incarceration epidemic while advocating for investment in youth and their families.</p>
-                      <hr className="my-4" />
+//                       <p className="lead">The mission at Justice for Families is to stop the youth incarceration epidemic while advocating for investment in youth and their families.</p>
+//                       <hr className="my-4" />
                      
-                        {/* <center><a className="btn btn-primary btn-lg" href="j4f" role="button">
-                          Learn more
-                        </a></center> */}
+//                         {/* <center><a className="btn btn-primary btn-lg" href="j4f" role="button">
+//                           Learn more
+//                         </a></center> */}
 
-              </div>
-                    {/* <Link to={'/navbar/ourteam'}>
-                       <Button > View Profile </Button>
-                     </Link> */}
-      <div className="col-lg-6">
-<br />
-<br />
-<br />
-<br />
-        <div className='container'>
-          <div className='container'>
-              <div className='container'>
-                <hr />
-                <h5 className="display-8"><center>VISION</center></h5>
-                  <p className="lead">To stop the youth incarceration epidemic while advocate for investment in youth and their families.</p>
-                    <hr className="my-8" />
-                    <h5 className="display-8"><center>PURPOSE</center></h5>
-                  <p>
-                    It uses utility classes for typography and spacing to space
-                    content out within the larger container.
-                  </p>
-                  <hr />
-              </div>
-             </div>
-            </div>
-           </div>
-          </div> 
-         </div>   
-        </div>
-       </div>
-     </div>
-</div>
+//               </div>
+//                     {/* <Link to={'/navbar/ourteam'}>
+//                        <Button > View Profile </Button>
+//                      </Link> */}
+//       <div className="col-lg-6">
+// <br />
+// <br />
+// <br />
+// <br />
+//         <div className='container'>
+//           <div className='container'>
+//               <div className='container'>
+//                 <hr />
+//                 <h5 className="display-8"><center>VISION</center></h5>
+//                   <p className="lead">To stop the youth incarceration epidemic while advocate for investment in youth and their families.</p>
+//                     <hr className="my-8" />
+//                     <h5 className="display-8"><center>PURPOSE</center></h5>
+//                   <p>
+//                     It uses utility classes for typography and spacing to space
+//                     content out within the larger container.
+//                   </p>
+//                   <hr />
+//               </div>
+//              </div>
+//             </div>
+//            </div>
+//           </div> 
+//          </div>   
+//         </div>
+//        </div>
+//      </div>
+// </div>
 
 
 

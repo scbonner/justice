@@ -5,6 +5,7 @@ import React from 'react'
 //import AnchorLink from 'react-anchor-link-smooth-scroll'
 import 'bootstrap/dist/css/bootstrap.css';
 import "bootstrap/dist/css/bootstrap.min.css";
+import './App.css'
 //import logo from './logo.png';
 
 
@@ -25,12 +26,11 @@ function NavBar() {
                             <div className="collapse navbar-collapse" id="navbarCollapse">
                                 <div className="navbar-nav">
                                     {/* <a href="home" className="nav-item nav-link active">Home</a> */}
-                                    <i class="fas fa-users"></i><a href="staff" className="nav-item nav-link">Staff</a>
-                                    
-                                    <a href="partnerships" className="nav-item nav-link">Partnerships</a>
-                                    <a href="institute" className="nav-item nav-link">Institute</a>
-                                    <a href="policy" className="nav-item nav-link">Policy</a>
-                                    <a href="trainings" className="nav-item nav-link">Trainings</a>
+                                    <a href="staff" className="nav-item nav-link">STAFF</a>
+                                    <a href="partnerships" className="nav-item nav-link">PARTNERSHIPS</a>
+                                    <a href="institute" className="nav-item nav-link">INSTITUTE</a>
+                                    <a href="policy" className="nav-item nav-link">POLICY</a>
+                                    <a href="trainings" className="nav-item nav-link">TRAININGS</a>
                                 </div>
 
                                     <div className="navbar-nav ml-auto">
@@ -38,8 +38,7 @@ function NavBar() {
                                         <a href="report" className="nav-item nav-link">Download Report</a>
                                     </div>
                             </div>
-                        </div>    
-                    
+                     </div>    
             </nav>
         </div>
         
