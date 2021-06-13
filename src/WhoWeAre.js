@@ -1,7 +1,7 @@
 import React from 'react'
+// import '.staff.css'
 
-
-export default function Staff() {
+export default function WhoWeAre() {
     return (
 
 <div container>

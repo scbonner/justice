@@ -1,14 +1,17 @@
 import React from 'react'
+import Board from './blondelady.jpeg'
 
 
-export default function Staff() {
+
+export default function Board() {
     return (
 
 <div container>
 <div className="row">
   <div className="column">
     <div className="card">
-      <img src="../" alt="Jane" width="100%"></img>
+    {/* <img src={BoardImages}></img> */}
+
       <div className="container">
         <h2>Jane Doe</h2>
         <p className="title">CEO &amp; Founder</p>
@@ -20,8 +23,10 @@ export default function Staff() {
   </div>
 
   <div className="column">
-    <div className="card">
-    <img src="black-womanwnatural.jpeg" alt="Jane" width="100%"></img>
+    <div className="card"> height={100}
+    <img src={blondlady} alt={""}/>
+
+    {/* <img src={blondelady} alt="Jane" width={100}></img> */}
       <div className="container">
         <h2>Mike Ross</h2>
         <p className="title">Art Director</p>
@@ -46,6 +51,6 @@ export default function Staff() {
   </div>
 </div>
 </div>
-       
+
     )
 }

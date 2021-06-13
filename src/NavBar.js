@@ -19,14 +19,14 @@ function NavBar() {
                 <div className="container-fluid">
                 {/* <img src={logo} className="App-logo" height="45px" width="150px" alt="logo" /> */}
                      <a href="j4f" className="navbar-brand mr-3"><h1><strong>J4F</strong></h1></a> 
-                        <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        {/* <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                              <span className="navbar-toggler-icon"></span>
-                         </button> 
+                         </button>  */}
 
                             <div className="collapse navbar-collapse" id="navbarCollapse">
                                 <div className="navbar-nav">
-                                    {/* <a href="home" className="nav-item nav-link active">Home</a> */}
-                                    <a href="staff" className="nav-item nav-link">STAFF</a>
+                                    {/* <a href="/" className="nav-item nav-link active"></a> */}
+                                    <a href="staff" className="nav-item nav-link active">STAFF</a>
                                     <a href="partnerships" className="nav-item nav-link">PARTNERSHIPS</a>
                                     <a href="institute" className="nav-item nav-link">INSTITUTE</a>
                                     <a href="policy" className="nav-item nav-link">POLICY</a>
@@ -45,18 +45,6 @@ function NavBar() {
     
     )
 }
-
-// export default NavBar
-    
-            
-
-
-
-
-          
-
-
- 
 
    
         

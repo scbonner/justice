@@ -1,5 +1,5 @@
 import React from 'react'
-import SocialIcons from './SocialIcons'
+//import SocialIcons from './SocialIcons'
 import './footer.css'
 
 
@@ -22,8 +22,8 @@ export default function Footer() {
                     <p>Full Stack Conf is committed to being inclusive and welcoming for everyone. We look forward to another intensive day of learning and sharing.</p>
                <h6> About Company</h6>
                     <p>But horizontal lines can only be a full pixel high.</p>
-                        <a href="#" className="btn-footer"> More Info </a><br />
-                        <a href="#" className="btn-footer"> Contact Us</a>
+                        <a href="report" className="btn-footer"> More Info </a><br />
+                        <a href="form" className="btn-footer"> Contact Us</a>
                </div>
 
                <div className="col-lg order-3">

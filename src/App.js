@@ -1,15 +1,16 @@
 import logo from './logo.png';
 import NavBar from './NavBar'
 //import GeoMap from './GeoMap'
-import Jumbotron from './Jumbotron'
-// import Home from './Home';
-// import Staff from './Staff';
+// WhoWeAre from './WhoWeAre'
+// import Board from './Board';
+import Staff from './Staff';
+//import Values from './Values'
 // import Institute from './Institute';
 // import Partnerships from './Partnerships';
 // import Policy from './Policy';
 // import Trainings from './Trainings';
 import Footer from './Footer'
-//import { Button } from 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/css/bootstrap.css'
 //import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 
@@ -52,8 +53,27 @@ function App() {
         </button>
 
         </a>
+        <div>
+		{/* <div
+			style={{
+				width: '200px',
+				height: '200px',
+				position: 'absolute',
+				top: '0px',
+				left: '0px',
+				background: 'red',
+				zIndex: 1,
+			}} */}
+		/>
+		{/* <Animate /> */}
+	</div>
       </header>
-      <Jumbotron />
+      {/* <Jumbotron />
+      <Staff />
+      {/* <Board /> */}
+      {/* <Values />  */}
+      <Staff />
+      {/* <WhoWeAre /> */}
      <Footer />
       {/* <Jumbotron />  */}
       {/* <div className="button">
