@@ -1,51 +1,58 @@
 import React from 'react'
-// import '.staff.css'
+import './whoweare.css'
 
 export default function WhoWeAre() {
     return (
 
+
 <div container>
+<br />
+<br />
+<br />
+{/* <div style="text-align: right"><img src="image/your-image.png" width="100" /></div> */}
+{/* <h1>WHO WE ARE</h1> */}
 <div className="row">
   <div className="column">
-    <div className="card">
-      <img src="../" alt="Jane" width="100%"></img>
-      <div className="container">
-        <h2>Jane Doe</h2>
-        <p className="title">CEO &amp; Founder</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
+<h1 id='pacman' flex>WHO</h1>
+</div>
 
-  <div className="column">
-    <div className="card">
-    <img src="black-womanwnatural.jpeg" alt="Jane" width="100%"></img>
-      <div className="container">
-        <h2>Mike Ross</h2>
-        <p className="title">Art Director</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button className="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
+<div container>
+<h1 id='pacman' flex>WE</h1>
+</div>
 
-  <div className="column">
-    <div className="card">
-      <img src="img3.jpg" alt="John" width="100%"></img>
-      <div className="container">
-        <h2>John Doe</h2>
-        <p className="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button className="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
+<div container>
+<h1 id='pacman' flex>ARE</h1>
+</div>
+
+<div container>
+<p>We were founded </p>
 </div>
 </div>
-       
+
+{/* <div style="text-align: right"><img src="image/your-image.png" width="100" /></div> */}
+<>
+<div className="row">
+  <div className="column" >
+<h1 id='pacman' className='reverse'>WHO</h1>
+</div>
+
+<div container>
+<h1 id='pacman' className='reverse' flex>WE</h1>
+</div>
+
+<div container>
+<h1 id='pacman' className='reverse' flex>ARE</h1>
+</div>
+ 
+
+</div>
+
+</>
+{/* <h1>Who We Are</h1> */}
+{/* <div container>
+<h1 id='pacman2'>Who We Are</h1>
+</div> */}
+
+</div>    
     )
 }

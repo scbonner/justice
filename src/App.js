@@ -1,11 +1,11 @@
 import logo from './logo.png';
 import NavBar from './NavBar'
-//import GeoMap from './GeoMap'
-// WhoWeAre from './WhoWeAre'
-// import Board from './Board';
-import Staff from './Staff';
+import WhatWeDo from './WhatWeDo'
+import WhoWeAre from './WhoWeAre'
+import Values from './Values';
+//import Staff from './Staff';
 //import Values from './Values'
-// import Institute from './Institute';
+import Institute from './Institute';
 // import Partnerships from './Partnerships';
 // import Policy from './Policy';
 // import Trainings from './Trainings';
@@ -72,8 +72,11 @@ function App() {
       <Staff />
       {/* <Board /> */}
       {/* <Values />  */}
-      <Staff />
-      {/* <WhoWeAre /> */}
+      {/* <Staff /> */}
+      <Institute />
+      <WhatWeDo />
+      <WhoWeAre />
+      <Values />
      <Footer />
       {/* <Jumbotron />  */}
       {/* <div className="button">
