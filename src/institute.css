@@ -6,7 +6,7 @@
 
 
 
-.card card-text {
+.card card.body card-text {
     width: 75%;
     margin-left: 20px;
     border-style: solid;

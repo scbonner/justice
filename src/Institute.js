@@ -57,7 +57,7 @@ export default function Institute() {
 <Card>
   <Card.Header as="h5">Family Leadership Institute</Card.Header>
   <Card.Body>
-    <Card.Title>Special title treatment</Card.Title>
+    {/* <Card.Title>Special title treatment</Card.Title> */}
     <Card.Text>
     <p>In 2012, J4F established the Family Leadership Institute (FLI). The Institute is a high impact leadership development and skill-building program that uses training, coaching and support. The Institute provides deeply impacted people with a unique opportunity to connect with others that share their determination and experiences; hear about victories, defeats and the lessons learned from those efforts; brainstorm ideas about their local work; share valuable connections and resources; and build strong peer-to-peer relationships that are relied upon for support, ideas and technical assistance.  J4F hosts the Institute at no cost to participants, several times each year, in different states.</p>
  

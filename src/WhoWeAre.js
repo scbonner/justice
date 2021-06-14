@@ -1,58 +1,98 @@
-import React from 'react'
-import './whoweare.css'
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
+//import Button from 'bootstrap/dist/css/bootstrap.css'
+//import Card from 'bootstrap/dist/css/bootstrap.css'
+import './App.css'
 
-export default function WhoWeAre() {
+
+
+
+
+function WhoWeAre() {
     return (
-
-
-<div container>
-<br />
-<br />
-<br />
-{/* <div style="text-align: right"><img src="image/your-image.png" width="100" /></div> */}
-{/* <h1>WHO WE ARE</h1> */}
-<div className="row">
-  <div className="column">
-<h1 id='pacman' flex>WHO</h1>
-</div>
-
-<div container>
-<h1 id='pacman' flex>WE</h1>
-</div>
-
-<div container>
-<h1 id='pacman' flex>ARE</h1>
-</div>
-
-<div container>
-<p>We were founded </p>
-</div>
-</div>
-
-{/* <div style="text-align: right"><img src="image/your-image.png" width="100" /></div> */}
+       
 <>
-<div className="row">
-  <div className="column" >
-<h1 id='pacman' className='reverse'>WHO</h1>
+<br />
+<br />
+
+<br />
+<hr />
+
+{/* first card represents trainings */}
+
+<h2><strong>WHO WE ARE</strong></h2>
+<div className='container'>
+<p>Justice for Families (J4F) is a national network of family leaders, impacted by the justice system, working to end mass criminalization, particularly of youth and in communities of color.</p>
+
+<p>Justice For Families works to transform how justice systems operate so that families have a VOICE and POWER in both how and what decisions are made. We move resources away from incarceration toward direct investments in the youth, families, and communities most harmed by failed “tough on crime” policies.
+
+</p>
+
+<div className="row row-cols-1 row-cols-md-4 g-4">
+  <div classNames="col">
+    <div className="card h-100">
+    <img src='https://images.pexels.com/photos/4546025/pexels-photo-4546025.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' className="card-img-top" alt="..."></img>
+      
+      <div className="card-body">
+        <h5 className="card-title">FAMILIES</h5>
+        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+      <div className="card-footer">
+        <small className="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div className="col">
+    <div className="card h-100">
+      <img src='https://images.pexels.com/photos/3184434/pexels-photo-3184434.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' className="card-img-top" alt="..."></img>
+      <div className="card-body">
+        <h5 className="card-title">PARTNERSHIPS</h5>
+        <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+      <div className="card-footer">
+      <i className="fas fa-users"></i>
+         <small className="text-muted">Last updated 3 mins ago</small> 
+      </div>
+    </div>
+  </div>
+  <div className="col">
+    <div className="card h-100">
+      <img src='https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' className="card-img-top" alt="..."></img>
+      <div className="card-body">
+        <h5 className="card-title">POLICY</h5>
+        <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+      <div className="card-footer">
+    
+        <small className="text-muted">Last updated 3 mins ago</small> 
+      </div>
+    </div>
+  </div>
+  <div className="col">
+    <div className="card h-100">
+      <img src='https://images.pexels.com/photos/6257110/pexels-photo-6257110.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' className="card-img-top" alt="..."></img>
+      <div className="card-body">
+        <h5 className="card-title">ADVOCACY</h5>
+        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+      <div className="card-footer">
+        <small className="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div> 
 </div>
 
-<div container>
-<h1 id='pacman' className='reverse' flex>WE</h1>
-</div>
+<hr />
 
-<div container>
-<h1 id='pacman' className='reverse' flex>ARE</h1>
-</div>
- 
+<br />
+<br />
+<br />
 
-</div>
 
 </>
-{/* <h1>Who We Are</h1> */}
-{/* <div container>
-<h1 id='pacman2'>Who We Are</h1>
-</div> */}
 
-</div>    
     )
 }
+
+export default WhoWeAre

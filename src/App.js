@@ -1,11 +1,11 @@
 import logo from './logo.png';
 import NavBar from './NavBar'
-import WhatWeDo from './WhatWeDo'
-import WhoWeAre from './WhoWeAre'
+import WhatWeDo from './WhoWeAre'
+import WhoWeAre from './WhatWeDo'
 import Values from './Values';
 //import Staff from './Staff';
 //import Values from './Values'
-import Institute from './Institute';
+//import Institute from './Institute';
 // import Partnerships from './Partnerships';
 // import Policy from './Policy';
 // import Trainings from './Trainings';
@@ -73,9 +73,9 @@ function App() {
       {/* <Board /> */}
       {/* <Values />  */}
       {/* <Staff /> */}
-      <Institute />
-      <WhatWeDo />
+      {/* <Institute /> */}
       <WhoWeAre />
+      <WhatWeDo />
       <Values />
      <Footer />
       {/* <Jumbotron />  */}
