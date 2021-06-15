@@ -1,13 +1,16 @@
-
+#packman background {
+  color: yellow;
+}
 
 #pacman {
     width: 0px;
     margin-left: 40px;
     height: 0px;
+    opacity: .5;
     border-right: 70px solid transparent;
-    border-top: 70px solid blue;
-    border-left: 70px solid blue;
-    border-bottom: 70px solid blue;
+    border-top: 70px solid #0baba2;
+    border-left: 70px solid #0cc191;
+    border-bottom: 70px solid #0cc191;
     border-top-left-radius: 70px;
     border-top-right-radius: 70px;
     border-bottom-left-radius: 70px;

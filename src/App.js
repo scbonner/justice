@@ -74,8 +74,9 @@ function App() {
       {/* <Values />  */}
       {/* <Staff /> */}
       {/* <Institute /> */}
-      <WhoWeAre />
       <WhatWeDo />
+      <WhoWeAre />
+      
       <Values />
      <Footer />
       {/* <Jumbotron />  */}
