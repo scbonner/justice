@@ -3,7 +3,7 @@ import NavBar from './NavBar'
 import WhatWeDo from './WhoWeAre'
 import WhoWeAre from './WhatWeDo'
 import Values from './Values';
-//import Staff from './Staff';
+import Mission from './Mission';
 //import Values from './Values'
 //import Institute from './Institute';
 // import Partnerships from './Partnerships';
@@ -74,9 +74,9 @@ function App() {
       {/* <Values />  */}
       {/* <Staff /> */}
       {/* <Institute /> */}
+      <Mission />
       <WhatWeDo />
       <WhoWeAre />
-      
       <Values />
      <Footer />
       {/* <Jumbotron />  */}
