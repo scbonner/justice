@@ -14,9 +14,8 @@ function WhoWeAre() {
 <>
 <br />
 <br />
-
 <br />
-<hr />
+{/* <hr /> */}
 
 {/* first card represents trainings */}
 
@@ -70,9 +69,9 @@ function WhoWeAre() {
   </div>
   <div className="col">
     <div className="card h-100">
-      <img src='https://images.pexels.com/photos/6257110/pexels-photo-6257110.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' className="card-img-top" alt="..."></img>
+      <img src='https://images.pexels.com/photos/6472413/pexels-photo-6472413.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=500' className="card-img-top" alt="..."></img>
       <div className="card-body">
-        <h5 className="card-title">ADVOCACY</h5>
+        <h5 className="card-title">COMMUNITY</h5>
         <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
       </div>
       <div className="card-footer">
@@ -82,10 +81,9 @@ function WhoWeAre() {
   </div>
 </div> 
 </div>
-
-
+<br />
+<br />
 <hr />
-
 <br />
 <br />
 <br />
