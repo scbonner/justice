@@ -23,9 +23,9 @@ function WhoWeAre() {
 <div className='container'>
 <p>Justice for Families (J4F) is a national network of family leaders, impacted by the justice system, working to end mass criminalization, particularly of youth and in communities of color.</p>
 
-<p>Justice For Families works to transform how justice systems operate so that families have a VOICE and POWER in both how and what decisions are made. We move resources away from incarceration toward direct investments in the youth, families, and communities most harmed by failed “tough on crime” policies.
+{/* <p>Justice For Families works to transform how justice systems operate so that families have a VOICE and POWER in both how and what decisions are made. We move resources away from incarceration toward direct investments in the youth, families, and communities most harmed by failed “tough on crime” policies.
 
-</p>
+</p> */}
 
 <div className="row row-cols-1 row-cols-md-4 g-4">
   <div classNames="col">

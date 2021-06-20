@@ -2,7 +2,7 @@ import logo from './logo.png';
 import NavBar from './NavBar'
 import WhatWeDo from './WhoWeAre'
 import WhoWeAre from './WhatWeDo'
-import Values from './Values';
+//import Values from './Values';
 import Mission from './Mission';
 //import Values from './Values'
 //import Institute from './Institute';
@@ -77,7 +77,7 @@ function App() {
       <Mission />
       <WhatWeDo />
       <WhoWeAre />
-      <Values />
+      {/* <Values /> */}
      <Footer />
       {/* <Jumbotron />  */}
       {/* <div className="button">

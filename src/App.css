@@ -19,7 +19,7 @@
 }
 
 .App-header {
-  background-image: url("./Image/theprotest.jpeg");
+  background-image: url("./image/theprotest.jpeg"); 
   background-repeat: no-repeat;
   background-size: cover;
   background-color: white;
@@ -494,17 +494,6 @@ template {
   color: white;
   transform: rotateY(180deg);
 }
-
-
-/* Create four equal columns that floats next to each other */
- /* .flip-box .row .column {
-  float: left;
-  width: 100%;
-  padding: 20px;
-  height: 300px;  */
-  /* Should be removed. Only for demonstration */
-
-
 
 
 .flip-box .column {

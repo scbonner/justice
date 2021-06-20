@@ -1,5 +1,10 @@
 import React from 'react'
+//import everyone from "./image/everyone.jpeg"
 import './whatwedo.css'
+import { Card } from 'react-bootstrap';
+import { ListGroup } from 'react-bootstrap';
+//import { Header } from 'react-bootstrap';
+
 
 export default function WhatWeDo() {
     return (
@@ -7,143 +12,70 @@ export default function WhatWeDo() {
 
 <div container>
 
-<h1 id="speakers" class="display-4 text-center my-5 text-muted"><strong>WHAT WE DO</strong></h1>
-
-
-<div className="row">
-  <div className="column">
-<p id='pacman' flex></p>
+<div className="card text-white bg-info mb-1.5" max-width="18rem;">
+  {/* <div class="card-header">Header</div> */}
+  <div className="card-body">
+    <h1 className="card-title"><center>WHAT WE DO:</center></h1>
+    <p className="card-text">Justice For Families works to transform how justice systems operate so that families have a VOICE and POWER in both how and what decisions are made. We move resources away from incarceration toward direct investments in the youth, families, and communities most harmed by failed “tough on crime” policies.</p>
+  </div>
 </div>
 
-<div container>
-<p id='pacman' flex></p>
-</div>
 
-<div container>
-<p id='pacman' flex></p>
-</div>
-
-<div container>
-<p id='pacman' flex></p>
-</div>
-
-<div container>
-<p id='pacman' flex></p>
-</div>
-
-<div container>
-<p id='pacman' flex></p>
-</div>
-
-<div container>
-<p id='pacman' flex></p>
-</div>
-
-<div container>
-</div>
-</div>
-
-            <div class="row">
-              <div class="col-md-6 col-lg-4">
-                <div class="card mb-3">
-                  <img class="card-img-top" src="img/vivianne.png" alt="Vivianne"></img>
-                  <div class="card-body">
-                    <h4 class="card-title">Vivianne McVue</h4>
-                    <p class="card-text">Vivianne is a web developer and teacher who is passionate about building scalable, data-driven web apps, especially ones that address old problems with new tech!</p>
-                  </div>
-                </div>          
-              </div>
-      
-              <div class="col-md-6 col-lg-4">
-                <div class="card mb-3">
-                  <img class="card-img-top" src="img/nodestradamus.png" alt="NodeStradamus"></img>
-                  <div class="card-body">
-                    <h4 class="card-title">NodeStradamus</h4>
-                    <p class="card-text">"NodeStra" is a software engineer and philosopher trying to leave the world better than he found it. He codes for non-profits, eCommerce, and large-scale web apps.</p>
-                  </div>
-                </div>            
-              </div>
-      
-              <div class="col-md-6 col-lg-4">
-                <div class="card mb-3">
-                  <img class="card-img-top" src="img/robbie.png" alt="Robbie"></img>
-                  <div class="card-body">
-                    <h4 class="card-title">Robbie Redux</h4>
-                    <p class="card-text">Robbie is a JavaScript developer working on large-scale applications. He's also a teacher who strives to support students in removing barriers to learning code.</p>
-                  </div>
-                </div>          
-              </div>
-      
-              {/* <div class="col-md-6 col-lg-4">
-                <div class="card mb-3">
-                  <img class="card-img-top" src="img/ecma.png" alt="Ecma"></img>
-                  <div class="card-body">
-                    <h4 class="card-title">Ecma Scriptnstuff</h4>
-                    <p class="card-text">Ecma found her passion for programming and teaching over 15 years ago. She is excited to introduce you to all of the wonders of JavaScript.</p>
-                  </div>
-                </div>          
-              </div>
-      
-              <div class="col-md-6 col-lg-4">
-                <div class="card mb-3">
-                  <img class="card-img-top" src="img/jay.png" alt="Jay"></img>
-                  <div class="card-body">
-                    <h4 class="card-title">Jay Query</h4>
-                    <p class="card-text">Jay is a developer, author of CSS: The Missing Manual, JavaScript &amp; jQuery: The Missing Manual, and web development teacher.</p>
-                  </div>
-                </div>          
-              </div>
-      
-              <div class="col-md-6 col-lg-4">
-                <div class="card">
-                  <img class="card-img-top" src="img/json.png" alt="Json"></img>
-                  <div class="card-body">
-                    <h4 class="card-title">Json Babel</h4>
-                    <p class="card-text">All of his professional life, Json has worked with computers online; he is a polyglot programmer and likes using the right tools for the job.</p>
-                  </div>
-                </div>          
-              </div>
-            </div>     */}
-
-<hr />
-<>
-<div className="row">
-  <div className="column" >
-<p id='pacman' className='reverse'></p>
-</div>
-
-<div container>
-<p id='pacman' className='reverse'></p>
-
-</div>
-
-<div container>
-<p id='pacman' className='reverse'></p>
-</div>
-
-<div container>
-<p id='pacman' className='reverse'></p>
-</div>
-
-<div container>
-<p id='pacman' className='reverse'></p>
-</div>
-
-<div container>
-<p id='pacman' className='reverse'></p>
-</div>
-
-<div container>
-<p id='pacman' className='reverse'></p>
-</div>
-</div>
-
-</>
+<Card  ml='40px' >
+{/* style={{ width: '18rem' }}> */}
+  {/* <Card.Header>Featured</Card.Header> */}
+  <ListGroup variant="flush">
+    <ListGroup.Item><strong>THE INISTITUTE</strong></ListGroup.Item>
+    <ListGroup.Item><strong>ADVOCACY</strong></ListGroup.Item>
+    <ListGroup.Item><strong>TRAININGS</strong></ListGroup.Item>
+  </ListGroup>
+</Card>
+    
+  
 <br />
-<br />
-<hr />
-</div>   
-</div> 
+           
+
+<div className="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 className="display-4">THE INSTITUTE</h1>
+    <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    <a className="btn btn-light btn-lg" href="#speakers">Click Here</a>
+  </div>
+</div>
+
+
+<div className="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 className="display-4">ADVOCACY</h1>
+    <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    <a className="btn btn-light btn-lg" href="#speakers">Click Here</a>
+  </div>
+</div>
+
+
+<div className="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 className="display-4">TRAININGS</h1>
+    <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    <a className="btn btn-light btn-lg" href="#speakers">Click Here</a>
+  </div>
+</div>
+</div>
+   
+  
+  
+
+  
+ 
+
+
+
+ 
+
+
+
+
+
 
     )
 }
