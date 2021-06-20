@@ -22,7 +22,7 @@
   background-image: url("./image/theprotest.jpeg"); 
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: white;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,6 +35,12 @@
 
 .App-link {
   color: #1C84B0;
+  font-weight: bold;
+}
+
+.App-link .navbar-nav .nav-item nav-link {
+  color: green;
+  font-size: 25px;
   font-weight: bold;
 }
 
@@ -71,12 +77,6 @@
 	top:1px;
 }
 
-
-.navbar-nav .nav-item nav-link {
-  color: #1C84B0;
-  font-size: 25px;
-  font-weight: bold;
-}
 
 .map-container-5{
   overflow:hidden;
@@ -230,6 +230,12 @@ sub {
 
 sup {
   top: -0.5em;
+}
+
+
+.collapse navbar-collapse {
+  padding: 10px;
+  color: black;
 }
 
 .card-title {
@@ -446,6 +452,15 @@ template {
 [hidden] {
   display: none;
 }
+
+
+/* Navbar routing display */
+
+/* #id .main-nav {
+  padding: 10px;
+} */
+
+
 
 
 .card .card-body {

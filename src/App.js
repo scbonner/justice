@@ -1,4 +1,10 @@
 import logo from './logo.png';
+import Staff from './Staff'
+import Partnerships from './Partnerships'
+import Policy from './Policy'
+import Institute from './Institute'
+import Trainings from './Trainings'
+import Home from './Home'
 import NavBar from './NavBar'
 import WhatWeDo from './WhoWeAre'
 import WhoWeAre from './WhatWeDo'
@@ -18,9 +24,10 @@ function App() {
   return (
     
     <div className="App">
-       <NavBar />
+        <NavBar />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+       
 
         {/* <BrowserRouter>
         <NavBar />
@@ -64,7 +71,7 @@ function App() {
 				background: 'red',
 				zIndex: 1,
 			}} */}
-		/>
+		
 		{/* <Animate /> */}
 	</div>
       </header>
