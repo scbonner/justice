@@ -14,6 +14,8 @@ import Partnerships from './Partnerships'
 import Institute from './Institute'
 import Policy from './Policy'
 import Trainings from './Trainings'
+import logo from './logo.png';
+
 
 
 
@@ -29,6 +31,7 @@ import Trainings from './Trainings'
                 {/* <div className="container-fluid"> */}
            <div className="menu">
             <ul>
+            <img src={logo} className="App-logo" alt="logo" ></img>
             <li> <Link to="/">Home</Link> </li>
             <li> <Link to="/staff">Staff</Link> </li>
             <li> <Link to="/partnerships">Partnerships</Link> </li>

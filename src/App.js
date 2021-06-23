@@ -48,9 +48,10 @@ function App() {
   return (
     
     <div className="App">
-    <img src={logo} className="App-logo" alt="logo" ></img>
+    {/* <img src={logo} className="App-logo" alt="logo" ></img> */}
     {/* <a href="j4f" className="navbar-brand mr-3"><h1><strong>J4F</strong></h1></a>  */}
         <NavBar className="navbar navbar sticky-top navbar-expand-md bg=light variant=light mb-5" /> 
+        
         <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" ></img>
        
