@@ -1,5 +1,9 @@
 import React from 'react'
+import './App.js'
+import './staff.css'
 
+
+//setup for board page
 
 export default function Staff() {
     return (

@@ -15,7 +15,7 @@ function WhoWeAre() {
 <br />
 <br />
 <br />
-{/* <hr /> */}
+
 
 {/* first card represents trainings */}
 
