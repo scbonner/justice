@@ -1,14 +1,18 @@
 import React from 'react'
+import logo from './logo.png';
 //import SocialIcons from './SocialIcons'
 import './footer.css'
 
 
 export default function Footer() {
     return (
+      
 
 <div>
+
     <footer className="container-fluid bg-dark py-5">
         <div className="container pt-4">
+        <img src={logo} className="App-logo" height="45px" width="180px" alt="logo" /> 
             <div id="about" className="row">
               <div className="col-lg order-lg-2">
                 <h3 className="mb-4">About Full Stack Conf</h3>
