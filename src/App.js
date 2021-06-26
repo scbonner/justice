@@ -23,49 +23,40 @@ import './App.css';
 export default function App() {
   return (
       
-     <div>
+    <div>
       <div className="App">
         <NavBar />
-          <header className="App-header">
-            <div className="container-fluid">
+        <header className="App-header"> 
+        <div className="container-fluid">
               {/* <a href="j4f" className="navbar-brand mr-3"><h1><strong>J4F</strong></h1></a>  */}
-        
-      {/* This area should link to the first home page of site */}
-{/*      
-        <a
-          className="App-link"
-          href="j4f" 
-          target="_blank"
-          rel="noopener noreferrer"
-        > */}
-        <div>
-         <img src={logo} className="App-logo" alt="logo" /> 
-          <br />
-          <br />
-         <button className="button-tertiary" id="nav-item nav-link active" type="submit">
-          CLICK TO ENTER
-        </button>
+              
+                <div>
+                  <img src={logo} className="App-logo" alt="logo" ></img>
+                    <br />
+                    <br />
+                      <button className="button-tertiary" id="nav-item nav-link active" type="submit">
+                        CLICK TO ENTER
+                      </button>
+                </div>
+              </div>
+              </header>
 
-        </div>
-        </div>
-        </header>
-  
-        <div>
-		{/* <div
-			style={{
-				width: '200px',
-				height: '200px',
-				position: 'absolute',
-				top: '0px',
-				left: '0px',
-				background: 'red',
-				zIndex: 1,
-			}} */}
-		
-		{/* <Animate /> */}
-	</div>
-    
-      </div>
+        {/* <img src={logo} className="App-logo" height="40px" width="275px" alt="logo" />  */}
+         {/* <img src={logo} className="App-logo" alt="logo" ></img> */}
+           <Mission />
+           <WhoWeAre />
+           <WhatWeDo />
+         
+            
+           
+          
+    {/* <div>
+      <Mission />
+      <WhoWeAre />
+      <WhatWeDo />
+      <Footer />
+	
+    </div> */}
       {/* <Jumbotron />
     
       {/* <Board /> */}
@@ -73,16 +64,12 @@ export default function App() {
       {/* <Staff /> */}
       {/* <Institute /> */}
        {/* <Values /> */}
-      <Jeannette />
-      <Staff />
-      <Mission />
-      <WhatWeDo />
-      <WhoWeAre />
-     <Footer />
+      {/* <Jeannette />
+      <Staff /> */}
       
+      <Footer />
+     </div>
   </div>
-  
-    
   
     
     

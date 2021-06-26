@@ -6,7 +6,6 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css'
-//import logo from './logo.png';
 import { Link, Switch, Route, Redirect } from 'react-router-dom';
 import Home from './Home'
 import Staff from './Staff'
@@ -19,40 +18,42 @@ import logo from './logo.png';
 
 
 
-
-
                    
  export default function NavBar() {
      return (
+
          <div>
-           
-           <div className="menu">
-           <nav className="navbar navbar sticky-top navbar-expand-md bg=light variant=light mb-5"></nav>
-           <img src={logo} className="App-logo" alt="logo" ></img>
-            <br />
-            <br />
-            <ul>
-            <li> <Link to="/">Home</Link> </li>
-            <li> <Link to="/staff">Staff</Link> </li>
-            <li> <Link to="/partnerships">Partnerships</Link> </li>
-            <li> <Link to="/institute">The Institute</Link> </li>
-            <li> <Link to="/policy">Policy</Link> </li>
-            <li> <Link to="/trainings">Trainings</Link> </li>
-          </ul>
-      </div>
-      <div className="App-intro">
-        <Switch>
-          <Route exact path="/"  component={Home} />
-          <Route path="/staff" component={Staff} />
-          <Route path="/partnerships" component={Partnerships} />
-          <Route path="/institute" component={Institute} />
-          <Route path="/policy" component={Policy} />
-          <Route path="/trainings" component={Trainings} />
-          <Redirect to="/" />
-        </Switch>
-      </div>
-      
-    </div>
+            
+            <div className="menu">
+                <nav className="navbar navbar sticky-top navbar-expand-md bg=light variant=light mb-5"></nav>
+                 {/* <img src={logo} className="App-logo" height="40px" width="275px" alt="logo" />   */}
+           {/* <img src={logo} className="App-logo" alt="logo" ></img> */}
+                <ul>
+                    <img src={logo} className="App-logo" alt="logo" ></img>
+                    <br />
+                    <br />
+                    <br />
+                    <li> <Link to="/">Home</Link> </li>
+                    <li> <Link to="/staff">Staff</Link> </li>
+                    <li> <Link to="/partnerships">Partnerships</Link> </li>
+                    <li> <Link to="/institute">The Institute</Link> </li>
+                    <li> <Link to="/policy">Policy</Link> </li>
+                    <li> <Link to="/trainings">Trainings</Link> </li>
+                </ul>
+            </div>
+            <div className="App-intro">
+                <Switch>
+                <Route exact path="/"  component={Home} />
+                <Route path="/staff" component={Staff} />
+                <Route path="/partnerships" component={Partnerships} />
+                <Route path="/institute" component={Institute} />
+                <Route path="/policy" component={Policy} />
+                <Route path="/trainings" component={Trainings} />
+                <Redirect to="/" />
+                </Switch>
+            </div>
+        
+         </div>
 
 
   );

@@ -12,7 +12,7 @@ export default function Footer() {
 
     <footer className="container-fluid bg-dark py-5">
         <div className="container pt-4">
-        <img src={logo} className="App-logo" height="45px" width="180px" alt="logo" /> 
+         <img src={logo} className="App-logo" height="40px" width="275px" alt="logo" ></img>
             <div id="about" className="row">
               <div className="col-lg order-lg-2">
                 <h3 className="mb-4">About Full Stack Conf</h3>
