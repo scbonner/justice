@@ -38,7 +38,7 @@ import logo from './logo.png';
             <li> <Link to="/institute">Institute</Link> </li>
             <li> <Link to="/policy">Policy</Link> </li>
             <li> <Link to="/trainings">Trainings</Link> </li>
-            {/* <li> <Link to="/about">About</Link> </li> */}
+        
           </ul>
       </div>
       <div className="App-intro">

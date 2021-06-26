@@ -8,7 +8,7 @@ import './App.css'
 
 
 
-function WhoWeAre() {
+export default function WhoWeAre() {
     return (
        
 <>
@@ -38,7 +38,6 @@ function WhoWeAre() {
       </div>
       <div className="card-footer">
       <a className="btn btn-light btn-lg" href="#speakers">Click Here</a>
-        {/* <small className="text-muted">Last updated 3 mins ago</small> */}
       </div>
     </div>
   </div>
@@ -52,7 +51,6 @@ function WhoWeAre() {
       <div className="card-footer">
       <i className="fas fa-users"></i>
       <a className="btn btn-light btn-lg" href="#speakers">Click Here</a>
-         {/* <small className="text-muted">Last updated 3 mins ago</small>  */}
       </div>
     </div>
   </div>
@@ -85,9 +83,7 @@ function WhoWeAre() {
 <br />
 <br />
 <hr />
-{/* <br />
-<br /> */}
-{/* <br /> */}
+
 
 
 </>
@@ -95,4 +91,4 @@ function WhoWeAre() {
     )
 }
 
-export default WhoWeAre
+

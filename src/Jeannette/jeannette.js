@@ -2,7 +2,7 @@ import React from 'react'
 //import './graceimg.png'
 
 
-function Jeannette() {
+export default function Jeannette() {
     return(
         
 
@@ -92,7 +92,7 @@ Jeannette noticed early on the deterioration of schools in the community as well
                     
                 
                   
-                    {/* <a href="#" className="btn btn-primary">BUTTON</a> */}
+                
                 </div>
             </div>
         </div>
@@ -106,4 +106,3 @@ Jeannette noticed early on the deterioration of schools in the community as well
     )
 }
 
-export default Jeannette
