@@ -1,8 +1,8 @@
 import React from 'react'
 //import everyone from "./image/everyone.jpeg"
 import './whatwedo.css'
-import { Card } from 'react-bootstrap';
-import { ListGroup } from 'react-bootstrap';
+// import { Card } from 'react-bootstrap';
+// import { ListGroup } from 'react-bootstrap';
 //import { Header } from 'react-bootstrap';
 
 
@@ -21,15 +21,15 @@ export default function WhatWeDo() {
 </div>
 
 
-<Card  ml='40px' >
+{/* <Card  ml='40px' >
 {/* style={{ width: '18rem' }}> */}
   {/* <Card.Header>Featured</Card.Header> */}
-  <ListGroup variant="flush">
+  {/* <ListGroup variant="flush">
     <ListGroup.Item><strong>THE INISTITUTE</strong></ListGroup.Item>
     <ListGroup.Item><strong>ADVOCACY</strong></ListGroup.Item>
     <ListGroup.Item><strong>TRAININGS</strong></ListGroup.Item>
   </ListGroup>
-</Card>
+</Card> */}
     
   
 <br />

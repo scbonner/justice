@@ -10,7 +10,7 @@ import NavBar from './NavBar'
 import WhatWeDo from './WhatWeDo'
 import WhoWeAre from './WhoWeAre'
 //import Values from './Values';
-import Mission from './Mission';
+import WhatWeStandFor from './WhatWeStandFor';
 import Footer from './Footer'
 import 'bootstrap/dist/css/bootstrap.css'
 //import { Link, Route, Switch, Redirect } from 'react-router-dom';
@@ -42,7 +42,7 @@ export default function App() {
                       </button>
                 </div> */}
           {/* <Home /> */}
-           <Mission />
+           <WhatWeStandFor />
            <WhoWeAre />
            <WhatWeDo />
            <Footer />

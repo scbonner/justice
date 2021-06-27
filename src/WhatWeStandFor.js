@@ -5,20 +5,17 @@ import HomeVision from './HomeVision'
 import HomeValues from './HomeValues'
 import './App.css'
 
+
+
 export default function Mission() {
     return (
-
-
-
             
         <div>
         <br />
-        {/* <br />
-        <br /> */}
         
-<div class="card mb-3">
+<div className="card mb-3">
   {/* <img src="..." class="card-img-top" alt="..."> */}
-  <div class="card-body">
+  <div className="card-body">
 
     <h2><strong>WHAT WE STAND FOR...</strong></h2>
     <br />

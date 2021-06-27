@@ -1,11 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import Button from 'bootstrap/dist/css/bootstrap.css'
+//import Button from 'bootstrap/dist/css/bootstrap.css'
 //import Card from 'bootstrap/dist/css/bootstrap.css'
 import './App.css'
-
-
-
 
 
 export default function WhoWeAre() {
@@ -30,8 +27,8 @@ export default function WhoWeAre() {
                   <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                </div>
                 <div className="card-footer">
-                  <a className="btn btn-light btn-lg" href="#speakers">Click Here</a>
-                  <Button variant="success">Success</Button>{' '}
+                  <a className="btn btn-success btn-lg" href="#speakers">Click Here</a>
+                  {/* <Button variant="success">Success</Button>{' '} */}
                 </div>
              </div>
          </div>
@@ -47,7 +44,7 @@ export default function WhoWeAre() {
         </div>
           <div className="card-footer">
           {/* <i className="fas fa-users"></i> */}
-            <a className="btn btn-light btn-lg" href="#speakers">Click Here</a>
+            <a className="btn btn-success btn-lg" href="#speakers">Click Here</a>
           </div>
     </div>
   </div>
@@ -62,7 +59,7 @@ export default function WhoWeAre() {
           <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
         </div>
           <div className="card-footer">
-            <a className="btn btn-light btn-lg" href="#speakers">Click Here</a>
+            <a className="btn btn-success btn-lg" href="#speakers">Click Here</a>
           </div>
     </div>
   </div>
@@ -73,11 +70,11 @@ export default function WhoWeAre() {
     <div className="card h-100">
       <img src='https://images.pexels.com/photos/6257110/pexels-photo-6257110.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' className="card-img-top" alt="..."></img>
         <div className="card-body">
-          <h5 className="card-title">COMMUNITY</h5>
+          <h5 className="card-title"><center>COMMUNITY</center></h5>
           <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
         </div>
           <div className="card-footer">
-           <a className="btn btn-light btn-lg" href="#speakers">Click Here</a>
+           <a className="btn btn-success btn-lg" href="#speakers">Click Here</a>
           </div>
       </div>
     </div>
@@ -86,6 +83,8 @@ export default function WhoWeAre() {
 <br />
 <br />
 <hr />
+
+
 
 
 </>
