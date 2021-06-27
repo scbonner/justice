@@ -4,7 +4,7 @@ import Modal from 'react-bootstrap/Modal';
 
 
 
-export default function Home() {
+export default function HomeValues() {
     const [show, setShow] = useState(false);
   
     const handleClose = () => setShow(false);
@@ -13,11 +13,11 @@ export default function Home() {
     return (
       <>
         <Button variant="primary" onClick={handleShow}>
-          MISSION
+          VALUES
         </Button>
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
-            <Modal.Title>Mission Statement</Modal.Title>
+            <Modal.Title>Values Statement</Modal.Title>
           </Modal.Header>
           <Modal.Body><p>Justice for Families is a national network of family leaders, impacted by the justice system working to end mass criminalization, particularly that of youth and communities of black, indigenous and people of color (BIPOC).</p></Modal.Body>
           <Modal.Footer>
@@ -35,5 +35,3 @@ export default function Home() {
     );
   }
   
-
-

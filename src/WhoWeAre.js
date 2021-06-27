@@ -21,16 +21,12 @@ export default function WhoWeAre() {
 
 <h2><strong>WHO WE ARE</strong></h2>
 <div className='container'>
-<p>Justice for Families (J4F) is a national network of family leaders, impacted by the justice system, working to end mass criminalization, particularly of youth and in communities of color.</p>
-
-{/* <p>Justice For Families works to transform how justice systems operate so that families have a VOICE and POWER in both how and what decisions are made. We move resources away from incarceration toward direct investments in the youth, families, and communities most harmed by failed “tough on crime” policies.
-
-</p> */}
+<p>Justice For Families works to transform how justice systems operate so that families have a VOICE and POWER in both how and what decisions are made. We move resources away from incarceration toward direct investments in the youth, families, and communities most harmed by failed “tough on crime” policies.</p>
 
 <div className="row row-cols-1 row-cols-md-4 g-4">
   <div classNames="col">
     <div className="card h-100">
-    <img src='https://images.pexels.com/photos/4546025/pexels-photo-4546025.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' className="card-img-top" alt="..."></img>
+    <img src='https://images.pexels.com/photos/4205505/pexels-photo-4205505.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' className="card-img-top" alt="..."></img>
       
       <div className="card-body">
         <h5 className="card-title">FAMILIES</h5>
@@ -41,6 +37,7 @@ export default function WhoWeAre() {
       </div>
     </div>
   </div>
+
   <div className="col">
     <div className="card h-100">
       <img src='https://images.pexels.com/photos/3184434/pexels-photo-3184434.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' className="card-img-top" alt="..."></img>
@@ -68,7 +65,7 @@ export default function WhoWeAre() {
   </div>
   <div className="col">
     <div className="card h-100">
-      <img src='https://images.pexels.com/photos/6472413/pexels-photo-6472413.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=500' className="card-img-top" alt="..."></img>
+      <img src='https://images.pexels.com/photos/6257110/pexels-photo-6257110.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' className="card-img-top" alt="..."></img>
       <div className="card-body">
         <h5 className="card-title">COMMUNITY</h5>
         <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
@@ -80,13 +77,19 @@ export default function WhoWeAre() {
   </div>
 </div> 
 </div>
+
+
 <br />
 <br />
 <hr />
 
 
-
 </>
+
+
+
+
+
 
     )
 }

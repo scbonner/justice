@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css'
 import { Link, Switch, Route, Redirect } from 'react-router-dom';
-import Home from './Home'
+//import Home from './Home'
 import Staff from './Staff'
 import Partnerships from './Partnerships'
 import Institute from './Institute'
@@ -23,16 +23,14 @@ import logo from './logo.png';
      return (
 
          <div>
-            
             <div className="menu">
                 <nav className="navbar navbar sticky-top navbar-expand-md bg=light variant=light mb-5"></nav>
-                 {/* <img src={logo} className="App-logo" height="40px" width="275px" alt="logo" />   */}
-           {/* <img src={logo} className="App-logo" alt="logo" ></img> */}
+                {/* <img src={logo} className="App-logo" alt="logo" ></img>  */}
+           
                 <ul>
-                    <img src={logo} className="App-logo" alt="logo" ></img>
+                     <img src={logo} className="App-logo" alt="logo" ></img>
                     <br />
-                    <br />
-                    <br />
+                   
                     <li> <Link to="/">Home</Link> </li>
                     <li> <Link to="/staff">Staff</Link> </li>
                     <li> <Link to="/partnerships">Partnerships</Link> </li>
@@ -43,7 +41,7 @@ import logo from './logo.png';
             </div>
             <div className="App-intro">
                 <Switch>
-                <Route exact path="/"  component={Home} />
+                <Route exact path="/"   />
                 <Route path="/staff" component={Staff} />
                 <Route path="/partnerships" component={Partnerships} />
                 <Route path="/institute" component={Institute} />

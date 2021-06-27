@@ -9,9 +9,23 @@ export default function Footer() {
       
 
 <div>
-
+<header className="App-header"> 
+          <div className="container-fluid">
+          </div>
+       
+                <a href="j4f" className="navbar-brand mr-3"><h1><strong>J4F</strong></h1></a>  
+              
+                <div>
+                  {/* <img src={logo} className="App-logo" alt="logo" ></img> */}
+                    
+                      <button className="button-tertiary" id="nav-item nav-link active" type="submit">
+                        Download Report
+                      </button>
+                </div> 
+                </header>
     <footer className="container-fluid bg-dark py-5">
         <div className="container pt-4">
+        
          <img src={logo} className="App-logo" height="40px" width="275px" alt="logo" ></img>
             <div id="about" className="row">
               <div className="col-lg order-lg-2">
