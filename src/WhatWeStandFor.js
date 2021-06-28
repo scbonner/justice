@@ -1,13 +1,15 @@
 import React from 'react'
 import Home from './Home'
+//import Jumbotron from 'react-bootstrap/Jumbotron';
 import HomePurpose from './HomePurpose'
 import HomeVision from './HomeVision'
 import HomeValues from './HomeValues'
+//import incarceratedyouth from './image/incarceratedyouth.jpeg'
 import './App.css'
 
 
 
-export default function Mission() {
+export default function WhatWeStandFor() {
     return (
             
         <div>
@@ -21,6 +23,7 @@ export default function Mission() {
     <br />
     <div className="row" id='container'>
             <div className="column">
+            <h2>MISSION</h2>
             <div className="flip-box">
                 <div className="flip-box-inner">
                     <div className="flip-box-front">
@@ -39,11 +42,14 @@ export default function Mission() {
 
 
             <div className="column">
+            <h2>PURPOSE</h2>
             <div className="flip-box">
                 <div className="flip-box-inner">
                     <div className="flip-box-front">
-                    {/* <h2>PURPOSE</h2> */}
-                    <img src='https://images.pexels.com/photos/5108415/pexels-photo-5108415.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' className="card-img-top" alt="..."></img>
+                    
+                    {/* <Jumbotron style={{ backgroundImage: `url(${incarceratedyouth})`, height: '80vh', color: 'white', fontWeight: 'bold' }}> 
+    </Jumbotron> */}
+                     <img src='https://images.pexels.com/photos/5108415/pexels-photo-5108415.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' className="card-img-top" alt="..."></img> 
                     <h2>PURPOSE</h2>
                     </div>
                     <div className="flip-box-back">

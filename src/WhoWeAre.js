@@ -10,8 +10,7 @@ export default function WhoWeAre() {
        
 <>
 <br />
-<br />
-<br />
+
 
 {/* first card represents families */}
 

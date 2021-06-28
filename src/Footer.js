@@ -13,13 +13,16 @@ export default function Footer() {
           <div className="container-fluid">
           </div>
        
-                <a href="j4f" className="navbar-brand mr-3"><h1><strong>J4F</strong></h1></a>  
+                <a href="j4f" className="navbar-brand mr-3"><h3><strong>Families Unlocking Futures:
+Solutions to the Crisis in Juvenile Justice
+
+</strong></h3></a>  
               
                 <div>
                   {/* <img src={logo} className="App-logo" alt="logo" ></img> */}
                     
                       <button className="button-tertiary" id="nav-item nav-link active" type="submit">
-                        Download Report
+                        Click to Download Report
                       </button>
                 </div> 
                 </header>

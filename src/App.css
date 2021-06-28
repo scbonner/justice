@@ -20,11 +20,14 @@
 } */
 
 .App-header {
+  
   background-image: url("./image/theprotest.jpeg"); 
   background-repeat: no-repeat;
-  background-size: cover;
+  border-radius: 60%;
+  background-size: cover; 
   background-color: black;
-  min-height: 100vh;
+  margin-bottom: 12px;
+  min-height: 110vh;
   min-width: 100vw;
   display: flex;
   flex-direction: column;
@@ -598,4 +601,20 @@ template {
 
 /* .card-footer a {
   border: 1px solid black;
+} */
+
+
+/* WHAT WE DO CODE */
+
+/* .jumbotron {
+  background-image: url("./image/ladiesinblue.jpeg");
+  background-size: cover;
+  height: 100%;
+} */
+
+/* .jumbotron jumbotron-fluid #advocacy .container {
+  background-image: url("./image/everyone.jpeg");
+  background-size: cover;
+  height: 100%; 
+
 } */

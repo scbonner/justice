@@ -1,6 +1,11 @@
-/* #packman background {
-  color: yellow;
+/* 
+.jumbotron {
+  background-image: url("./image/protest.jpeg");
+  background-size: cover;
+  height: 100%;
 } */
+
+/* 
 
 #pacman {
     width: 0px;
@@ -21,7 +26,7 @@
     transform: rotateY(180deg);
     /* position: absolute;  */
 
-    float:right;
+    /* float:right;
     clear:right;
     margin-left:20px;
   } 
@@ -44,4 +49,4 @@
 
 .row .col-md-6 col-lg-4 #card-body .p {
     margin-left: 20px;
-  }
+  } */ 

@@ -6,6 +6,7 @@
   }
 
   .jumbotron-background {
+    background-image: url("./image/protest.jpeg");
     object-fit:cover;
     font-family: 'object-fit: cover;';
     position:absolute;

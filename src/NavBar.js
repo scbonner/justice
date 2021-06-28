@@ -23,15 +23,15 @@ import logo from './logo.png';
      return (
 
          <div>
+            {/* <img src={logo} className="App-logo" alt="logo" ></img> */}
             <div className="menu">
                 <nav className="navbar navbar sticky-top navbar-expand-md bg=light variant=light mb-5"></nav>
                 {/* <img src={logo} className="App-logo" alt="logo" ></img>  */}
-           
                 <ul>
                      <img src={logo} className="App-logo" alt="logo" ></img>
-                    <br />
+                    {/* <br /> */}
                    
-                    <li> <Link to="/">Home</Link> </li>
+                    <li> <Link to="/"></Link> </li>
                     <li> <Link to="/staff">Staff</Link> </li>
                     <li> <Link to="/partnerships">Partnerships</Link> </li>
                     <li> <Link to="/institute">The Institute</Link> </li>
@@ -50,7 +50,6 @@ import logo from './logo.png';
                 <Redirect to="/" />
                 </Switch>
             </div>
-        
          </div>
 
 

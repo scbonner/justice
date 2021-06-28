@@ -1,66 +1,102 @@
 import React from 'react'
 //import everyone from "./image/everyone.jpeg"
 import './whatwedo.css'
-// import { Card } from 'react-bootstrap';
-// import { ListGroup } from 'react-bootstrap';
-//import { Header } from 'react-bootstrap';
+// import WhatwedoJumb1  from './WhatwedoJumb1';
+// import WhatwedoJumb2  from './WhatwedoJumb2';
+// import ladiesinblue from './image/ladiesinblue.jpeg'
+
+//mport Jumbotron from 'react-bootstrap/Jumbotron';
+
 
 
 export default function WhatWeDo() {
     return (
 
+<div className="container">
+    <h1>WHAT WE DO</h1>
+    <hr />
+    <br />
+    <div className="row row-flex">
+      <div className="col-md-4 col-sm-6 col-xs-12">
+        <div className="content colour-1">
+          <h3>INSTITUTE</h3>
+          <p>This one has a bit longer content</p>
+          <p>This one has a bit longer content</p>
+        </div>
+      </div>
+      <div className="col-md-4 col-sm-6 col-xs-12">
+        <div className="content colour-2">
+          <h3>ADVOCACY</h3>
+          <p>Normal content.</p>
+        </div>
+      </div>
+      <div className="col-md-4 col-sm-6 col-xs-12">
+        <div className="content colour-3">
+          <h3>TRAININGS</h3>
+          <p>Normal content.</p>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      {/* <div className="col-md-4 col-sm-6 col-xs-12">
+        <div className="content colour-4">
+          <h3>Fourth column</h3>
+          <p>Normal content.</p>
+        </div>
+      </div>
+      <div className="col-md-4 col-sm-6 col-xs-12">
+        <div className="content colour-5">
+          <h3>Fifth column</h3>
+          <p>Normal content.</p>
+        </div>
+      </div>
+      <div className="col-md-4 col-sm-6 col-xs-12">
+        <div className="content colour-6">
+          <h3>Sixth column</h3>
+          <p>Normal content.</p>
+        </div> */}
+      </div>
+    </div>
+    
+   
 
-<div container>
-
-<div className="card text-white bg-info mb-1.5" max-width="18rem;">
-  {/* <div class="card-header">Header</div> */}
-  <div className="card-body">
-    <h1 className="card-title"><center>WHAT WE DO:</center></h1>
-    <p className="card-text">Justice For Families works to transform how justice systems operate so that families have a VOICE and POWER in both how and what decisions are made. We move resources away from incarceration toward direct investments in the youth, families, and communities most harmed by failed “tough on crime” policies.</p>
-  </div>
-</div>
-
-
-{/* <Card  ml='40px' >
-{/* style={{ width: '18rem' }}> */}
-  {/* <Card.Header>Featured</Card.Header> */}
-  {/* <ListGroup variant="flush">
-    <ListGroup.Item><strong>THE INISTITUTE</strong></ListGroup.Item>
-    <ListGroup.Item><strong>ADVOCACY</strong></ListGroup.Item>
-    <ListGroup.Item><strong>TRAININGS</strong></ListGroup.Item>
-  </ListGroup>
-</Card> */}
     
   
-<br />
-           
 
-<div className="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 className="display-4">THE INSTITUTE</h1>
-    <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-    <a className="btn btn-light btn-lg" href="#speakers">Click Here</a>
-  </div>
-</div>
+   
+
+// <>
+
+// <Jumbotron>
+      
+//     <Jumbotron style={{ backgroundImage: `url(${ladiesinblue})`,  height: '85vh', color: 'white', fontWeight: 'bold' }}>
+//     <h1 className="display-4">THE INSTITUTE</h1>
+//          <br />
+//          <br />
+//          <br />
+//          <br />
+//          <br />
+//          <a className="btn btn-primary btn-lg" href="#speakers">Click Here</a>
+//          <br />
+//     </Jumbotron> 
+       
+// </Jumbotron>
+
+// <WhatwedoJumb1 />
+// <WhatwedoJumb2 />
+// </>
 
 
-<div className="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 className="display-4">ADVOCACY</h1>
-    <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-    <a className="btn btn-light btn-lg" href="#speakers">Click Here</a>
-  </div>
-</div>
+    
 
 
-<div className="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 className="display-4">TRAININGS</h1>
-    <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-    <a className="btn btn-light btn-lg" href="#speakers">Click Here</a>
-  </div>
-</div>
-</div>
+
+
+    
+  
+  
    
   
   

@@ -3,19 +3,16 @@
 // import Jeannette from './Jeannette/jeannette.js'
 // import Partnerships from './Partnerships'
 // import Policy from './Policy'
-// import Institute from './Institute'
+import Institute from './Institute'
 // import Trainings from './Trainings'
-//import Home from './Home'
+//import WhatwedoJumb1 from './WhatwedoJumb1'
 import NavBar from './NavBar'
 import WhatWeDo from './WhatWeDo'
 import WhoWeAre from './WhoWeAre'
-//import Values from './Values';
+//import Jumbotron from './Jumbotron';
 import WhatWeStandFor from './WhatWeStandFor';
 import Footer from './Footer'
 import 'bootstrap/dist/css/bootstrap.css'
-//import { Link, Route, Switch, Redirect } from 'react-router-dom';
-//import styled from 'styled-components';
-//import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 
 
@@ -42,9 +39,10 @@ export default function App() {
                       </button>
                 </div> */}
           {/* <Home /> */}
+           <Institute /> 
            <WhatWeStandFor />
            <WhoWeAre />
-           <WhatWeDo />
+           <WhatWeDo /> 
            <Footer />
         </div>
       </div>
