@@ -24,6 +24,11 @@ Solutions to the Crisis in Juvenile Justice
                       <button className="button-tertiary" id="nav-item nav-link active" type="submit">
                         Click to Download Report
                       </button>
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+
                 </div> 
                 </header>
     <footer className="container-fluid bg-dark py-5">
