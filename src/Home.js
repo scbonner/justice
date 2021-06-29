@@ -1,7 +1,17 @@
 import React, { useState } from 'react'
 import Button from 'react-bootstrap/Button'
 import Modal from 'react-bootstrap/Modal';
+import styled from 'styled-components'
 
+
+
+const Body = styled.div`
+
+ 
+  transform: scale(1.1); 
+  }
+
+`;
 
 
 export default function Home() {

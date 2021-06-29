@@ -23,7 +23,6 @@ export default function WhatWeStandFor() {
     <br />
     <div className="row" id='container'>
             <div className="column">
-            <h2>MISSION</h2>
             <div className="flip-box">
                 <div className="flip-box-inner">
                     <div className="flip-box-front">
@@ -42,7 +41,6 @@ export default function WhatWeStandFor() {
 
 
             <div className="column">
-            <h2>PURPOSE</h2>
             <div className="flip-box">
                 <div className="flip-box-inner">
                     <div className="flip-box-front">

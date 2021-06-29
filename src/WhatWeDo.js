@@ -1,11 +1,12 @@
 import React from 'react'
+import './App.css'
 //import everyone from "./image/everyone.jpeg"
 import './whatwedo.css'
 // import WhatwedoJumb1  from './WhatwedoJumb1';
 // import WhatwedoJumb2  from './WhatwedoJumb2';
 // import ladiesinblue from './image/ladiesinblue.jpeg'
 
-//mport Jumbotron from 'react-bootstrap/Jumbotron';
+
 
 
 
@@ -13,28 +14,31 @@ export default function WhatWeDo() {
     return (
 
 <div className="container">
-    <h1>WHAT WE DO</h1>
+    <h1><strong>WHAT WE DO</strong></h1>
     <hr />
     <br />
     <div className="row row-flex">
       <div className="col-md-4 col-sm-6 col-xs-12">
         <div className="content colour-1">
-          <h3>INSTITUTE</h3>
-          <p>This one has a bit longer content</p>
-          <p>This one has a bit longer content</p>
+        <br />
+          <h3>THE INSTITUTE</h3>
+        <br />
         </div>
       </div>
       <div className="col-md-4 col-sm-6 col-xs-12">
         <div className="content colour-2">
+        <br />
           <h3>ADVOCACY</h3>
-          <p>Normal content.</p>
+         <br />
         </div>
       </div>
       <div className="col-md-4 col-sm-6 col-xs-12">
         <div className="content colour-3">
+        <br />
           <h3>TRAININGS</h3>
-          <p>Normal content.</p>
+          <br />
         </div>
+        <br />
       </div>
       <br />
       <br />

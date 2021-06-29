@@ -1,7 +1,6 @@
-/* body {
-
-  
-}  */
+* {
+  box-sizing: border-box;
+}
 
 
 .App {
@@ -24,18 +23,20 @@
   background-image: url("./image/protest.jpeg"); 
   background-repeat: no-repeat;
   border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(.5, .5, .5, 0.2), 5px  6px 20px 6px rgba(0, .2, .3, 0.19);
   background-size: cover; 
+  /* background-image: linear-gradient(to right blue , green, blue); */
   background-color: black;
   margin-bottom: 20px;
-  min-height: 110vh;
-  min-width: 100vw;
+  min-height: 100vh;
+  min-width: 75vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .App-link {
@@ -592,16 +593,19 @@ template {
 
 /* WHO WE ARE  */
 
-/* .card-body h5 .card-title {
-  display: center; */
+ .card-body h5 .card-title {
+  display: center; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
 
 .card-footer {
-  border: 1px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* border: 1px solid black; */
 }
 
 /* .card-footer a {
   border: 1px solid black;
-} */
+} */ 
 
 
 /* WHAT WE DO CODE */
@@ -618,3 +622,23 @@ template {
   height: 100%; 
 
 } */
+
+/* Demo backgrounds and styling*/
+
+.colour-1 {
+  background: #1C84B0;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.colour-2 {
+  background: #1C84B0;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.colour-3 {
+  background: #1C84B0;
+  color: #fff;
+  border-radius: 50%;
+}

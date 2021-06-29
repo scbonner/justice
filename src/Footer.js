@@ -14,9 +14,7 @@ export default function Footer() {
           </div>
        
                 <a href="j4f" className="navbar-brand mr-3"><h3><strong>Families Unlocking Futures:
-Solutions to the Crisis in Juvenile Justice
-
-</strong></h3></a>  
+Solutions to the Crisis in Juvenile Justice</strong></h3></a>  
               
                 <div>
                   {/* <img src={logo} className="App-logo" alt="logo" ></img> */}
