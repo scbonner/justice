@@ -13,29 +13,28 @@ import './whatwedo.css'
 export default function WhatWeDo() {
     return (
 
-<div className="container">
-    <h1><strong>WHAT WE DO</strong></h1>
-    <hr />
+<div className="container" id='heading'>
+    <h1><center><strong>WHAT WE DO...</strong></center></h1>
     <br />
     <div className="row row-flex">
       <div className="col-md-4 col-sm-6 col-xs-12">
         <div className="content colour-1">
         <br />
-          <h3>THE INSTITUTE</h3>
+          <h3><center>THE INSTITUTE</center></h3>
         <br />
         </div>
       </div>
       <div className="col-md-4 col-sm-6 col-xs-12">
         <div className="content colour-2">
         <br />
-          <h3>ADVOCACY</h3>
+          <h3><center>ADVOCACY</center></h3>
          <br />
         </div>
       </div>
       <div className="col-md-4 col-sm-6 col-xs-12">
         <div className="content colour-3">
         <br />
-          <h3>TRAININGS</h3>
+          <h3><center>TRAININGS</center></h3>
           <br />
         </div>
         <br />
@@ -44,23 +43,6 @@ export default function WhatWeDo() {
       <br />
       <br />
       <br />
-      {/* <div className="col-md-4 col-sm-6 col-xs-12">
-        <div className="content colour-4">
-          <h3>Fourth column</h3>
-          <p>Normal content.</p>
-        </div>
-      </div>
-      <div className="col-md-4 col-sm-6 col-xs-12">
-        <div className="content colour-5">
-          <h3>Fifth column</h3>
-          <p>Normal content.</p>
-        </div>
-      </div>
-      <div className="col-md-4 col-sm-6 col-xs-12">
-        <div className="content colour-6">
-          <h3>Sixth column</h3>
-          <p>Normal content.</p>
-        </div> */}
       </div>
     </div>
     
@@ -71,26 +53,6 @@ export default function WhatWeDo() {
 
    
 
-// <>
-
-// <Jumbotron>
-      
-//     <Jumbotron style={{ backgroundImage: `url(${ladiesinblue})`,  height: '85vh', color: 'white', fontWeight: 'bold' }}>
-//     <h1 className="display-4">THE INSTITUTE</h1>
-//          <br />
-//          <br />
-//          <br />
-//          <br />
-//          <br />
-//          <a className="btn btn-primary btn-lg" href="#speakers">Click Here</a>
-//          <br />
-//     </Jumbotron> 
-       
-// </Jumbotron>
-
-// <WhatwedoJumb1 />
-// <WhatwedoJumb2 />
-// </>
 
 
     

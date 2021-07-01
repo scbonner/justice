@@ -2,8 +2,8 @@
 // import Staff from './Staff'
 // import Jeannette from './Jeannette/jeannette.js'
 // import Partnerships from './Partnerships'
-// import Policy from './Policy'
-import Institute from './Institute'
+//import ContactForm from './ContactForm'
+//import Institute from './Institute'
 // import Trainings from './Trainings'
 //import WhatwedoJumb1 from './WhatwedoJumb1'
 import NavBar from './NavBar'
@@ -39,7 +39,7 @@ export default function App() {
                       </button>
                 </div> */}
           {/* <Home /> */}
-           <Institute /> 
+            {/* <ContactForm />  */}
            <WhatWeStandFor />
            <WhoWeAre />
            <WhatWeDo /> 

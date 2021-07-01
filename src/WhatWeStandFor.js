@@ -14,12 +14,14 @@ export default function WhatWeStandFor() {
             
         <div>
         <br />
-        
-<div className="card mb-3">
+        <br />
+        <hr />
+<div id="card mb-3">
   {/* <img src="..." class="card-img-top" alt="..."> */}
+  <h2><strong><center>WHAT WE STAND FOR...</center></strong></h2>
   <div className="card-body">
 
-    <h2><strong>WHAT WE STAND FOR...</strong></h2>
+    {/* <h2><strong>WHAT WE STAND FOR...</strong></h2> */}
     <br />
     <div className="row" id='container'>
             <div className="column">

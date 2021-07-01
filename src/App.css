@@ -2,14 +2,27 @@
   box-sizing: border-box;
 }
 
-
-.App {
+/* #menu {
   text-align: center;
-}
+} */
+
+/* .App {
+  /* text-align: center; */
+ */
 
 .App-logo {
   height: 20vmin;
   pointer-events: none;
+  
+}
+
+#card {
+  margin-left: 10px;
+}
+
+
+.list-group .list-group-item {
+  text-align: center;
 }
 
 /* @media (prefers-reduced-motion: no-preference) {
@@ -22,12 +35,13 @@
   
   background-image: url("./image/protest.jpeg"); 
   background-repeat: no-repeat;
-  border-radius: 50%;
-  box-shadow: 0 4px 8px 0 rgba(.5, .5, .5, 0.2), 5px  6px 20px 6px rgba(0, .2, .3, 0.19);
+  
+  /* border-radius: 50%; */
+  box-shadow: 0 4px 8px 0 rgba(.5, .5, .5, 0.7), 6px  6px 20px 8px rgba(0.5, .2, .5, 0.19);
   background-size: cover; 
   /* background-image: linear-gradient(to right blue , green, blue); */
   background-color: black;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   min-height: 100vh;
   min-width: 75vw;
   display: flex;
@@ -37,6 +51,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
   opacity: 0.6;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+  
+
 }
 
 .App-link {
@@ -69,6 +86,11 @@ ul {
   padding: 0;
 }
 
+
+.menu .nav  {
+  text-align: center;
+}
+
 .menu ul {
   background-color: #3c3c3c;
   margin: 0;
@@ -78,6 +100,7 @@ ul {
 
 .menu li {
   font-family: sans-serif;
+  text-align: center;
   line-height: 40px;
   height: 45px;
   border-bottom: 2.5px solid #888;
@@ -313,6 +336,12 @@ img {
  * 2. Remove the margin in Firefox and Safari.
  */
 
+ .card-footer {
+  display: flex;
+   text-align: center;
+ }
+
+
 button,
 input,
 optgroup,
@@ -514,16 +543,25 @@ template {
 
 /* 
 //WHAT WE STAND FOR CODE */
+
+#heading{
+ background-image: #7CAD41, #1C84B0,#B8D29A, #8C8C8B, #1C84B0, #7CAD41, #92C8E2;
+ /* box-shadow: 0 4px 8px 0 rgba(.5, .5, .5, 0.7), 6px  6px 20px 8px rgba(0.5, .2, .5, 0.19); */
+ margin-bottom: 20px;
+}
 .card .card-body {
-  border: 10px;
+  border: 5px;
+  color: black;
+  margin: auto;
+ /* background-image: linear-gradient(to right, #7CAD41, #1C84B0,#B8D29A, #8C8C8B, #1C84B0, #7CAD41, #92C8E2);  */
 }
 
 .flip-box {
   background-color: transparent;
   width: 300px;
-  margin-left: 32px;
+  margin-left: 20px;
   height: 300px;
-  border: 10px solid #92C8E2;
+  border: 10px solid black;
   perspective: 1000px;
   
 }
@@ -562,6 +600,7 @@ template {
   background-color: black;
   color: white;
   transform: rotateY(180deg);
+  font-size: 14px;
 }
 
 
@@ -610,18 +649,6 @@ template {
 
 /* WHAT WE DO CODE */
 
-/* .jumbotron {
-  background-image: url("./image/ladiesinblue.jpeg");
-  background-size: cover;
-  height: 100%;
-} */
-
-/* .jumbotron jumbotron-fluid #advocacy .container {
-  background-image: url("./image/everyone.jpeg");
-  background-size: cover;
-  height: 100%; 
-
-} */
 
 /* Demo backgrounds and styling*/
 
@@ -629,16 +656,56 @@ template {
   background: #1C84B0;
   color: #fff;
   border-radius: 50%;
+  background-image: linear-gradient(to left, #7CAD41, #B8D29A,  #8C8C8B, #1C84B0, #92C8E2);
 }
 
 .colour-2 {
   background: #1C84B0;
   color: #fff;
   border-radius: 50%;
+  background-image: linear-gradient(to right, #7CAD41, #B8D29A,  #8C8C8B, #1C84B0, #92C8E2);
 }
 
 .colour-3 {
   background: #1C84B0;
   color: #fff;
   border-radius: 50%;
+  background-image: linear-gradient(to left, #7CAD41, #B8D29A,  #8C8C8B, #1C84B0, #92C8E2);
 }
+
+.form {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.image {
+  height: 20pc;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.image.image1 {
+  background: url("https://react-pretty-carousel.herokuapp.com/static/media/photo-1.da31d5ae.jfif");
+  background-size: cover;
+}
+.image.image2 {
+  background: url("https://react-pretty-carousel.herokuapp.com/static/media/photo-2.6932e41c.jfif");
+  background-size: cover;
+}
+.image.image3 {
+  background: url("https://react-pretty-carousel.herokuapp.com/static/media/photo-3.3cf50746.jfif");
+  background-size: cover;
+}
+.image.image4 {
+  background: url("https://react-pretty-carousel.herokuapp.com/static/media/photo-4.e7eeb637.jfif");
+  background-size: cover;
+}
+.image.image5 {
+  background: url("https://react-pretty-carousel.herokuapp.com/static/media/photo-5.903bd4b4.jfif");
+  background-size: cover;
+}
+.image.image6 {
+  background: url("https://react-pretty-carousel.herokuapp.com/static/media/photo-6.402110ff.jfif");
+  background-size: cover;
+}
+

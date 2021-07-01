@@ -1,5 +1,5 @@
 footer {
-    flex: 0 0 auto;
+    /* flex: 0 0 auto; */
     color: #fff4e3;
     font-weight: bold;
     background-color: black;
@@ -14,14 +14,14 @@ footer {
     margin-bottom: 40px;
  }
  footer {
-        color: grey;
+        color: white;
  }
  footer p, a {
-font-size: 12px;
+font-size: 15px;
 font-family: 'Roboto', sans-serif;
 }
 footer h6 {
-font-family: 'Playfair Display', serif;
+font-family: 'Playfair Display', sans-serif;
 margin-bottom: 40px;
 position: relative;
 }
@@ -36,7 +36,6 @@ bottom: -20px;
 }
  .btn-footer {
              color: white;
-          
             text-decoration: none;
             border: 1px solid;
             border-radius: 43px;

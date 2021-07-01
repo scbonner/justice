@@ -18,7 +18,7 @@ export default function Staff() {
         <p className="title">CEO &amp; Founder</p>
         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>example@example.com</p>
-        <p><button class="button">Contact</button></p>
+        <p><button className="button">Contact</button></p>
       </div>
     </div>
   </div>

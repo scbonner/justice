@@ -27,30 +27,29 @@ import logo from './logo.png';
             <div className="menu">
                 <nav className="navbar navbar sticky-top navbar-expand-md bg=light variant=light mb-5"></nav>
                 {/* <img src={logo} className="App-logo" alt="logo" ></img>  */}
-                <ul>
-                     <img src={logo} className="App-logo" alt="logo" ></img>
+                     <ul>
+                       <center> <img src={logo} className="App-logo" alt="logo" ></img></center>
                     {/* <br /> */}
-                   
-                    <li> <Link to="/"></Link> </li>
-                    <li> <Link to="/staff">Staff</Link> </li>
-                    <li> <Link to="/partnerships">Partnerships</Link> </li>
-                    <li> <Link to="/institute">The Institute</Link> </li>
-                    <li> <Link to="/policy">Policy</Link> </li>
-                    <li> <Link to="/trainings">Trainings</Link> </li>
-                </ul>
+                        <li> <Link to="/"></Link> </li>
+                        <li> <Link to="/staff">Staff</Link> </li>
+                        <li> <Link to="/partnerships">Partnerships</Link> </li>
+                        <li> <Link to="/institute">The Institute</Link> </li>
+                        <li> <Link to="/policy">Policy</Link> </li>
+                        <li> <Link to="/trainings">Trainings</Link> </li>
+                     </ul>
             </div>
-            <div className="App-intro">
-                <Switch>
-                <Route exact path="/"   />
-                <Route path="/staff" component={Staff} />
-                <Route path="/partnerships" component={Partnerships} />
-                <Route path="/institute" component={Institute} />
-                <Route path="/policy" component={Policy} />
-                <Route path="/trainings" component={Trainings} />
-                <Redirect to="/" />
-                </Switch>
-            </div>
-         </div>
+                        <div className="App-intro">
+                            <Switch>
+                            <Route exact path="/"   />
+                            <Route path="/staff" component={Staff} />
+                            <Route path="/partnerships" component={Partnerships} />
+                            <Route path="/institute" component={Institute} />
+                            <Route path="/policy" component={Policy} />
+                            <Route path="/trainings" component={Trainings} />
+                            <Redirect to="/" />
+                            </Switch>
+                        </div>
+        </div>
 
 
   );

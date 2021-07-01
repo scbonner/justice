@@ -12,21 +12,19 @@ export default function HomePurpose() {
   
     return (
       <>
-        <Button variant="primary" onClick={handleShow}>
-          PURPOSE
+        <Button variant="success" onClick={handleShow}>
+          PURPOSE >
         </Button>
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
-            <Modal.Title>Purpose Statement</Modal.Title>
+            <Modal.Title>Our Purpose</Modal.Title>
           </Modal.Header>
-          <Modal.Body><p>Justice for Families is a national network of family leaders, impacted by the justice system working to end mass criminalization, particularly that of youth and communities of black, indigenous and people of color (BIPOC).</p></Modal.Body>
+          <Modal.Body>
+          <p><strong>J</strong>ustice for Families raises the visibility of meaningful family engagement, and demonstrates  the success and importance of constituent-led organizing strategies.</p></Modal.Body>
           <Modal.Footer>
-            <Button variant="secondary" onClick={handleClose}>
+            <Button variant="success" onClick={handleClose}>
               Close
             </Button>
-            {/* <Button variant="primary" onClick={handleClose}>
-              Save Changes
-            </Button> */}
           </Modal.Footer>
         </Modal>
       </>
