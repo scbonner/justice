@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from './logo.png';
+import Tip from './Tip'
 //import SocialIcons from './SocialIcons'
 import './footer.css'
 
@@ -16,6 +17,11 @@ export default function Footer() {
         <a href="j4f" className="navbar-brand mr-3"><h3><strong>
           <p><center>Families Unlocking Futures:</center></p>
           <p><center>Solutions to the Crisis in Juvenile Justice</center></p></strong></h3></a>  
+
+            <Tip />
+            {/* <p>“This extraordinary … must read … comprehensive study examines</p>
+            <p>our youth prison system from the perspective of those who are most impacted — </p>
+            <p>young people and their families.” ~ Michelle Alexander, author of </p><u>The New Jim Crow</u> */}
 
             <div>
                   {/* <img src={logo} className="App-logo" alt="logo" ></img> */}

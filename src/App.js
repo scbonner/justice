@@ -5,7 +5,7 @@
 //import ContactForm from './ContactForm'
 //import Institute from './Institute'
 // import Trainings from './Trainings'
-//import WhatwedoJumb1 from './WhatwedoJumb1'
+//import Tip from './Tip'
 import NavBar from './NavBar'
 import WhatWeDo from './WhatWeDo'
 import WhoWeAre from './WhoWeAre'
@@ -39,7 +39,7 @@ export default function App() {
                       </button>
                 </div> */}
           {/* <Home /> */}
-            {/* <ContactForm />  */}
+            
            <WhatWeStandFor />
            <WhoWeAre />
            <WhatWeDo /> 
