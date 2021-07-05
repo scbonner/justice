@@ -673,39 +673,58 @@ template {
   background-image: linear-gradient(to left, #7CAD41, #B8D29A,  #8C8C8B, #1C84B0, #92C8E2);
 }
 
-.form {
-  font-family: sans-serif;
-  text-align: center;
-}
 
-.image {
-  height: 20pc;
+/* The is the beginning of Reportdownload */
+/* #slant { 
+  font-style: ;
+
+} */
+
+
+/* ReportDownLoad */
+
+#about-image {
+   
+  /* background-image: url('./image/protest.jpeg'); */
+  background-position: center;
+  /* opacity: .6; */
+  background-repeat: no-repeat;
+  font-size: large;
+  /* font-weight: bold; */
   width: 100%;
-  border-radius: 10px;
+  background-size: cover;
+  color: black;
+  
+  /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);  */
+;
 }
 
-.image.image1 {
-  background: url("https://react-pretty-carousel.herokuapp.com/static/media/photo-1.da31d5ae.jfif");
-  background-size: cover;
+/* ReportForm */
+
+input {
+  background-repeat: no-repeat;
+  background-position: 6px;
+  border: 1px solid;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  width: 310px;
+  height: 30px;
+  font-size: 14px;
 }
-.image.image2 {
-  background: url("https://react-pretty-carousel.herokuapp.com/static/media/photo-2.6932e41c.jfif");
-  background-size: cover;
+
+.insideborder {
+  margin-left: 10px;
 }
-.image.image3 {
-  background: url("https://react-pretty-carousel.herokuapp.com/static/media/photo-3.3cf50746.jfif");
-  background-size: cover;
+
+.login-button {
+  margin: auto;
+
 }
-.image.image4 {
-  background: url("https://react-pretty-carousel.herokuapp.com/static/media/photo-4.e7eeb637.jfif");
-  background-size: cover;
+#border {
+  border: 2px solid;
 }
-.image.image5 {
-  background: url("https://react-pretty-carousel.herokuapp.com/static/media/photo-5.903bd4b4.jfif");
-  background-size: cover;
-}
-.image.image6 {
-  background: url("https://react-pretty-carousel.herokuapp.com/static/media/photo-6.402110ff.jfif");
-  background-size: cover;
+.text-danger {
+  color: red;
 }
 

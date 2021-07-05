@@ -3,13 +3,13 @@
 // import Jeannette from './Jeannette/jeannette.js'
 // import Partnerships from './Partnerships'
 //import ContactForm from './ContactForm'
-//import Institute from './Institute'
+import Institute from './Institute'
 // import Trainings from './Trainings'
-//import Tip from './Tip'
+//import ReportDownLoad from './ReportDownLoad'
 import NavBar from './NavBar'
 import WhatWeDo from './WhatWeDo'
 import WhoWeAre from './WhoWeAre'
-//import Jumbotron from './Jumbotron';
+import Trainings from './Trainings';
 import WhatWeStandFor from './WhatWeStandFor';
 import Footer from './Footer'
 import 'bootstrap/dist/css/bootstrap.css'
@@ -38,8 +38,8 @@ export default function App() {
                         CLICK TO ENTER
                       </button>
                 </div> */}
-          {/* <Home /> */}
-            
+           <Institute />
+            <Trainings /> 
            <WhatWeStandFor />
            <WhoWeAre />
            <WhatWeDo /> 

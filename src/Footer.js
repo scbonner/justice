@@ -14,19 +14,21 @@ export default function Footer() {
     <div className="container-fluid">
       </div>
 {/* Title above onclick button inside bottom picture */}
-        <a href="j4f" className="navbar-brand mr-3"><h3><strong>
-          <p><center>Families Unlocking Futures:</center></p>
-          <p><center>Solutions to the Crisis in Juvenile Justice</center></p></strong></h3></a>  
+        {/* <a href="j4f" className="navbar-brand mr-3"><h3><strong> */}
+          <h3><center>Families Unlocking Futures:</center></h3>
+          <h3><center>Solutions to the Crisis in Juvenile Justice  <Tip /></center></h3>
 
-            <Tip />
+            {/* <Tip /> */}
             {/* <p>“This extraordinary … must read … comprehensive study examines</p>
             <p>our youth prison system from the perspective of those who are most impacted — </p>
             <p>young people and their families.” ~ Michelle Alexander, author of </p><u>The New Jim Crow</u> */}
-
+            <br />
+      
             <div>
                   {/* <img src={logo} className="App-logo" alt="logo" ></img> */}
               <button className="button-tertiary bg-success" id="nav-item nav-link active" type="submit">
-                Click to Download Report
+                Download Report <br />
+                       v
               </button>
               <br />
               <br />
@@ -43,37 +45,44 @@ export default function Footer() {
           <br />
             <div id="about" className="row">
               <div className="col-lg order-lg-2">
-                <h3 className="mb-4">About Full Stack Conf</h3>
+                <h4 className="mb-4"><center>Follow Us At:</center></h4>
                     <p>The beautiful city of Portland, Oregon will be the host city for Full Stack Conf!</p>
                     <p>Explore the future of JavaScript with a lineup of industry professionals. Discover new techniques to advance your career as a web developer.</p>
+                    <span class="st_facebook" st_title="Download Report" st_url="https://www.justice4families.org/download-report-button/download-report/" st_processed="yes">
+                    <span text-decoration='none' color='rgb(0, 0, 0)' display='inline-block' cursor='pointer' padding-left='0px' padding-right=
+                    '0px' width="16px" className="stButton">
+                    <span class="chicklets facebook">&nbsp;</span></span></span>
               </div>
               <div className="col-lg order-lg-1">
-                <h4 className="mb-4">Contact Us</h4> 
+                <h4 className="mb-4"><center>Contact Us At:</center></h4> 
                     <p>2090 Honeywell Avenue</p>
                     <p>Bronx, New York 10460</p>
                     <p>Phone: 917.736.4286</p>
                     <p>Website:justice4families.org</p>
                     
                <h6> About Company</h6>
-                        <a href="report"className="btn-footer bg-primary"> DONATE </a><br />
-                        <a href="form" className="btn-footer bg-primary"> SIGN UP</a>
+                        <center><a href="report"className="btn-footer bg-primary"> DONATE </a></center><br />
+                        <center><a href="form" className="btn-footer bg-primary"> SIGN UP</a></center>
                </div>
 
                <div className="col-lg order-3">
-                 <h3 className="mb-4"><center>MENU</center></h3>
+                 <h4 className="mb-4"><center>Menu</center></h4>
                    <div className="list-group">
                     <a href="staff" className="list-group-item list-group-item-action"><strong>STAFF</strong></a>
                     <a href="partnerships" className="list-group-item list-group-item-action"><strong>PARTNERSHIPS</strong></a>
                     <a href="institute" className="list-group-item list-group-item-action"><strong>INSTITUTE</strong></a>
                     <a href="policy" className="list-group-item list-group-item-action"><strong>POLICY</strong></a>
                     <a href="trainings" className="list-group-item list-group-item-action"><strong>TRAININGS</strong></a>
-                    <a href="button-tertiar" className="list-group-item list-group-item-action"><strong>DOWNLOAD REPORT</strong></a>
+                    <a href="https://www.justice4families.org/download-report-button/download-report/" className="list-group-item list-group-item-action"><strong>DOWNLOAD REPORT</strong></a>
+
+                    
                 </div>
               </div>        
             </div>
         </div> 
     </footer>
-</div>
+    </div>
+
 
 
 
