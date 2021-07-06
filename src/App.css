@@ -728,3 +728,102 @@ input {
   color: red;
 }
 
+.card-body form {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
+/* Training code information */
+
+.row-flex1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* vertical spacing between columns */
+
+[class*="col-"] {
+  margin-bottom: 30px;
+}
+
+.content1 {
+  height: 100%;
+  padding: 20px 20px 10px;
+  color: #fff;
+}
+
+
+
+.colour-7 {
+  background: #1C84B0;
+  color: #fff;
+  text-align: center;
+}
+
+.colour-8 {
+  background: #1C84B0;
+  color: #fff;
+  text-align: center;
+}
+
+.colour-9 {
+  background: #1C84B0;
+  color: #fff;
+  text-align: center;
+}
+
+.colour-10 {
+  background: #1C84B0;
+  color: #fff;
+  text-align: center;
+}
+
+.colour-11 {
+  background: #1C84B0;
+
+  color: #fff;
+  text-align: center;
+}
+
+.colour-12 {
+  background: #1C84B0;
+  color: #fff;
+  text-align: center;
+}
+
+.colour-13 {
+  background: #1C84B0;
+  color: #fff;
+  text-align: center;
+}
+
+.colour-14 {
+  background: #1C84B0;
+  color: #fff;
+  text-align: center;
+}
+
+.colour-15 {
+  background: #1C84B0;
+  color: #fff;
+  text-align: center;
+}
+
+.colour-16 {
+  background: #1C84B0;
+  color: #fff;
+  text-align: center;
+}
+
+
+.content1 h3 {
+  margin-top: 0px;
+  font-weight: 300;
+}
+
+/* h1 {
+  font-weight: 300;
+  margin-bottom: 40px;
+} */

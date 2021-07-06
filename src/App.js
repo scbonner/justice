@@ -14,6 +14,7 @@ import WhatWeStandFor from './WhatWeStandFor';
 import Footer from './Footer'
 import 'bootstrap/dist/css/bootstrap.css'
 import './App.css';
+//import ContactForm from './ContactForm';
 
 
 
@@ -38,6 +39,7 @@ export default function App() {
                         CLICK TO ENTER
                       </button>
                 </div> */}
+            {/* <ContactForm /> */}
            <Institute />
             <Trainings /> 
            <WhatWeStandFor />
