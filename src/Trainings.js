@@ -1,5 +1,6 @@
 import React from 'react'
 //import reactDom from 'react-dom'
+import Trainings1 from './Trainings1'
 import 'bootstrap/dist/css/bootstrap.css';
 //import { Jumbotron } from 'react-bootstrap/Jumbotron';
 //import Card from 'react-bootstrap/Card';
@@ -16,6 +17,7 @@ export default function Trainings() {
     return (
 
         <div class="container">
+        <Trainings1 />
         <h1><center>TRAININGS</center></h1>
         <div className="row row-flex">
           <div className="col-md-4 col-sm-6 col-xs-12">
@@ -91,9 +93,15 @@ export default function Trainings() {
               <br />
             </div>
           </div> 
+          <div className="col-md-4 col-sm-6 col-xs-12">
+            {/* <div className="content colour-16"> */}
+            <br />
+              <p>To register, please contact Jeannette Bocanegra at jeannette@justice4families.org.  </p>
+              <br />
+            </div>
+          </div> 
         </div>
-  </div>  
-
+   
 
 
 
