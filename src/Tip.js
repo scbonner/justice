@@ -9,7 +9,7 @@ export default function Tip() {
     return (
       <>
         <Button ref={target} onClick={() => setShow(!show)}>
-          VIEW >
+         REVIEW
         </Button>
         <Overlay target={target.current} show={show} placement="right">
           {(props) => (
@@ -24,4 +24,3 @@ export default function Tip() {
       </>
     );
   }
-  

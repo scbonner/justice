@@ -47,7 +47,7 @@ export default function WhoWeAre() {
             <div className="row">
                 <div className="col-4">
                     <div className="card mb-4">
-                        <img className="card-img-top img-fluid h-100" src="https://images.pexels.com/photos/4546025/pexels-photo-4546025.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="..."></img>
+                        <img className="card-img-top img-fluid h-100" src="https://images.pexels.com/photos/7414106/pexels-photo-7414106.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="..."></img>
                             <div className="card-body">
                                 <h6 className="card-title">Leadership Development & Technical Assistance</h6>
                                   <p className="card-text">To transform justice systems practices driven by interests of youth and families.</p>
@@ -57,7 +57,7 @@ export default function WhoWeAre() {
                     </div>
                     <div className="col-4">
                         <div className="card mb-4">
-                            <img className="card-img-top img-fluid h-100" src="https://images.pexels.com/photos/4546025/pexels-photo-4546025.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="...p"></img>
+                            <img className="card-img-top img-fluid h-100" src="https://images.pexels.com/photos/3184436/pexels-photo-3184436.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="...p"></img>
                                 <div className="card-body">
                                     <h6 className="card-title">Strategic Partnerships</h6>
                                       <p className="card-text">To move resources away from incarceration based failed “tough on crime” policies.</p>
@@ -68,7 +68,7 @@ export default function WhoWeAre() {
                     </div>
                     <div className="col-4">
                         <div className="card mb-4">
-                            <img className="card-img-top img-fluid h-100" src="https://images.pexels.com/photos/4546025/pexels-photo-4546025.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="..."></img>
+                            <img className="card-img-top img-fluid h-100" src="https://images.pexels.com/photos/6257110/pexels-photo-6257110.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="..."></img>
                                 <div className="card-body">
                                     <h6 className="card-title">Policy Advocacy</h6>
                                     <p className="card-text">To redirect investments in young  people, their families and communities.</p>

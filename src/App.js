@@ -8,8 +8,10 @@ import Institute from './Institute'
 //import ReportDownLoad from './ReportDownLoad'
 import NavBar from './NavBar'
 import WhatWeDo from './WhatWeDo'
+import WhatwedoJumIn from './WhatwedoJumIn'
+
 import WhoWeAre from './WhoWeAre'
-import Trainings from './Trainings';
+//import Trainings from './Trainings';
 import WhatWeStandFor from './WhatWeStandFor';
 import Footer from './Footer'
 import 'bootstrap/dist/css/bootstrap.css'
@@ -40,8 +42,10 @@ export default function App() {
                       </button>
                 </div> */}
             {/* <ContactForm /> */}
+            <WhatwedoJumIn />
+            
            <Institute />
-            <Trainings /> 
+            {/* <Trainings />   */}
            <WhatWeStandFor />
            <WhoWeAre />
            <WhatWeDo /> 

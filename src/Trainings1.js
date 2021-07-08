@@ -35,6 +35,7 @@ const Trainings1 = () => {
                 </ol>
                 <br />
             <hr />
+            
         </div>
     </div>
     )
