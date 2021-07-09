@@ -1,14 +1,15 @@
 // import logo from './logo.png';
 // import Staff from './Staff'
 // import Jeannette from './Jeannette/jeannette.js'
+//import CircleNavbar from './CircleNavbar'
 // import Partnerships from './Partnerships'
 //import ContactForm from './ContactForm'
-import Institute from './Institute'
+//import Institute from './Institute'
 // import Trainings from './Trainings'
 //import ReportDownLoad from './ReportDownLoad'
 import NavBar from './NavBar'
 import WhatWeDo from './WhatWeDo'
-import WhatwedoJumIn from './WhatwedoJumIn'
+//import WhatwedoJumIn from './WhatwedoJumIn'
 
 import WhoWeAre from './WhoWeAre'
 //import Trainings from './Trainings';
@@ -42,9 +43,9 @@ export default function App() {
                       </button>
                 </div> */}
             {/* <ContactForm /> */}
-            <WhatwedoJumIn />
-            
-           <Institute />
+            {/* <CircleNavbar /> */}
+            {/* <WhatwedoJumIn />  */}
+           {/* <Institute /> */}
             {/* <Trainings />   */}
            <WhatWeStandFor />
            <WhoWeAre />

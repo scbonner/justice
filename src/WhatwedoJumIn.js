@@ -5,13 +5,14 @@ import './whatwedo.css'
 
 
 
+
 export default function WhatwedoJumIn() {
     return (
 
 <Jumbotron>
     <Jumbotron style={{ backgroundImage: `url(${ladiesinblue})`, height: '85vh', color: 'white', fontWeight: 'bold' }}> 
         <center><h1 className="display-4">THE INSTITUTE</h1></center>
-         
+
          <br />
          <br />
          <br />

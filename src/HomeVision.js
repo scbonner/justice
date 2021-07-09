@@ -13,7 +13,7 @@ export default function HomeVision() {
     return (
       <>
         <Button variant="success" onClick={handleShow}>
-          VISION >
+          VISION >>
         </Button>
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>

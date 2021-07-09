@@ -13,7 +13,7 @@ export default function HomePurpose() {
     return (
       <>
         <Button variant="success" onClick={handleShow}>
-          PURPOSE >
+          PURPOSE >>
         </Button>
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>

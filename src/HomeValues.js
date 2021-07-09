@@ -13,7 +13,7 @@ export default function HomeValues() {
     return (
       <>
         <Button variant="success" onClick={handleShow}>
-          VALUES >
+          VALUES >>
         </Button>
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>

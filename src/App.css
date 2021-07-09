@@ -561,13 +561,13 @@ template {
   width: 300px;
   margin-left: 20px;
   height: 300px;
-  border: 10px solid black;
+  border: 10px solid #1C84B0;
   perspective: 1000px;
   
 }
 
 .flip-box-inner {
-  background-color: black;
+  background-color: #1C84B0;
   position: relative;
   width: 100%;
   height: 100%;
@@ -582,7 +582,7 @@ template {
 }
 
 .flip-box-front, .flip-box-back {
-  background-color: black;
+  background-color: #1C84B0;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -592,12 +592,12 @@ template {
 
 .flip-box-front {
   
-  background-color: black;
+  background-color: #1C84B0;
   color: white;
 }
 
 .flip-box-back {
-  background-color: black;
+  background-color: #1C84B0;
   color: white;
   transform: rotateY(180deg);
   font-size: 14px;
@@ -827,3 +827,27 @@ input {
   font-weight: 300;
   margin-bottom: 40px;
 } */
+
+/* Circle NavBar */
+
+.circle {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  border-radius: 50%;
+  padding: 20px;
+  margin:20px;
+  display:"inline-block";
+}
+
+.circle-text {
+  margin: auto;
+  color: white
+}
+
+.flexbox-container {
+  display: flex;
+  flex-direction: row;
+  
+}

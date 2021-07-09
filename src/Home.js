@@ -23,7 +23,7 @@ export default function Home() {
     return (
       <>
         <Button variant="success" onClick={handleShow}>
-          MISSION >
+          MISSION >>
         </Button>
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
