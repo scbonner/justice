@@ -57,8 +57,9 @@ export default function WhoWeAre() {
                         <div className="card mb-4">
                             <img className="card-img-top img-fluid h-100" src="https://images.pexels.com/photos/3184436/pexels-photo-3184436.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="..."></img>
                                 <div className="card-body">
-                                    <h6 className="card-title"><center>Strategic Partnerships</center></h6>
+                                <h6><center>Strategic Partnerships</center></h6>
                                       <p className="card-text">To move resources away from incarceration based failed “tough on crime” policies.</p>
+                                      <br />
                                       <br />
                                 </div>
                         </div>
@@ -67,17 +68,18 @@ export default function WhoWeAre() {
                         <div className="card mb-4">
                             <img className="card-img-top img-fluid h-100" src="https://images.pexels.com/photos/6257110/pexels-photo-6257110.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="..."></img>
                                 <div className="card-body">
-                                    <h6 className="card-title"><center>Policy Advocacy</center></h6>
+                                    <h6><center>Policy Advocacy</center></h6>
                                     <p className="card-text">To redirect investments in young  people, their families and communities.</p>
+                                    <br />
                                     <br />
                                 </div>
                         </div>
-                       
+                       </div>
                     </div>
                 </div>
           </div>
       </div>
-  </div>
+
 </>
 
 

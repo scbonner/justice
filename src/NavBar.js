@@ -22,11 +22,10 @@ import logo from './logo.png';
  export default function NavBar() {
      return (
 
+        // Need to make sure that navbar appears on each individual page and all links and routes work.
          <div>
-            {/* <img src={logo} className="App-logo" alt="logo" ></img> */}
             <div className="menu">
                 <nav className="navbar navbar sticky-top navbar-expand-md bg=light variant=light mb-5"></nav>
-                {/* <img src={logo} className="App-logo" alt="logo" ></img>  */}
                      <ul>
                        <center> <img src={logo} className="App-logo" alt="logo" ></img></center>
                     {/* <br /> */}

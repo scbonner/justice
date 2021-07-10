@@ -12,7 +12,7 @@ import WhatWeDo from './WhatWeDo'
 //import WhatwedoJumIn from './WhatwedoJumIn'
 
 import WhoWeAre from './WhoWeAre'
-//import Trainings from './Trainings';
+import Partnerships from './Partnerships';
 import WhatWeStandFor from './WhatWeStandFor';
 import Footer from './Footer'
 import 'bootstrap/dist/css/bootstrap.css'
@@ -47,6 +47,8 @@ export default function App() {
             {/* <WhatwedoJumIn />  */}
            {/* <Institute /> */}
             {/* <Trainings />   */}
+            {/* <ReportDownLoad /> */}
+            <Partnerships />
            <WhatWeStandFor />
            <WhoWeAre />
            <WhatWeDo /> 

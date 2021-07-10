@@ -9,6 +9,8 @@ export default function Footer() {
     return (
       
 
+
+// This section is part of the footer which houses protest pic, download button, tooltip 
 <div>
   <header className="App-header"> 
     <div className="container-fluid">
@@ -16,28 +18,22 @@ export default function Footer() {
 {/* Title above onclick button inside bottom picture */}
         {/* <a href="j4f" className="navbar-brand mr-3"><h3><strong> */}
           <h3><center>Families Unlocking Futures:</center></h3>
-          <h3><center>Solutions to the Crisis in Juvenile Justice  <Tip /></center></h3>
-
-            {/* <Tip /> */}
-            {/* <p>“This extraordinary … must read … comprehensive study examines</p>
-            <p>our youth prison system from the perspective of those who are most impacted — </p>
-            <p>young people and their families.” ~ Michelle Alexander, author of </p><u>The New Jim Crow</u> */}
+          <h3><center>Solutions to the Crisis in Juvenile Justice...  <Tip /></center></h3>
             <br />
       
             <div>
-                  {/* <img src={logo} className="App-logo" alt="logo" ></img> */}
+              
               <button className="button-tertiary bg-success" id="nav-item nav-link active" type="submit">
-                Download Report <br />
-                       v
+                Download Report Here <br />
               </button>
               <br />
               <br />
               <br />
               <br />
-
             </div> 
   </header>
 
+{/* the footer section in black need to make sure is is a sticky footer */}
     <footer className="container-fluid bg-dark py-5">
         <div className="container pt-4">
           <center><img src={logo} className="App-logo" height="100px" width="275px" alt="logo" ></img></center>
