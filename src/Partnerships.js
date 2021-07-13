@@ -1,43 +1,128 @@
 import React from 'react'
-
-
-           const Accordion = ({ title, children }) => {
-  const [isOpen, setOpen] = React.useState(false);
-  return (
-    <div className="accordion-wrapper">
-      
-      <div
-        className={`accordion-title ${isOpen ? "open" : ""}`}
-        onClick={() => setOpen(!isOpen)}
-        >
-        {title}
-      </div>
-      <div className={`accordion-item ${!isOpen ? "collapsed" : ""}`}>
-        <div className="accordion-content">{children}</div>
-      </div>
-    </div>
-  );
-};
-const Partnerships = () => (
-  <div className="wrapper">
-    <Accordion title="Why is the sky blue?">
-      Sunlight reaches Earth's atmosphere and is scattered in all directions by
-      all the gases and particles in the air. Blue light is scattered more than
-      the other colors because it travels as shorter, smaller waves. This is why
-      we see a blue sky most of the time.
-    </Accordion>
-    <Accordion title="What's It Like Inside Jupiter?">
-      It's really hot inside Jupiter! No one knows exactly how hot, but
-      scientists think it could be about 43,000°F (24,000°C) near Jupiter's
-      center, or core.
-    </Accordion>
-    <Accordion title="What Is a Black Hole?">
-      A black hole is an area of such immense gravity that nothing -- not even
-      light -- can escape from it.
-    </Accordion>
-  </div>
-);
+import CircleNavbar from './CircleNavbar'
+//import Table from 'bootstrap/dist/css/bootstrap.css'
 
 
 
-export default Partnerships
+
+
+export default function Partnerships() {
+    return (
+        
+        <div>
+        <br />
+        {/* <br />
+            <table className="table table-dark table-striped">
+                <thead>
+                    <tr>
+                    <th>#</th> 
+                    <th>PARTNERS</th>
+                    <th>STATE</th>
+                    <th>WEBSITE</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td>1</td>
+                    <td>Burns Institute</td>
+                    <td>California</td>
+                    <td><a href="https://www.burnsinstitute.org">Link</a>
+                    </td>
+                    </tr>
+
+                    <tr>
+                    <td>2</td>
+                    <td>Nation Inside</td>
+                    <td>North Carolina</td>
+                    <td>Link</td>
+                    </tr>
+
+                    <tr>
+                    <td>3</td>
+                    <td>National Juvenile Justice Network</td>
+                    <td>Washington, DC</td>
+                    <td><a href="http://www.njjn.org">Link</a>
+                    </td>
+                    </tr>
+
+                    <tr>
+                    <td>4</td>
+                    <td>Strong Families Network</td>
+                    <td>California | New Mexico | Oregon</td>
+                    <td><a href="https://forwardtogether.org/programs/strong-families-network">Link</a>
+                    </td>
+                    </tr>
+
+                    <tr>
+                    <td>5</td>
+                    <td>Communities In Schools</td>
+                    <td>National</td>
+                    <td><a href="http://dignityinschools.org/about-us">Link</a>
+                    </td>
+                    </tr>
+
+                    <tr>
+                    <td>6</td>
+                    <td>Community Alternatives</td>
+                    <td>New York</td>
+                    <td><a href="https://www.communityalternatives.org">Link</a>
+                    </td>
+                    </tr>
+
+                    <tr>
+                    <td>7</td>
+                    <td>Community Connections For Youth</td>
+                    <td>New York</td>
+                    <td><a href="https://www.cc-fy.org">Link</a>
+                    </td>
+                    </tr>
+
+                    <tr>
+                    <td>8</td>
+                    <td>Family and Friends of Louisiana's Incarcerated Youth</td>
+                    <td>Louisiana</td>
+                    <td><a href="https://fflic.org">Link</a>
+                    </td>
+                    </tr>
+
+                    <tr>
+                    <td>9</td>
+                    <td>Youth Jutice Coalition</td>
+                    <td>California</td>
+                    <td><a href="https://www.youthjusticela.org">Link</a>
+                    </td>
+                    </tr>
+
+                    <tr>
+                    <td>10</td>
+                    <td>Spirit House</td>
+                    <td>North Carolina</td>
+                    <td><a href="https://www.spirithouse-nc.org">Link</a>
+                    </td>
+                    </tr>
+
+                    <tr>
+                    <td>11</td>
+                    <td>Parents Anonymous</td>
+                    <td>California</td>
+                    <td><a href="https://parentsanonymous.org">Link</a>
+                    </td>
+                    </tr>
+
+                    <tr>
+                    <td>12</td>
+                    <td>New Jersey Alliance of Family Support Organizations</td>
+                    <td>New Jersey</td>
+                    <td><a href="http://njfamilyalliance.org">Link</a>
+                    </td>
+                    </tr>
+
+                </tbody>
+                </table> */}
+                 <CircleNavbar />  
+            </div>
+             
+        
+    )
+}
+

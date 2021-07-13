@@ -1,3 +1,5 @@
+
+
 * {
   box-sizing: border-box;
 }
@@ -33,7 +35,7 @@
 
 .App-header {
   
-  background-image: url("./image/protest.jpeg"); 
+  background-image: url("./image/theprotest.jpeg"); 
   background-repeat: no-repeat;
   
   /* border-radius: 50%; */
@@ -85,6 +87,7 @@ ul {
   list-style-type: none;
   padding: 0;
 }
+
 
 
 .menu .nav  {
@@ -853,66 +856,140 @@ input {
 }
 
 
-/*  CSS code for Partnerships */
-
-
-.wrapper {
-  width: 600px;
-  margin: 0 auto;
+  /* CSS code for Partnerships */
+  [data-toggle="collapse"] i:before {  
+    content: "\f068";
+}
+  
+[data-toggle="collapse"].collapsed i:before {
+    content: "\f067";
 }
 
-.accordion-wrapper {
-  & + * {
-    margin-top: 0.5em;
-  }
-}
-
-.accordion-item {
-  overflow: hidden;
-  transition: max-height 0.3s cubic-bezier(1, 0, 1, 0);
-  height: auto;
-  max-height: 9999px;
-}
-
-.accordion-item.collapsed {
-  max-height: 0;
-  transition: max-height 0.35s cubic-bezier(0, 1, 0, 1);
-}
-
-.accordion-title {
-  font-weight: 600;
-  cursor: pointer;
-  color: #666;
-  padding: 0.5em 1.5em;
-  border: solid 1px #ccc;
-  border-radius: 1.5em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  &::after {
-    content: "";
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 5px solid currentColor;
-  }
-
-  &:hover,
-  &.open {
-    color: black;
-  }
-
-  &.open {
-    &::after {
-      content: "";
-      border-top: 0;
-      border-bottom: 5px solid;
+#accordion {
+    .card-header{
+        margin-bottom: 8px;
     }
-  }
+    .accordion-title{
+        position: relative;
+        display: block;
+        padding:8px 0 8px 50px;
+        background: #213744;
+        border-radius: 8px;
+        overflow: hidden;
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+        width: 100%;
+        text-align: left;
+        transition: all .4s ease-in-out; 
+        i{
+            position: absolute;
+            width: 40px;
+            height: 100%;
+            left: 0;
+            top: 0;
+            color: #fff;
+            background: radial-gradient(rgba(#213744, .8), #213744);
+            text-align: center;
+            border-right: 1px solid transparent;
+        }
+        &:hover{
+            padding-left: 60px;
+            background: #213744;
+            color: #fff;
+            
+            i {
+                border-right: 1px solid #fff;
+            }
+        }
+    }
+    .accordion-body{
+        padding: 40px 55px;
+
+        
+        ul {
+            list-style: none;
+            margin-left: 0;
+            padding-left: 0;
+        }
+        
+        li {
+            padding-left: 1.2rem;
+            text-indent: -1.2rem;
+
+            &:before {
+                content: "\f10a";
+                padding-right: 5px;
+                font-family: "Flaticon";
+                font-size: 16px;
+                font-style: normal;
+                color: #213744;
+            }
+        }
+    }
 }
 
-.accordion-content {
-  padding: 1em 1.5em;
+
+
+  #protest { 
+	background-image: url('./image/protest.jpeg');
+	background-size: cover; 
+	background-repeat: no-repeat; 
+  /* clip-path: circle(50% at 50% 50%); */
+  color: white;
+}  
+
+
+
+  
+#square {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
+
+.contact-method{
+  width: 220px;
+  height: 140px;
+  display: inline-block;
+  background: #3498db;
+  margin: 10px;
+  color: #fff;
+  position: relative;
+  cursor: pointer;
+}
+
+.contact-method i{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  line-height: 140px;
+  background: #34495e;
+  z-index: 1;
+  transition: transform 0.6s; 
+}
+
+.contact-method span{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 10px 0;
+}
+
+.contact-method:hover i{
+transform: translateY(-40px);
+} 
+
+
+/* 
+const SytledWhatwedoJumb1 = styled.div.h1`
+    font-family='Brush Script MT' cursive; */

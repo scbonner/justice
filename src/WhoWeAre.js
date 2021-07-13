@@ -1,5 +1,6 @@
 import React from 'react';
-import WhoWeAreTable from './WhoWeAreTable'
+
+import Partnerships from './Partnerships'
 import 'bootstrap/dist/css/bootstrap.css';
 //import Button from 'bootstrap/dist/css/bootstrap.css'
 //import Card from 'bootstrap/dist/css/bootstrap.css'
@@ -21,6 +22,8 @@ export default function WhoWeAre() {
 
 <h2><strong><center>WHO WE ARE...</center></strong></h2>
 <br />
+
+<Partnerships />
 <div className="card">
   <div className="card-header" bg-dark>
  <h5><strong><center> GOALS & STRATEGIES </center></strong></h5>

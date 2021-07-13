@@ -2,6 +2,7 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './institute.css'
 import './App.css'
+import WhatwedoJumIn from './WhatwedoJumIn'
 // import incarceratedyouth from './image/incarceratedyouth.jpg'
 // import theplan from './image/theplan.jpeg'
 // import Card from 'react-bootstrap/Card';
@@ -10,9 +11,11 @@ export default function Institute() {
     return (
 
       <div> 
+      <WhatwedoJumIn />
         <section className="about-section" id="section-values">
          <div className="container">
           <div className="row">
+          
             <div className="col-md-10 col-md-offset-1">
                <h2 className="header medium separator">HOW WE WORK</h2>
                  <span>
@@ -158,54 +161,3 @@ export default function Institute() {
 }
 
 
-
-
-
-
-// <div>
-// <div className="row"> 
-//   <div className="column1">
-//     <img src="./image/incarceratedyouth.jpg" alt=""></img>
-//     <img src="./image/theplan.jpeg" alt=""></img>
-//     <img src="./image/incarceratedyouth.jpg" alt=""></img>
-//     <img src="./image/theplan.jpeg" alt=""></img>
-//     <img src="./image/incarceratedyouth.jpg" alt=""></img>
-//     <img src="./image/theplan.jpeg" alt=""></img>
-//     <img src="./image/incarceratedyouth.jpg" alt=""></img>
-//     <img src="./image/theplan.jpeg" alt=""></img>
-//   </div>
-  
-//   <div className="column2">
-//     <img src="./image/incarceratedyouth.jpg" alt=""></img>
-//     <img src="./image/theplan.jpeg" alt=""></img>
-//     <img src="./image/incarceratedyouth.jpg" alt=""></img>
-//     <img src="./image/theplan.jpeg" alt=""></img>
-//     <img src="./image/incarceratedyouth.jpg" alt=""></img>
-//     <img src="./image/theplan.jpeg" alt=""></img>
-//     <img src="./image/incarceratedyouth.jpg" alt=""></img>
-//   </div>
-   
-//   <div className="column3">
-//     <img src="./image/incarceratedyouth.jpg" alt=""></img>
-//     <img src="./image/theplan.jpeg" alt=""></img>
-//     <img src="./image/incarceratedyouth.jpg" alt=""></img>
-//     <img src="./image/theplan.jpeg" alt=""></img>
-//     <img src="./image/incarceratedyouth.jpg" alt=""></img>
-//     <img src="./image/theplan.jpeg" alt=""></img>
-//   </div>
-  
-//   <div className="column4">
-//     <img src="./image/incarceratedyouth.jpg" alt=""></img>
-//     <img src="./image/incarceratedyouth.jpg" alt=""></img>
-//     <img src="./image/theplan.jpeg" alt=""></img>
-//     <img src="./image/incarceratedyouth.jpg" alt=""></img>
-//     <img src="./image/theplan.jpeg" alt=""></img>
-//     <img src="./image/theplan.jpeg" alt=""></img>
-//   </div>
-// </div>
-// </div>
-  
-
-   
-//     )
-// }
