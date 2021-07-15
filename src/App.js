@@ -11,6 +11,7 @@ import WWSFJumbo from './WWSFJumbo'
 import NavBar from './NavBar'
 import WhatWeDo from './WhatWeDo'
 //import WhatwedoJumIn from './WhatwedoJumIn'
+//import WhatwedoJumb2 from './WhatwedoJumb2'
 
 import WhoWeAre from './WhoWeAre'
 //import Partnerships from './Partnerships';
@@ -52,6 +53,7 @@ export default function App() {
             {/* <Trainings />   */}
             {/* <ReportDownLoad /> */}
           {/* <Partnerships /> */}
+          {/* <WhatwedoJumb2 /> */}
           <WWSFJumbo />
            {/* <WhatWeStandFor /> */}
            <WhoWeAre />

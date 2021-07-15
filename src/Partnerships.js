@@ -11,6 +11,11 @@ export default function Partnerships() {
         
         <div>
         <br />
+        <ul>
+               <li>At every stage of the process, families are locked out of decisions that drive their children further along the school-to-prison pipeline. Where families try to participate, they are far too often disrespected, disregarded and blamed for their family member’s involvement in the system. Making matters worse, youth themselves are similarly excluded from the decision-making process and poor families are required to pay burdensome fees, fines and other systemic costs. These systemic flaws not only prevent families from being effective advocates for their children but also reinforce cycles of poverty and racial inequity.</li>
+
+<li>J4F works to change the power dynamic at each of the critical decision-making points along the school-to-prison pipeline. Together, by acting on behalf of all families, we will redirect the pipeline toward opportunity for all youth.  </li>
+</ul>
         {/* <br />
             <table className="table table-dark table-striped">
                 <thead>

@@ -59,9 +59,11 @@ export default function CircleNavbar() {
             <a href="http://njfamilyalliance.org" className="circle-text">New Jersey Alliance of Family Support Organizations
                 </a>
              </div>
+            
+            </div>
 
              </div>
-             </div>
+         
 
 
 

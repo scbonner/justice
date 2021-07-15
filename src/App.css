@@ -33,6 +33,8 @@
   }
 } */
 
+
+/* This image appears above bottom footer. */
 .App-header {
   
   background-image: url("./image/theprotest.jpeg"); 
@@ -566,7 +568,7 @@ template {
   height: 300px;
   border: 10px solid #1C84B0;
   perspective: 1000px;
-  
+  pointer-events: auto;
 }
 
 .flip-box-inner {
@@ -597,6 +599,7 @@ template {
   
   background-color: #1C84B0;
   color: white;
+  
 }
 
 .flip-box-back {
@@ -865,10 +868,10 @@ input {
     content: "\f067";
 }
 
-#accordion {
+/* #accordion {
     .card-header{
         margin-bottom: 8px;
-    }
+    } */
     .accordion-title{
         position: relative;
         display: block;
@@ -928,9 +931,9 @@ input {
             }
         }
     }
-}
 
 
+/* Ths image appears underneath the NavBar */
 
   #protest { 
 	background-image: url('./image/protest.jpeg');
@@ -939,8 +942,6 @@ input {
   /* clip-path: circle(50% at 50% 50%); */
   color: white;
 }  
-
-
 
   
 #square {
@@ -989,7 +990,251 @@ input {
 transform: translateY(-40px);
 } 
 
+/* This is specifically attached to the quotes */
 
+.cursive {
+    font-family:'Brush Script MT', cursive;
+    font-size: 27px;
+    color: #1C84B0;
 /* 
-const SytledWhatwedoJumb1 = styled.div.h1`
-    font-family='Brush Script MT' cursive; */
+    color: #7CAD41; */
+}
+
+
+    /* Code for Word Circle */
+
+    .curved-text{
+      position:relative;
+      display:inline-block;
+      margin:0 auto;
+      font-size:32px;
+     }.curved-text span{
+      min-width:0.5em;
+      text-align:center;
+      padding:30px;
+      margin:0px;
+     }
+     
+
+     #corner{
+      margin-top: 50px;
+      background: #92d050;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      display: inline-block;
+      -webkit-box-shadow: 0 0 6px 6px #a7c5fb, 0 3px 6px #a7c5fb;
+      box-shadow: 0 0 6px 6px #a7c5fb, 0 3px 6px #a7c5fb;
+  }
+  
+  .contaner {
+      position: relative;
+      width: 280px;
+      margin: auto;
+    }
+    
+     span {
+         font-family: 'sans-serif', Tahoma, Geneva, Verdana, sans-serif;
+      position: absolute;
+      color: #f8cbad;
+      -webkit-text-stroke: 1px #ed7d31;
+      font-size: 30px;
+    }
+    
+    .char1 {
+      transform: rotate(-90deg);
+      left: 26px;
+      top: 105px;
+    }
+    
+    .char2 {
+      transform: rotate(-72deg);
+      left: 21px;
+      top: 78px;
+    }
+    
+    .char3 {
+      transform: rotate(-56deg);
+      left: 33px;
+      top: 58px;
+    }
+    
+    .char4 {
+      transform: rotate(-56deg);
+      left: 44px;
+      top: 43px;
+    }
+    
+    .char5 {
+      transform: rotate(-49deg);
+      left: 57px;
+      top: 31px;
+    }
+    
+    .char6 {
+      transform: rotate(-37deg);
+      left: 72px;
+      top: 18px;
+    }
+    
+    .char7 {
+      transform: rotate(-32deg);
+      left: 82px;
+      top: 9px;
+    }
+    
+    .char8 {
+      transform: rotate(-17deg);
+      left: 104px;
+      top: 2px;
+    }
+    
+    .char9 {
+      transform: rotate(-8deg);
+      left: 123px;
+      top: -1px;
+    }
+    
+    .char10 {
+      transform: rotate(7deg);
+      left: 143px;
+      top: 0px;
+    }
+    
+    .char11 {
+      transform: rotate(13deg);
+      left: 161px;
+      top: 3px;
+    }
+    
+    .char12 {
+      transform: rotate(36deg);
+      left: 184px;
+      top: 18px;
+    }
+    
+    .char13 {
+      transform: rotate(45deg);
+      left: 207px;
+      top: 33px;
+    }
+    
+    .char14 {
+      transform: rotate(68deg);
+      left: 224px;
+      top: 54px;
+    }
+    
+    .char15 {
+      transform: rotate(68deg);
+      left: 229px;
+      top: 69px;
+    }
+    
+    .char16 {
+      transform: rotate(83deg);
+      left: 234px;
+      top: 89px;
+    }
+    
+    .char17 {
+      transform: rotate(90deg);
+      left: 239px;
+      top: 105px;
+    }
+    
+    .char18 {
+      transform: rotate(114deg);
+      left: 235px;
+      top: 133px;
+    }
+    
+    .char19 {
+      transform: rotate(114deg);
+      left: 233px;
+      top: 146px;
+    }
+    
+    .char20 {
+      transform: rotate(122deg);
+      left: 222px;
+      top: 157px;
+    }
+  
+    .char22 {
+      transform: rotate(143deg);
+      left: 196px;
+      top: 187px;
+    }
+    
+    .char21 {
+      transform: rotate(132deg);
+      left: 211px;
+      top: 173px;
+    }
+      
+    .char23 {
+      transform: rotate(152deg);
+      left: 179px;
+      top: 196px;
+    }
+    
+    .char24 {
+      transform: rotate(172deg);
+      left: 154px;
+      top: 206px;
+    }
+    
+    .char25 {
+      transform: rotate(178deg);
+      left: 131px;
+      top: 208px;
+    }
+  
+    .char25d {
+      transform: rotate(189deg);
+      left: 112px;
+      top: 207px;
+    }
+  
+    .char26 {
+      transform: rotate(213deg);
+      left: 86px;
+      top: 198px;
+    }
+  
+    .char27 {
+      transform: rotate(219deg);
+      left: 79px;
+      top: 190px;
+    }
+  
+    .char28 {
+      transform: rotate(220deg);
+      left: 66px;
+      top: 183px;
+    }
+  
+    .char29 {
+      transform: rotate(228deg);
+      left: 50px;
+      top: 171px;
+    }
+  
+    .char30{
+      transform: rotate(241deg);
+      left: 44px;
+      top: 157px;
+    }
+  
+    .char31{
+      transform: rotate(241deg);
+      left: 30px;
+      top: 142px;
+    }
+  
+    .char32{
+      transform: rotate(241deg);
+      left: 24px;
+      top: 127px;
+    }

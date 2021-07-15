@@ -7,6 +7,9 @@ import './whatwedo.css'
 
 export default function WhatwedoJumb2() {
     return (
+        <div>
+             <p className='cursive'><center>"Those who control the words and the images, control the minds of the people." ~ Iylanla Vanzant ~</center></p>
+
 
 <Jumbotron>
     <Jumbotron style={{ backgroundImage: `url(${themural})`, height: '85vh', color: 'white', fontWeight: 'bold' }}> 
@@ -21,6 +24,9 @@ export default function WhatwedoJumb2() {
     </Jumbotron>
             
 </Jumbotron>
+
+</div>
+
 
     );
 }
