@@ -92,8 +92,6 @@ export default function WhatWeStandFor() {
                         </div>
                             <br />
                     <div>
-                    <br />
-                    <br />
                 </div>
             </div>
         </div>

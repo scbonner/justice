@@ -29,7 +29,6 @@ export default function WWSFJumbo() {
                   <img src='https://images.pexels.com/photos/6190858/pexels-photo-6190858.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=175&w=140' alt="..." ></img>
                   <img src='https://images.pexels.com/photos/4546144/pexels-photo-4546144.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=120&w=250' alt="..." ></img>
                   <img src='https://images.pexels.com/photos/4546025/pexels-photo-4546025.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=200' alt="..." ></img>
-                  
                   <img src='https://images.pexels.com/photos/4400973/pexels-photo-4400973.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=280' alt="..." ></img>
                   <img src='https://images.pexels.com/photos/5211439/pexels-photo-5211439.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=180' alt="..." ></img>
                     <br />
@@ -38,10 +37,11 @@ export default function WWSFJumbo() {
             <div>
           </div>   
         </div>
+        {/* Rendering Mission, Purpose, Vision Values */}
         <WhatWeStandFor />
         </div>
 
-      {/* Storing the images below for future use and switchouts */}
+      {/* Storing the url images below for future use and switchouts */}
 
                   {/* <img src='https://images.pexels.com/photos/6698318/pexels-photo-6698318.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150&w=140' alt="..." ></img> */}
                   {/* <img src='https://images.pexels.com/photos/5905866/pexels-photo-5905866.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=100&w=160' alt="..." ></img>

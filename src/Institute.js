@@ -122,10 +122,10 @@ export default function Institute() {
 
   <div className="card bg-secondary text-white text-center p-3">
     <blockquote className="blockquote mb-0">
-      <p>"You dwell in whitened castles with deep and poisoned moats and cannot hear the curses which fill your children's throats."</p>
+      <p>"No problem can be solved from the same level of consciousness that created it."</p>
       <footer className="blockquote-footer">
         <small>
-        Maya Angelou <cite title="Source Title"></cite>
+        Albert Einstein <cite title="Source Title"></cite>
         </small>
       </footer>
     </blockquote>

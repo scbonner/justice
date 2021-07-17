@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from './logo.png'
+import Trainings from './Trainings'
 
 const Trainings1 = () => {
     return (
@@ -35,7 +36,7 @@ const Trainings1 = () => {
                 </ol>
                 <br />
             <hr />
-            
+            <Trainings />
         </div>
     </div>
     )

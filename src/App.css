@@ -907,6 +907,8 @@ input {
             }
         }
     }
+
+    /* DO NOT DELETE */
     .accordion-body{
         padding: 40px 55px;
 
@@ -935,13 +937,35 @@ input {
 
 /* Ths image appears underneath the NavBar */
 
-  #protest { 
+#protest { 
 	background-image: url('./image/protest.jpeg');
 	background-size: cover; 
 	background-repeat: no-repeat; 
   /* clip-path: circle(50% at 50% 50%); */
   color: white;
 }  
+
+#threesacrowd {
+  background-image: url('./image/threesacrowd.jpeg');
+}
+
+
+#lightbulbs {
+  background-image: url('./image/lightbulbs.jpeg');
+}
+
+
+#whippingpost {
+  background-image: url('./image/whippingpost.jpeg');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  font-family:'Brush Script MT', cursive;
+  /* clip-path: circle(50% at 50% 50%); */
+  color: white;
+}
+
+
+
 
   
 #square {
@@ -1238,3 +1262,136 @@ transform: translateY(-40px);
       left: 24px;
       top: 127px;
     }
+
+
+/* Testing right now */
+
+p .container-shape {
+      width: 0;
+      height: 0;
+      clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+      /* border-left: 40px solid transparent;
+      border-right: 40px solid transparent;
+      border-bottom: 80px solid lightblue; */
+  }
+  
+
+  /* BoardStaff  */
+
+  
+.display-4 {
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+
+.lead {
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+#card {
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-start;
+  flex-flow: column wrap;
+  flex-wrap: wrap;
+  height: 100%;
+  padding: 1em;
+  border: 10px;
+  border-color: lightgrey;
+}
+
+div,
+card {
+   color: black;
+
+}
+/* 
+.flexcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* You can set flex-wrap and
+     flex-direction individually */
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  /* Or do it all in one line
+    with flex flow */
+  /* flex-flow: row wrap; */
+  /* tweak where items line
+     up on the row
+     valid values are: flex-start,
+     flex-end, space-between,
+     space-around, stretch */
+  /* align-content: flex-end;
+
+} */
+
+
+/* Example of Jeannette  */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/* background-image: url("./image/theprotest.jpeg");  */
+
+#circle-shape-example { 
+  font-family: Open Sans, sans-serif; 
+  margin: 2rem; 
+}
+#circle-shape-example p { 
+  line-height: 1.8; 
+}
+#circle-shape-example .curve { 
+  width: 20%; height: auto;
+  min-width: 100px;
+  float: left;
+  margin-right:2rem; 
+  border-radius: 50%;
+  -webkit-shape-outside:circle();
+  shape-outside:circle();
+}
+#cursive {
+  font-family:'Brush Script MT', cursive;
+  /* font-size: 27px; */
+  color: black;
+
+}
+
+#malcolm {
+  font-family:'Brush Script MT', cursive;
+  color: white;
+  font-weight: bold;
+}
+
+#centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ 
+  img .curve {
+    image: url('./image/jbcloseup.jpg');
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+#circle {
+  float: left;
+  width: 250px;
+  height: 300px;
+  margin: 20px;
+  shape-outside: circle();
+  clip-path: circle();
+  /* background: lightblue; */
+  background: url('./image/consulting.jpg');
+  object-fit: cover;
+}
+
+
+
+/* training gallery images  */

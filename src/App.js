@@ -6,20 +6,20 @@
 // import Partnerships from './Partnerships'
 //import ContactForm from './ContactForm'
 import WWSFJumbo from './WWSFJumbo'
-// import Trainings from './Trainings'
+//import Trainings from './Trainings'
 //import ReportDownLoad from './ReportDownLoad'
 import NavBar from './NavBar'
 import WhatWeDo from './WhatWeDo'
 //import WhatwedoJumIn from './WhatwedoJumIn'
 //import WhatwedoJumb2 from './WhatwedoJumb2'
-
+import JeannetteBS from './JeannetteBS'
 import WhoWeAre from './WhoWeAre'
 //import Partnerships from './Partnerships';
 //import WhatWeStandFor from './WhatWeStandFor';
 import Footer from './Footer'
 import 'bootstrap/dist/css/bootstrap.css'
 import './App.css';
-//import ContactForm from './ContactForm';
+//import Institute from './Institute';
 
 
 
@@ -46,14 +46,16 @@ export default function App() {
                         CLICK TO ENTER
                       </button>
                 </div> */}
-            {/* <ContactForm /> */}
+            {/* <ContactForm />  */}
             {/* <CircleNavbar /> */}
             {/* <WhatwedoJumIn />  */}
            {/* <Institute /> */}
-            {/* <Trainings />   */}
+             {/* <Trainings />     */}
             {/* <ReportDownLoad /> */}
           {/* <Partnerships /> */}
           {/* <WhatwedoJumb2 /> */}
+            <JeannetteBS />  
+        
           <WWSFJumbo />
            {/* <WhatWeStandFor /> */}
            <WhoWeAre />
