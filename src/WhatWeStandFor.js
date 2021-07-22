@@ -1,5 +1,5 @@
 import React from 'react'
-import Home from './Home'
+import HomeMission from './HomeMission'
 //import Jumbotron from 'react-bootstrap/Jumbotron';
 import HomePurpose from './HomePurpose'
 import HomeVision from './HomeVision'
@@ -33,7 +33,7 @@ export default function WhatWeStandFor() {
                                     <div className="flip-box-back">
                                         <br />
                                         <br />
-                                             <Home />
+                                             <HomeMission />
                                 </div>
                             </div>
                         </div>

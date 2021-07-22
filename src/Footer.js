@@ -34,7 +34,7 @@ export default function Footer() {
   </header>
 
 {/* the footer section in black need to make sure is is a sticky footer */}
-    <footer className="container-fluid bg-dark py-5">
+    <footer className="container-fluid sticky-bottom bg-dark py-5">
         <div className="container pt-4">
           <center><img src={logo} className="App-logo" height="100px" width="275px" alt="logo" ></img></center>
           <hr />

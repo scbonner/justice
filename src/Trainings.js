@@ -1,6 +1,6 @@
 import React from 'react'
 //import reactDom from 'react-dom'
-import Trainings1 from './Trainings1'
+//import Trainings1 from './Trainings1'
 import 'bootstrap/dist/css/bootstrap.css';
 //import { Jumbotron } from 'react-bootstrap/Jumbotron';
 //import Card from 'react-bootstrap/Card';
@@ -197,7 +197,7 @@ export default function Trainings() {
 
 <div class="card-columns">
   <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap"></img>
+    <img class="card-img-top" src="..." alt="..."></img>
     <div class="card-body">
       <h5 class="card-title">Card title that wraps to a new line</h5>
       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -214,7 +214,7 @@ export default function Trainings() {
     </blockquote>
   </div>
   <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap"></img>
+    <img class="card-img-top" src="..." alt="..."></img>
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -239,7 +239,7 @@ export default function Trainings() {
     </div>
   </div>
   <div class="card">
-    <img class="card-img" src="..." alt="Card image"></img>
+    <img class="card-img" src="..." alt="..."></img>
   </div>
   <div class="card p-3 text-right">
     <blockquote class="blockquote mb-0">
