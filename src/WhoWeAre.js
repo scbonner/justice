@@ -16,7 +16,7 @@ export default function WhoWeAre() {
 
         <hr />
 
-        <h2><strong><center>WHO WE ARE...</center></strong></h2>
+        <h1><strong><center>WHO WE ARE...</center></strong></h1>
         <br />
             <div className="container pt-4">
              <hr />
@@ -37,8 +37,9 @@ export default function WhoWeAre() {
                     </div>
 
                         <div className="col-lg order-3" id='whippingpost'>
-                        <br /> <br /> <br /> <br /> <br /> <br /> 
-                            <h4 className="mb-4"><center>A Whipping Post</center></h4>
+                        <br /> <br />
+                            <h4 className="mb-4"><center>"Not everything that is faced can be changed, but nothing can be changed until it is faced."<br /> ~ James Baldwin ~</center></h4>
+                        
                             </div>
                         </div>        
 
@@ -87,19 +88,18 @@ export default function WhoWeAre() {
                                                                         <h6><center>Policy Advocacy</center></h6>
                                                                             <p className="card-text"><b>T</b>o redirect investments in young  people, their families and communities.</p>
                                                                         <br />
-                                                                        <br />
-                                                                    
+                                                                        <br />  
                                                                     </div>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                </div>
+                                    </div>
                             </div>
-                    </div>
+                        </div>
                 </div>
-        </div>
-</div>
+            </div>
 
-</>
+        </>
 
     )
 }

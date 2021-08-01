@@ -17,7 +17,6 @@ export default function WhatWeStandFor() {
             
         <div>
             <div id="card mb-3">
-            {/* <h2><strong><center>WHAT WE STAND FOR...</center></strong></h2> */}
                 <div className="card-body">
                 <br />
                     <div id='container' className='protest'>

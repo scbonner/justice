@@ -1,3 +1,80 @@
+import React from 'react'
+
+export default function Testing() {
+    return (
+
+        <div>
+            <nav className="navbar navbar-expand-md navbar-dark bg-dark mb-3">
+    <div className="container">
+        <a href="#" className="navbar-brand mr-3" >Tutorial Republic</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarCollapse">
+            <div className="navbar-nav">
+                <a href="home" className="nav-item nav-link active">Home</a>
+                <a href="staff" className="nav-item nav-link">Staff</a>
+                <a href="partnerships" className="nav-item nav-link">Partnerships</a>
+                <a href="policy" className="nav-item nav-link">Policy</a>
+                <a href="trainings" className="nav-item nav-link">Trainings</a>
+            </div>
+            {/* <div className="navbar-nav ml-auto">
+                <a href="#" className="nav-item nav-link">Register</a>
+                <a href="#" className="nav-item nav-link">Login</a>
+            </div> */}
+        </div>
+    </div>    
+</nav>
+<div className="container">
+    <div className="jumbotron">
+        <h1>Learn to Create Websites</h1>
+        <p className="lead">In today's world internet is the most popular way of connecting with the people. At <a href="https://www.tutorialrepublic.com" target="_blank" rel="noreferrer">tutorialrepublic.com</a> you will learn the essential web development technologies along with real life practice examples, so that you can create your own website to connect with the people around the world.</p>
+        <p><a href="https://www.tutorialrepublic.com" target="_blank" rel="noreferrer" className="btn btn-success btn-lg">Get started today</a></p>
+    </div>
+    <div className="row">
+        <div className="col-md-4">
+            <h2>HTML</h2>
+            <p>HTML is the standard markup language for describing the structure of the web pages. Our HTML tutorials will help you to understand the basics of latest HTML5 language, so that you can create your own web pages or website.</p>
+            <p><a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank" rel="noreferrer" className="btn btn-success">Learn More »</a></p>
+        </div>
+        <div className="col-md-4">
+            <h2>CSS</h2>
+            <p>CSS is used for describing the presentation of web pages. CSS can save a lot of time and effort. Our CSS tutorials will help you to learn the essentials of latest CSS3, so that you can control the style and layout of your website.</p>
+            <p><a href="https://www.tutorialrepublic.com/css-tutorial/" target="_blank" rel="noreferrer" className="btn btn-success">Learn More »</a></p>
+        </div>
+        <div className="col-md-4">
+            <h2>Bootstrap</h2>
+            <p>Bootstrap is a powerful front-end framework for faster and easier web development. Our Bootstrap tutorials will help you to learn all the features of latest Bootstrap 4 framework so that you can easily create responsive websites.</p>
+            <p><a href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank" rel="noreferrer" className="btn btn-success">Learn More »</a></p>
+        </div>
+    </div>
+
+    {/* <footer>
+        <div className="row">
+            <div className="col-md-6">
+           
+                <p>Copyright &copy; 2019 Tutorial Republic</p>
+            </div>
+            <div className="col-md-6 text-md-right">
+                <a href="#" className="text-dark">Terms of Use</a> 
+                <span className="text-muted mx-2">|</span> 
+                <a href="#" className="text-dark">Privacy Policy</a>
+            </div>
+        </div>
+    </footer> */}
+    <hr />
+
+</div>
+
+        </div>
+    )
+}
+
+
+
+
+
+
 // flexbox 
 
 // <div class="wrap">

@@ -2,7 +2,7 @@ import React from 'react'
 // import { Jumbotron, Container } from 'react-bootstrap/Jumbotron';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Jumbotron';
-import WhatWeStandFor from './WhatWeStandFor'
+//import WhatWeStandFor from './WhatWeStandFor'
 import './App.css'
 import './whatwedo.css'
 
@@ -15,11 +15,11 @@ export default function WWSFJumbo() {
         <div>
           <Jumbotron fluid>
             <Container fluid id='protest'>
-              <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+              <br /> <br /> <br /> <br /> <br /> <br /> 
                 <strong><center><h1 className="display-3">WHAT WE STAND FOR...</h1></center></strong>
               
                 {/* <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> */}
-                <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> 
+                <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
             </Container>
           </Jumbotron>
             <div className='container'>
@@ -38,7 +38,7 @@ export default function WWSFJumbo() {
           </div>   
         </div>
         {/* Rendering Mission, Purpose, Vision Values */}
-        <WhatWeStandFor />
+        {/* <WhatWeStandFor /> */}
         </div>
 
       {/* Storing the url images below for future use and switchouts */}

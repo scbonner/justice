@@ -211,9 +211,17 @@ main {
  */
 
 h1 {
-  font-size: 2em;
+  font-size: 3em;
+  font-weight: bold;
   margin: 0.67em 0;
 }
+
+#protest h1{
+  font-size: 3em;
+  color: white;
+  font-weight: bold;
+  margin: 0.67em 0;
+} 
 
 /* Grouping content
    ========================================================================== */
@@ -760,8 +768,6 @@ input {
   color: #fff;
 }
 
-
-
 .colour-7 {
   background: #1C84B0;
   color: #fff;
@@ -855,6 +861,8 @@ input {
 .flexbox-container {
   display: flex;
   flex-direction: row;
+  clip-path: polygon(15% 0%, 25% 0%, 15% 25%, 0% 25%);
+
   
 }
 
@@ -956,16 +964,13 @@ input {
 
 
 #whippingpost {
-  background-image: url('./image/whippingpost.jpeg');
+  background-image: url('./image/thecrowd.jpeg');
   background-size: cover; 
   background-repeat: no-repeat; 
   font-family:'Brush Script MT', cursive;
   /* clip-path: circle(50% at 50% 50%); */
   color: white;
 }
-
-
-
 
   
 #square {
@@ -1024,7 +1029,16 @@ transform: translateY(-40px);
     color: #7CAD41; */
 }
 
-
+.cursive1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family:'Brush Script MT', cursive;
+  font-size: 27px;
+  color: #1C84B0;
+/* 
+  color: #7CAD41; */
+}
     /* Code for Word Circle */
 
     .curved-text{

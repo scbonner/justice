@@ -12,6 +12,7 @@ export default function CircleNavbar() {
              <div className="circle">
             <a href="
             http://www.njjn.org" className="circle-text">NJJN
+            
                 </a>
              </div>
 
