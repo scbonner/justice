@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.png';
 //import ContactForm from './ContactForm'
-//import WWSFJumbo from './WWSFJumbo'
+//import ReportDownLoad from './ReportDownLoad'
 //import Trainings from './Trainings'
 //import ReportDownLoad from './ReportDownLoad'
 //import NavBar from './NavBar'
@@ -37,7 +37,10 @@ class App extends Component {
     return (
 
       <>
-      <h5 className='cursive1'>"Those who control the words and the images, controls  the people's mind." ~ Iylana VanZant ~</h5>
+      {/* <h5 className='cursive1'>"Those who control the words and the images, controls the ." ~ Iylana VanZant ~</h5> */}
+      <marquee scrolldelay="100" className='cursive1'>“For these are all our children, we will all profit by or pay for what they become.”  ~ James Baldwin ~ </marquee>
+
+      {/* <marquee scrolldelay="100" className='cursive1'>"Those who control the words and the images, controls the minds of the people." ~ Iylana VanZant ~ </marquee> */}
       <div className="App" sticky-top>
         {/* <header className="App-header"> */}
         <div className="menu">
@@ -78,6 +81,7 @@ class App extends Component {
     {/* <WhoWeAre />
      <WhatWeDo />  
     <Footer /> */} 
+    {/* <ReportDownLoad /> */}
 </>
 
   )

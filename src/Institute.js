@@ -51,9 +51,9 @@ export default function Institute() {
   <div className="card p-3 bg-warning text-center">
     <blockquote className="blockquote mb-0 card-body">
     {/* <h5 className="card-title"></h5> */}
-    <p className="card-text">“For these are all our children, we will all profit by or pay for what they become.”</p>
+    <p className="card-text">“"Those who control the words and the images, controls the minds of the people.”</p>
       <footer className="blockquote-footer">
-        <small className="text-muted">James Baldwin<cite title="Source Title"></cite>
+        <small className="text-muted">Iylana Van Zant<cite title="Source Title"></cite>
         </small>
       </footer>
     </blockquote>
@@ -115,7 +115,7 @@ export default function Institute() {
   <div className="card">
     <div className="card-body">
       <h5 className="card-title">GRIT</h5>
-      <p className="card-text">GritWe do not see challenges and setbacks as barriers to success, but as invitations to think creatively and push forward with courage and resolution.
+      <p className="card-text">We do not see challenges and setbacks as barriers to success, but as invitations to think creatively and push forward with courage and resolution.
 </p>
     </div>
   </div>
@@ -124,8 +124,7 @@ export default function Institute() {
     <blockquote className="blockquote mb-0">
       <p>"No problem can be solved from the same level of consciousness that created it."</p>
       <footer className="blockquote-footer">
-        <small>
-        Albert Einstein <cite title="Source Title"></cite>
+        <small>Albert Einstein <cite title="Source Title"></cite>
         </small>
       </footer>
     </blockquote>

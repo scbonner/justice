@@ -2,7 +2,7 @@
 
 import React from 'react'
 import logo from './logo.png'
-import ReportForm from './ReportForm'
+import DownLoad from './DownLoad'
 
 
 //Place a background picture in the shape of a polygon
@@ -33,7 +33,7 @@ export default function ReportDownLoad() {
                                             <br />
                                             <br />
                                             <br />
-                                <ReportForm />
+                                <DownLoad />
                             </div>
 
                         {/* First column  */}

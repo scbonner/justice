@@ -20,12 +20,11 @@ export default function WhoWeAre() {
         <br />
             <div className="container pt-4">
              <hr />
-             <br />
+             
                  <div id="about" className="row">
                     <div className="col-lg order-lg-2">
-                         <h4 className="mb-4"><center></center></h4>
-                             <p className='cursive'><center>“You dwell in whitened castles with deep and poisoned moats
-                    and cannot hear the curses which fill your children's throats.”<br />
+                         <h3 className="mb-4"><center></center></h3>
+                             <p className='cursive'><center>“Perhaps travel cannot prevent bigortry, but by demonstrating that all people cry, laugh, eat, worry and die. It can introduce the idea that if we try to understand each other, we may even become friends.”
                     ~ Maya Angelou ~</center> </p>
                  </div>
 
@@ -33,12 +32,12 @@ export default function WhoWeAre() {
                      <div className="col-lg order-lg-1" id='lightbulbs'>
                      <br /> 
                      <br />
-                        <h4 className="mb-4" id='malcolm'><center>"The mother is the first teacher of the child. The message she gives that child, that child gives to the world."<br />~ Malcolm X ~ </center></h4> <br /> <br /> <br /> <br />
+                        <h3 className="mb-4" id='malcolm'><center>"The mother is the first teacher of the child. The message she gives that child, that child gives to the world."<br />~ Malcolm X ~ </center></h3> <br /> <br /> 
                     </div>
 
                         <div className="col-lg order-3" id='whippingpost'>
                         <br /> <br />
-                            <h4 className="mb-4"><center>"Not everything that is faced can be changed, but nothing can be changed until it is faced."<br /> ~ James Baldwin ~</center></h4>
+                            <h3 className="mb-4"><center>"Not everything that is faced can be changed, but nothing can be changed until it is faced."<br /> ~ James Baldwin ~</center></h3>
                         
                             </div>
                         </div>        

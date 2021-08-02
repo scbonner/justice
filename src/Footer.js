@@ -24,7 +24,7 @@ export default function Footer() {
               
                     <div>
                       <button className="button-tertiary bg-success" id="nav-item nav-link active" type="submit">
-                        Download Report Here <br />
+                         Download Report Here <br />
                       </button>
                       <br />
                       <br />
@@ -42,13 +42,22 @@ export default function Footer() {
                     <div id="about" className="row">
                       <div className="col-lg order-lg-2">
                         <h4 className="mb-4"><center>Follow Us At:</center></h4>
-                            <p>The beautiful city of Portland, Oregon will be the host city for Full Stack Conf!</p>
+                        {/* <i class="fa fa-camera-retro fa-2x"></i> fa-2x
+                        <div class="list-group">
+                          <a class="list-group-item" href="#"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a>
+                          <a class="list-group-item" href="#"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; Library</a>
+                          <a class="list-group-item" href="#"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp; Applications</a>
+                          <a class="list-group-item" href="#"><i class="fa fa-cog fa-fw" aria-hidden="true"></i>&nbsp; Settings</a>
+                        </div> */}
                             <p>Explore the future of JavaScript with a lineup of industry professionals. Discover new techniques to advance your career as a web developer.</p>
                             <span class="st_facebook" st_title="Download Report" st_url="https://www.justice4families.org/download-report-button/download-report/" st_processed="yes">
+
+                            
                             <span text-decoration='none' color='rgb(0, 0, 0)' display='inline-block' cursor='pointer' padding-left='0px' padding-right=
                             '0px' width="16px" className="stButton">
                             <span class="chicklets facebook">&nbsp;</span></span></span>
                       </div>
+                      {/* This is the first column info */}
                       <div className="col-lg order-lg-1">
                         <h4 className="mb-4"><center>Contact Us At:</center></h4> 
                             <p>2090 Honeywell Avenue</p>
@@ -60,24 +69,22 @@ export default function Footer() {
                                 <center><a href="report"className="btn-footer bg-primary"> DONATE </a></center><br />
                                 <center><a href="form" className="btn-footer bg-primary"> SIGN UP</a></center>
                       </div>
-
+                      {/* This is last column info */}
                       <div className="col-lg order-3">
                         <h4 className="mb-4"><center>Menu</center></h4>
                           <div className="list-group">
-                            <a href="staff" className="list-group-item list-group-item-action"><strong>STAFF</strong></a>
-                            <a href="partnerships" className="list-group-item list-group-item-action"><strong>PARTNERSHIPS</strong></a>
-                            <a href="institute" className="list-group-item list-group-item-action"><strong>INSTITUTE</strong></a>
-                            <a href="policy" className="list-group-item list-group-item-action"><strong>POLICY</strong></a>
-                            <a href="trainings" className="list-group-item list-group-item-action"><strong>TRAININGS</strong></a>
-                            <a href="https://www.justice4families.org/download-report-button/download-report/" className="list-group-item list-group-item-action"><strong>DOWNLOAD REPORT</strong></a>
-
-                            
+                            <a href="./staff" className="list-group-item list-group-item-action"><strong>STAFF</strong></a>
+                            <a href="./partnerships" className="list-group-item list-group-item-action"><strong>PARTNERSHIPS</strong></a>
+                            <a href="./institute" className="list-group-item list-group-item-action"><strong>INSTITUTE</strong></a>
+                            <a href="./policy" className="list-group-item list-group-item-action"><strong>POLICY</strong></a>
+                            <a href="./trainings" className="list-group-item list-group-item-action"><strong>TRAININGS</strong></a>
+                            <a href="./download" className="list-group-item list-group-item-action"><strong>DOWNLOAD REPORT</strong></a>
                         </div>
                       </div>        
                     </div>
                 </div> 
             </footer>
-            </div>
+          </div>
 
 
 
