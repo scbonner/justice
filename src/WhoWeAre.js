@@ -14,12 +14,9 @@ export default function WhoWeAre() {
             
         <>
 
-        <hr />
-
         <h1><strong><center>WHO WE ARE...</center></strong></h1>
         <br />
             <div className="container pt-4">
-             <hr />
              
                  <div id="about" className="row">
                     <div className="col-lg order-lg-2">
@@ -28,7 +25,6 @@ export default function WhoWeAre() {
                     ~ Maya Angelou ~</center> </p>
                  </div>
 
-              
                      <div className="col-lg order-lg-1" id='lightbulbs'>
                      <br /> 
                      <br />
@@ -37,7 +33,7 @@ export default function WhoWeAre() {
 
                         <div className="col-lg order-3" id='whippingpost'>
                         <br /> <br />
-                            <h3 className="mb-4"><center>"Not everything that is faced can be changed, but nothing can be changed until it is faced."<br /> ~ James Baldwin ~</center></h3>
+                            <h3 className="mb-4" id='baldwin' ><center>"Not everything that is faced can be changed, but nothing can be changed until it is faced."<br /> ~ James Baldwin ~</center></h3>
                         
                             </div>
                         </div>        

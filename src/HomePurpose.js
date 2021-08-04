@@ -17,7 +17,7 @@ export default function HomePurpose() {
         </Button>
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
-            <Modal.Title>Our Purpose</Modal.Title>
+            <Modal.Title className='cursive2'>Our Purpose</Modal.Title>
           </Modal.Header>
           <Modal.Body>
           <p><strong>J</strong>ustice for Families raises the visibility of meaningful family engagement, and demonstrates  the success and importance of constituent-led organizing strategies.</p></Modal.Body>

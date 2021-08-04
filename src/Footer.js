@@ -11,6 +11,7 @@ export default function Footer() {
 // This section is part of the footer which houses protest pic, download button, tooltip 
         <div>
         <br />
+        
                       <br />
                       <br />
           <header className="App-header"> 
@@ -22,10 +23,13 @@ export default function Footer() {
                   <h3><center>Solutions to the Crisis in Juvenile Justice...  <Tip /></center></h3>
                     <br />
               
-                    <div>
-                      <button className="button-tertiary bg-success" id="nav-item nav-link active" type="submit">
-                         Download Report Here <br />
-                      </button>
+                    <div className='emailcontact'>
+                    Download report here <a href="mailto:justice4familiesgb@gmail.com" target="_blank" rel="noopener"> and stay in touch</a> with us!
+                      {/* {/* <button className="button-tertiary bg-success" id="nav-item nav-link active" type="submit">
+                         Download Report Here  */}
+
+                         <br /> 
+                      {/* </button> */}
                       <br />
                       <br />
                       <br />
@@ -50,12 +54,12 @@ export default function Footer() {
                           <a class="list-group-item" href="#"><i class="fa fa-cog fa-fw" aria-hidden="true"></i>&nbsp; Settings</a>
                         </div> */}
                             <p>Explore the future of JavaScript with a lineup of industry professionals. Discover new techniques to advance your career as a web developer.</p>
-                            <span class="st_facebook" st_title="Download Report" st_url="https://www.justice4families.org/download-report-button/download-report/" st_processed="yes">
+                            {/* <span class="st_facebook" st_title="Download Report" st_url="https://www.justice4families.org/download-report-button/download-report/" st_processed="yes"> */}
 
                             
                             <span text-decoration='none' color='rgb(0, 0, 0)' display='inline-block' cursor='pointer' padding-left='0px' padding-right=
-                            '0px' width="16px" className="stButton">
-                            <span class="chicklets facebook">&nbsp;</span></span></span>
+                            '0px' width="16px" className="stButton"></span>
+                            <span class="chicklets facebook">&nbsp;</span>
                       </div>
                       {/* This is the first column info */}
                       <div className="col-lg order-lg-1">
@@ -65,9 +69,9 @@ export default function Footer() {
                             <p>Phone: 917.736.4286</p>
                             <p>Website:justice4families.org</p>
                             
-                      <h6> About Company</h6>
+                      {/* <h6> Need to find out where to link</h6>
                                 <center><a href="report"className="btn-footer bg-primary"> DONATE </a></center><br />
-                                <center><a href="form" className="btn-footer bg-primary"> SIGN UP</a></center>
+                                <center><a href="form" className="btn-footer bg-primary"> CONTACT </a></center> */}
                       </div>
                       {/* This is last column info */}
                       <div className="col-lg order-3">

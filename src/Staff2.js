@@ -11,7 +11,7 @@ export default function Staff() {
 
 <div className="flexcontainer">
 <div className='container'>
-<h1>Board Members</h1>
+<h1><center>Board Members</center></h1>
 <br />
 <div className="row">
   <div className="column">

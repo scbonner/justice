@@ -13,8 +13,7 @@ import './App.css'
 
 
 export default function WhatWeStandFor() {
-    return (
-            
+    return ( 
         <div>
             <div id="card mb-3">
                 <div className="card-body">
@@ -38,12 +37,10 @@ export default function WhatWeStandFor() {
                         </div>
                     </div>
 
-
                     <div className="column">
                         <div className="flip-box">
                             <div className="flip-box-inner">
                                 <div className="flip-box-front">
-                            
                                     <img src='https://images.pexels.com/photos/5108415/pexels-photo-5108415.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' className="card-img-top" alt="..."></img> 
                                         <h2>PURPOSE</h2>
                                 </div>
@@ -71,7 +68,6 @@ export default function WhatWeStandFor() {
                                 </div>
                             </div>
                         </div>
-
 
                         <div className="column">
                             <div className="flip-box">

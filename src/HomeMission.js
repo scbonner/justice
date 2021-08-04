@@ -16,7 +16,7 @@ export default function HomeMission() {
         </Button>
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
-            <Modal.Title>Our Mission</Modal.Title>
+            <Modal.Title className='cursive2'>Our Mission</Modal.Title>
           </Modal.Header>
           <Modal.Body>
           <p><strong>J</strong>ustice for Families is a national network of family leaders, impacted by the justice system working to end mass criminalization, particularly that of youth and communities of black, indigenous and people of color (BIPOC).</p></Modal.Body>

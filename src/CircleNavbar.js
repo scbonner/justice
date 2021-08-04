@@ -3,27 +3,45 @@ import React from 'react'
 export default function CircleNavbar() {
     return (
         <div>
+
+<div class="container mt-3">
+        {/* <!--Row with three equal columns--> */}
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="demo-content">.col-lg-4</div>
+            </div>
+            <div class="col-lg-4">
+                <div class="demo-content bg-alt">.col-lg-4</div>
+            </div>
+            <div class="col-lg-4">
+                <div class="demo-content">.col-lg-4</div>
+            </div>
+            <div class="col-lg-4">
+                <div class="demo-content">.col-lg-4</div>
+            </div>
+
+
+
             <div class="flexbox-container">
-            <div className="circle">
-            <a href="https://www.burnsinstitute.org" className="circle-text">Burns Institute
-                </a>
+            <div className="row">
+        <div className="col-md-4">
+                <div className="circle">
+                    <a href="https://www.burnsinstitute.org" className="circle-text">Burns Institute</a>
+                </div>
+
+                <div className="col-md-4">
+             <div className="circle">
+                     <a href="http://www.njjn.org" className="circle-text">NJJN</a>
              </div>
 
-             <div className="circle">
-            <a href="
-            http://www.njjn.org" className="circle-text">NJJN
             
-                </a>
+             <div className="col-md-4">
+             <div className="circle">
+                    <a href="https://forwardtogether.org/programs/strong-families-network" className="circle-text">Strong Families Network </a>
              </div>
 
              <div className="circle">
-            <a href="https://forwardtogether.org/programs/strong-families-network" className="circle-text">Strong Families Network
-                </a>
-             </div>
-
-             <div className="circle">
-            <a href="http://dignityinschools.org/about-us" className="circle-text">Dignity In Schools
-                </a>
+                     <a href="http://dignityinschools.org/about-us" className="circle-text">Dignity In Schools</a>
              </div>
 
              <div className="circle">
@@ -64,8 +82,12 @@ export default function CircleNavbar() {
             </div>
 
              </div>
-         
-
+             </div>
+         </div>
+         </div>
+         </div>
+         </div>
+</div>
 
 
     )

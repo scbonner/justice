@@ -31,6 +31,8 @@ export default function Testing() {
         <p className="lead">In today's world internet is the most popular way of connecting with the people. At <a href="https://www.tutorialrepublic.com" target="_blank" rel="noreferrer">tutorialrepublic.com</a> you will learn the essential web development technologies along with real life practice examples, so that you can create your own website to connect with the people around the world.</p>
         <p><a href="https://www.tutorialrepublic.com" target="_blank" rel="noreferrer" className="btn btn-success btn-lg">Get started today</a></p>
     </div>
+
+    <div className='container'>
     <div className="row">
         <div className="col-md-4">
             <h2>HTML</h2>
@@ -63,10 +65,28 @@ export default function Testing() {
         </div>
     </footer> */}
     <hr />
-
 </div>
 
-        </div>
+<div className="container bg-dark text-white border py-3 my-3">
+        <h1>This is a heading</h1>
+        <p>This is a paragraph of text.</p>
+    </div>
+
+    {/* <!-- Container with light background --> */}
+    <div className="container bg-light py-3 my-3">
+        <h1>This is a heading</h1>
+        <p>This is a paragraph of text.</p>
+    </div>
+
+    {/* <!-- Container with border --> */}
+    <div className="container border py-3 my-3">
+        <h1>This is a heading</h1>
+        <p>This is a paragraph of text.</p>
+    </div>
+    
+</div>
+</div>
+    
     )
 }
 

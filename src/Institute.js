@@ -17,12 +17,13 @@ export default function Institute() {
           <div className="row">
           
             <div className="col-md-10 col-md-offset-1">
-               <h2 className="header medium separator">HOW WE WORK</h2>
+               {/* <h2 className="header medium separator"><center><HOW WE WORK></center></h2> */}
                  <span>
                    <h4><center>Our community partners guide us and our values drive us.</center></h4></span>
-          
-            </div>
-          </div>      
+          </div>
+          </div>
+      
+           
       <div>
        <div className="card-columns">
         <div className="card">
@@ -42,7 +43,7 @@ export default function Institute() {
     </blockquote>
   </div>
   <div className="card">
-    <div className="card-body">
+    <div className="card-body">  
       <h5 className="card-title">INTEGRITY</h5>
       <p className="card-text">We hold ourselves to a high standard. We are committed to being fair, objective, and proactively transparent in our decisions and behaviors. We honor our commitments and doing the right thing, even when no one is looking.
 .</p>
@@ -156,6 +157,7 @@ export default function Institute() {
 </div>
 </section>
 </div>
+
     )
 }
 

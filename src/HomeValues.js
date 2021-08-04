@@ -17,7 +17,7 @@ export default function HomeValues() {
         </Button>
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
-            <Modal.Title>Our Values</Modal.Title>
+            <Modal.Title className='cursive2'>Our Values</Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <p><strong>H</strong>uman Rights: Basic rights derived from being human including ‘civil and political’  rights like due process and the right to a fair trial and ‘economic and social’ rights  such as the right to education, housing, health and work. All of these ‘rights’ must  be fought for. </p>

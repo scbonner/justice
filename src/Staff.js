@@ -6,9 +6,10 @@ import Staff2 from './Staff2'
 export default function JeannetteBS() {
     return (
         <>
+        <br />
         <div>
         <div className='container'>
-        <h1>Team Members</h1>
+        <h1><center>Team Members</center></h1>
             <div id="circle-shape-example">
             <div id='circle'></div>
                     <div id='cursive'>
