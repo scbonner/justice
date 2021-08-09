@@ -11,6 +11,7 @@ export default function Partnerships() {
         
         <div>
         <br />
+        <CircleNavbar />
        
         {/* <br />
             <table className="table table-dark table-striped">
@@ -120,7 +121,7 @@ export default function Partnerships() {
 
                 </tbody>
                 </table> */}
-                 <CircleNavbar />  
+                 {/* <CircleNavbar />   */}
             </div>
              
         

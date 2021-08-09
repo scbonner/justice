@@ -24,9 +24,8 @@ export default function Footer() {
                     <br />
               
                     <div className='emailcontact'>
-                    Download report here <a href="mailto:justice4familiesgb@gmail.com" target="_blank" rel="noopener"> and stay in touch</a> with us!
-                      {/* {/* <button className="button-tertiary bg-success" id="nav-item nav-link active" type="submit">
-                         Download Report Here  */}
+                    Request a copy of <a href="mailto:justice4familiesgb@gmail.com" target="_blank" rel="noopener"> the report here.</a>
+                      
 
                          <br /> 
                       {/* </button> */}

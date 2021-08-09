@@ -1,6 +1,6 @@
 import React from 'react'
 import Jumbotron from 'react-bootstrap/Jumbotron';
-import ladiesinblue from './image/ladiesinblue.jpeg'
+import ladiesinblue2 from './image/ladiesinblue2.jpeg'
 import './whatwedo.css'
 
 
@@ -10,7 +10,7 @@ export default function WhatwedoJumIn() {
     return (
 
 <Jumbotron>
-    <Jumbotron style={{ backgroundImage: `url(${ladiesinblue})`, height: '85vh', color: 'white', fontWeight: 'bold' }}> 
+    <Jumbotron style={{ backgroundImage: `url(${ladiesinblue2})`, height: '85vh', color: 'white', fontWeight: 'bold' }}> 
         <center><h1 className="display-4" >THE INSTITUTE</h1></center>
 
          <br />

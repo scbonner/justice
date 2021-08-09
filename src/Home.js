@@ -15,44 +15,14 @@ import WhatWeDo from './WhatWeDo'
 function Home() {
     return (
         <div>
-
-<WWSFJumbo />
-      <WhatWeStandFor /> 
-    <WhoWeAre />
-    <WhatWeDo /> 
-    <Footer />
-
-
-
-
-     {/* <BrowserRouter>
-       <NavBar /> */}
-      {/* <div className="container mt-2" style={{ marginTop: 40 }}>
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/staff">
-            <Staff />
-          </Route>
-          <Route path="/partnerships">
-            <Partnerships />
-          </Route>
-          <Route path="/institute">
-            <Institute />
-          </Route>
-          <Route path="/policy">
-            <Policy />
-          </Route>
-          <Route path="/trainings">
-            <Trainings />
-          </Route>
-        </Switch>
-      </div>
-    </BrowserRouter> */} 
-
-        </div>
+          <WhatWeStandFor /> 
+          <WWSFJumbo />
+          <WhoWeAre />
+          <WhatWeDo /> 
+          <Footer />
+          </div>
     )
 }
 
 export default Home
+

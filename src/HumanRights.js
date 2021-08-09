@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Button from 'react-bootstrap/Button'
 import Modal from 'react-bootstrap/Modal';
 
-function RacialJustice() {
+function HumanRights() {
     
     const [show, setShow] = useState(false);
   
@@ -12,16 +12,16 @@ function RacialJustice() {
     return (
       <>
         <Button variant="primary" onClick={handleShow}>
-          RACIAL JUSTICE
+          HUMAN RIGHTS
         </Button>
   
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
             <Modal.Title>Modal heading</Modal.Title>
           </Modal.Header>
-          <Modal.Body> WHAT IS IT? Valuing families means respecting all families. It means supporting universal healthcare, the right to marry who you love, childcare supports for all families who need them, a living wage, meaningful job opportunities for young people and public safety strategies that prioritize family connection and respect familial rights. <br /> <br />
+          <Modal.Body> What are they?  Human rights are basic rights derived from being human including ‘civil and political’ rights, like due process and the right to a fair trial, ‘economic and social’ rights, such as the right to education, housing, health; and work.  All of these ‘rights’ must be fought for. <br /> <br />
 
-            Getting there: ‘Family values’ have been defined by conservatives in ways that actually undermine family stability. The criminal justice system has penalized and punished families, tearing them apart and undermining their capacity to support each other which is why our work is necessary.
+            Getting Their Human Rights treaties provide a blueprint for the creation of a equitable and effective juvenile justice systems that supports the development of youth and respects the rights of families.  Removing the criminal justice system as an obstacle to civic engagement will help advance families as a whole.
             </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>
@@ -37,5 +37,5 @@ function RacialJustice() {
   }
   
 
-export default RacialJustice
+export default HumanRights
 
