@@ -9,7 +9,7 @@ export default function Footer() {
     return (
 
 // This section is part of the footer which houses protest pic, download button, tooltip 
-        <div>
+       <div>
         <br />
         
                       <br />
@@ -17,6 +17,7 @@ export default function Footer() {
           <header className="App-header"> 
             <div className="container-fluid">
               </div>
+             
         {/* Title above onclick button inside bottom picture */}
                 {/* <a href="j4f" className="navbar-brand mr-3"><h3><strong> */}
                   <h3><center>Families Unlocking Futures:</center></h3>
@@ -37,7 +38,8 @@ export default function Footer() {
           </header>
 
         {/* the footer section in black need to make sure is is a sticky footer */}
-            <footer className="container-fluid sticky-bottom bg-dark py-5">
+            <footer>
+              <div className="container-fluid bg-dark py-5">
                 <div className="container pt-4">
                   <center><img src={logo} className="App-logo" height="100px" width="275px" alt="logo" ></img></center>
                   <hr />
@@ -45,13 +47,13 @@ export default function Footer() {
                     <div id="about" className="row">
                       <div className="col-lg order-lg-2">
                         <h4 className="mb-4"><center>Follow Us At:</center></h4>
-                        {/* <i class="fa fa-camera-retro fa-2x"></i> fa-2x
-                        <div class="list-group">
-                          <a class="list-group-item" href="#"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a>
-                          <a class="list-group-item" href="#"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; Library</a>
-                          <a class="list-group-item" href="#"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp; Applications</a>
-                          <a class="list-group-item" href="#"><i class="fa fa-cog fa-fw" aria-hidden="true"></i>&nbsp; Settings</a>
-                        </div> */}
+                        <a href="https://www.facebook.com/Justice4Families">
+              <i className="fab fa-facebook-f">
+                <span style={{ marginLeft: "10px" }}>
+                  Facebook
+                </span>
+              </i>
+            </a>
                             <p>Explore the future of JavaScript with a lineup of industry professionals. Discover new techniques to advance your career as a web developer.</p>
                             {/* <span class="st_facebook" st_title="Download Report" st_url="https://www.justice4families.org/download-report-button/download-report/" st_processed="yes"> */}
 
@@ -85,6 +87,7 @@ export default function Footer() {
                         </div>
                       </div>        
                     </div>
+                </div>
                 </div> 
             </footer>
           </div>
