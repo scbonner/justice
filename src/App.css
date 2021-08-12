@@ -1643,3 +1643,21 @@ footer {
   .content-block, p {
     page-break-inside: avoid;
   }
+  
+  /* #triangle {
+    width: 0;
+    height: 0;
+    /* border-top: 40px solid transparent; */ 
+    /* border-top: 100px solid lightblue; */
+    /* border-bottom: 40px solid transparent; */
+
+
+#triangle1 {
+  
+  width: 0;
+  height: 0;
+  border-top: 100px  solid purple;
+  /* border-left: 100px solid orange;
+  border-right: 100px solid green;
+  border-bottom: 100px solid lightblue; */
+}
