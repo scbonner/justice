@@ -4,6 +4,7 @@ function Media() {
   return (
 
 <>
+<h1><center>MEDIA</center></h1>
 <div className='container'>
   <h2>Webinars</h2>
     {/* <div id='triangle1' className='webinar'> */}
@@ -90,8 +91,6 @@ function Media() {
       </div>
     </div>
     <br />
-  
-
 </>
 
     

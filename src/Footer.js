@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from './logo.png';
 import Tip from './Tip'
-//import SocialIcons from './SocialIcons'
+import Map from './Map'
 import './footer.css'
 
 
@@ -54,6 +54,9 @@ export default function Footer() {
                 </span>
               </i>
             </a>
+            {/* <AspectRatio ratio={16 / 9}>
+              <iframe src="https://www.google.com/search?q=2090+Honeywell+Avenue+Bronx%2C+New+York+10460&rlz=1C1DIMA_enUS921US921&oq=2090+Honeywell+Avenue+Bronx%2C+New+York+10460&aqs=chrome..69i57j33i299.1842j0j7&sourceid=chrome&ie=UTF-8&output=svembed" alt="demo" ></iframe>
+            </AspectRatio> */}
                             <p>Explore the future of JavaScript with a lineup of industry professionals. Discover new techniques to advance your career as a web developer.</p>
                             {/* <span class="st_facebook" st_title="Download Report" st_url="https://www.justice4families.org/download-report-button/download-report/" st_processed="yes"> */}
 
@@ -69,6 +72,7 @@ export default function Footer() {
                             <p>Bronx, New York 10460</p>
                             <p>Phone: 917.736.4286</p>
                             <p>Website:justice4families.org</p>
+                            <Map />
                             
                       {/* <h6> Need to find out where to link</h6>
                                 <center><a href="report"className="btn-footer bg-primary"> DONATE </a></center><br />

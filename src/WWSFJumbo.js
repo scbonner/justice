@@ -5,6 +5,8 @@ import Container from 'react-bootstrap/Jumbotron';
 import RacialJustice from './RacialJustice'
 import HumanRights from './HumanRights'
 import FamilyValues from './FamilyValues'
+import Video from './Video'
+
 import './App.css'
 import './whatwedo.css'
 
@@ -13,6 +15,7 @@ export default function WWSFJumbo() {
     return (
       <>
         <div>
+        <Video />
           {/* <marquee scrolldelay="100">***Simple scrolling text***</marquee> */}
             <Jumbotron fluid>
               <Container fluid id='protest'>
@@ -29,6 +32,7 @@ export default function WWSFJumbo() {
                   <div className="hero-text">
                   <br /> <br />
                     <FamilyValues />
+                  
               
                   </div>
                 </div>

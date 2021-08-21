@@ -1,12 +1,6 @@
 import React from 'react'
-//import reactDom from 'react-dom'
-//import Trainings1 from './Trainings1'
 import 'bootstrap/dist/css/bootstrap.css';
-//import { Jumbotron } from 'react-bootstrap/Jumbotron';
-//import Card from 'react-bootstrap/Card';
-// import ListGroup from 'react-bootstrap/ListGroup';
-// import ListGroupItem from 'react-bootstrap/ListGroupItem';
-//import { Container } from 'react-bootstrap/Container'
+
 
 
 //Traininig file: need to add images and text. 
@@ -14,42 +8,71 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 
 export default function Trainings1() {
-    return (
-      <>
-        <div className="container">
-          <p>Justice For Families’ (J4F) family engagement specialists have worked with foundations, juvenile justice agencies, mental health advocacy groups and numerous other child-serving agencies for over two decades.  Our consultants have 50+ years experience engaging families and bring unique insights and perspectives of having lived-experience with their own children.</p> 
-                <p>Our services include:</p>
+  return (
+    <div>
+      <div className='container'>
+      {/* <center> <img src={logo} className="App-logo" alt="logo" ></img></center> */}
+        <h1 className='titletraining'>Our Work</h1>
+          <p>Justice For Families (J4F) family engagement specialists have worked with foundations, juvenile justice agencies, mental health advocacy groups and numerous other child-serving agencies for over two decades.  Our consultants have over 50+ years experience engaging families and bringing unique insights and perspectives of lived-experiences with their own children.</p> 
+          <br />
 
-                <ol>
-                    <li>Training for agencies, organizations and families;</li>
-                    <li>Assessments of family engagement policy & practice;</li>
-                    <li>Guidance to develop and sustain family advisory councils;</li>
-                    <li>Guidance to conduct effective family focus groups;</li>
-                    <li>Guidance to develop and sustain community partnerships;</li>
-                    <li>Facilitation and guidance for strategic planning sessions; and</li>
-                    <li>Policy Development relating to family engagement.</li>
-                </ol>
+          <div id="about" className="row">
+          <div className="col-lg order-lg-1">
+            <p className='services'>Our services include:</p>
+              <ol>
+                <li>Training for agencies, organizations and families;</li>
+                <li>Assessments of family engagement policy & practice;</li>
+                <li>Guidance to develop and sustain family advisory councils;</li>
+                <li>Guidance to conduct effective family focus groups;</li>
+                <li>Guidance to develop and sustain community partnerships;</li>
+                <li>Facilitation and guidance for strategic planning sessions; and</li>
+                <li>Policy Development relating to family engagement.</li>
+              </ol>
+          </div>
+          </div>
 
-            <h5>Virtural Learning Experience</h5>
-               <p>Virtual Learning Experiences J4F’s virtual learning series is designed for professionals that work in child-serving agencies and organizations, such as judges, probation officers, detention staff, mental health providers, educators, youth advocates, and law enforcement. Participants will come from a variety of educational backgrounds, age groups, racial and ethnic backgrounds and life experiences. Some will be seasoned professionals who have been in the trenches for decades, while others will be at the beginning of their professional journey.</p>
+          <p className='services'>Virtural Learning Experience</p>
+            
+          <p>Virtual Learning Experiences J4F’s virtual learning series is designed for professionals that work in child-serving agencies and organizations, such as judges, probation officers, detention staff, mental health providers, educators, youth advocates, and law enforcement. Participants will come from a variety of educational backgrounds, age groups, racial and ethnic backgrounds and life experiences. Some will be seasoned professionals who have been in the trenches for decades, while others will be at the beginning of their professional journey.</p>
 
-               <p>You will find a brief summary of our most popular sessions, below. Any materials needed for the completion of the session will be provided and participants will receive a certificate. Sessions are typically 2 hours, with 90 minutes of content and 30 minutes for questions and answers. We, also, offer customized workshops and technical assistance relating to family engagement and partnership. The cost to register for each two-hour session is $49.95. If your agency or organization would like to participate as a group, we do offer group discounts.</p>
+          <p>A brief summary of our most popular sessions are described below. Any materials needed for the completion of sessions will be provided and participants will receive a certificate of completion.</p>
+              
+          <p>Sessions are typically 2 hours, with 90 minutes of content and 30 minutes for questions and answers. We, also, offer customized workshops and technical assistance relating to family engagement and partnership. The cost to register for each two-hour session is $49.95. If your agency or organization would like to participate as a group, we do offer group discounts.</p>
+          <br />
 
-               <p>To join the Planning & Supervision” series participants must have completed the following:</p>
-                <ol>
-                    <li>Family Engagement: What is it and why is it important? </li>
-                    <li>The Family Engagement Continuum and Your Practice-Part 1 & 2</li>
-                    <li>Impact of Trauma on Family Engagement-Part 1, 2 & 3</li>
-                    <li>Equity, Wealth, Race and Racism in the Justice System-Part 1 & 2</li>
-                    <li>Adolescent Brain Development and Youth Voice in the Justice System </li>
-                </ol>
-                <br />
-            <hr />
+          <p className='textbold'>**To join the Planning & Supervision” series participants must have completed the following**</p>
+            <ol>
+              <li>Family Engagement: What is it and why is it important? </li>
+              <li>The Family Engagement Continuum and Your Practice-Part 1 & 2</li>
+              <li>Impact of Trauma on Family Engagement-Part 1, 2 & 3</li>
+              <li>Equity, Wealth, Race and Racism in the Justice System-Part 1 & 2</li>
+              <li>Adolescent Brain Development and Youth Voice in the Justice System </li>
+            </ol>
+            <br />
+            <hr />   
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+    <div clasNames="jumbotron">
+      <div className="container">
+        <div className="row">
+          <div className="col-xs-offset-2 col-xs-8">
+            <h1>Hello, world!</h1>
+            <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <p><a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+          </div>
+          <div class="col-xs-2">
+            <img class="img-responsive" src="https://cdn.pixabay.com/photo/2017/10/01/18/47/trimaran-2806616_1280.jpg" alt=""></img>
+          </div>
+        </div>
+        </div>
+      </div>
+      <br />
+      <hr />
          <h3>Trainings</h3>
             <div className="row">
                 <div className="col-4">
                     <div className="card mb-4">
-                        {/* <img className="card-img-top img-fluid h-100" src="https://images.pexels.com/photos/4546025/pexels-photo-4546025.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="..."></img> */}
+                        {/* <img className="card-img-top img-fluid h-100" src="@import url(https://fonts.googleapis.com/css?family=Open+Sans);" alt="..."></img> */}
                             <div className="card-body">
                                 <h4 className="card-title">Family Engagement: What is it and why is it important?</h4>
                                 <p className="card-text">While this topic may seem too basic and not needed for most professionals, the content is presented in a distinctive manner meant to help participants make connections between their own families and the families they work with.  Defining family could be as easy as opening up a dictionary and reading the definition.  However, this type of learning doesn’t provide the participant with the opportunity to recognize the many facets of relationship building essential to “genuine and meaningful” engagement and partnership.  This session also provides research-based reasons why family engagements benefits systems, workforce and community safety as well as individual youth and family outcomes. </p>
@@ -466,7 +489,7 @@ export default function Trainings1() {
               </div> */}
 
  
-</>
+</div>
 
                 
     )

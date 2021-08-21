@@ -1661,3 +1661,22 @@ footer {
   border-right: 100px solid green;
   border-bottom: 100px solid lightblue; */
 }
+
+/* training and training1 */
+
+.services {
+  text-decoration: underline;
+}
+
+.textbold {
+  font-weight: bold;
+}
+
+.titletraining {
+  margin-top: 40px;
+  text-align: center;
+}
+/* 
+#trainingvector {
+  background-image: url('./image/training.jpeg');
+} */
