@@ -50,7 +50,6 @@ export default function WWSFJumbo() {
             </div>   
             <p className='cursive'><center>“For these are all our children, we will all profit by or pay for what they become.” ~ James Baldwin ~</center></p>
           </div>
-
             
           <Jumbotron fluid>
               <Container fluid id='themural'> 

@@ -7,9 +7,9 @@ import EngageWhatWhy from './EngageWhatWhy'
 const Trainings = () => {
   return (
     <div>
-
-    <Trainings1 />
     <EngageWhatWhy />
+    <Trainings1 />
+    
       </div>
   
     )

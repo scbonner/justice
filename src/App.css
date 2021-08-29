@@ -1680,3 +1680,44 @@ footer {
 #trainingvector {
   background-image: url('./image/training.jpeg');
 } */
+
+h1 .title {
+  text-align: center;
+ 
+}
+
+#shakehands {
+  background-image: url("./image/shakehands.jpeg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+#thegathering {
+  background-image: url("./image/thegathering.jpeg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#partplan {
+  background-image: url("./image/theplan.jpeg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+h5 .card-title {
+  color: white;
+  font-weight: bold;
+
+}
