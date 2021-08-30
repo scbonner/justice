@@ -1,12 +1,12 @@
 import React from 'react'
-import Jumbotron from 'react-bootstrap/Jumbotron';
+import { Jumbotron } from 'reactstrap';
 import ladiesinblue2 from './image/ladiesinblue2.jpeg'
 import './whatwedo.css'
 
 
 
 
-export default function WhatwedoJumIn() {
+function WhatwedoJumIn() {
     return (
 
 <Jumbotron>
@@ -25,3 +25,5 @@ export default function WhatwedoJumIn() {
 
     );
 }
+
+export default WhatwedoJumIn

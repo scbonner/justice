@@ -11,7 +11,7 @@ import PartPlan from './PartPlan'
 export default function CircleNavbar() {
     return (
       <div>
-        <marquee scrolldelay="110" className='cursive1'>“Those who contol the words and the images, control the minds of the people.”  ~ Iyanla Vanzant ~      “In the end, we will remember not the words of our enemies, but the silence of our friends” ~  Martin Luther King Jr. ~ </marquee>
+        <div className='cursive1'>“In the end, we will remember not the words of our enemies, but the silence of our friends” ~  Martin Luther King Jr. ~ </div>
 
        
         {/* <a>https://images.pexels.com/photos/814544/pexels-photo-814544.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940</a> */}
@@ -41,7 +41,7 @@ export default function CircleNavbar() {
   {/* <div class="flex-item flex-item-4">  <a href="https://www.youthjusticela.org" className="circle-text">Youth Justice Coalition
                 </a></div> */}
 </div>
-<marquee scrolldelay="50" className='cursive1'>“Perhaps travel cannot prevent bigortry, but by demonstrating that all people cry, laugh, eat, worry and die. It can introduce the idea that if we try to understand each other, we may even become friends.” ~ Maya Angelou ~</marquee>
+<div scrolldelay="50" className='cursive1'>“Perhaps travel cannot prevent bigortry, but by demonstrating that all people cry, laugh, eat, worry and die. It can introduce the idea that if we try to understand each other, we may even become friends.” ~ Maya Angelou ~</div>
 
 
 {/* <p className='cursive'><center>“Perhaps travel cannot prevent bigortry, but by demonstrating that all people cry, laugh, eat, worry and die. It can introduce the idea that if we try to understand each other, we may even become friends.”

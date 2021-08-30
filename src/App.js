@@ -38,7 +38,7 @@ class App extends Component {
 
       <>
       {/* <h5 className='cursive1'>"Those who control the words and the images, controls the ." ~ Iylana VanZant ~</h5> */}
-      <marquee scrolldelay="100" className='cursive1'>“For these are all our children, we will all profit by or pay for what they become.”  ~ James Baldwin ~ </marquee>
+      <div className='cursive1'>“For these are all our children, we will all profit by or pay for what they become.”  ~ James Baldwin ~ </div>
       
 
       {/* <marquee scrolldelay="100" className='cursive1'>"Those who control the words and the images, controls the minds of the people." ~ Iylana VanZant ~ </marquee> */}

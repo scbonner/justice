@@ -21,7 +21,7 @@ export default function Institute() {
       <div className="col-xs-offset-2 col-xs-8">
         <h1>Hello, world!</h1>
         <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <p><a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+        {/* <p><a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p> */}
       </div>
       <div class="col-xs-2">
         <img class="img-responsive" src="https://cdn.pixabay.com/photo/2017/10/01/18/47/trimaran-2806616_1280.jpg" alt=""></img>

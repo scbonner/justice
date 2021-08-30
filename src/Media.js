@@ -4,6 +4,8 @@ function Media() {
   return (
 
 <>
+
+<div className='cursive1'>“Those who contol the words and the images, control the minds of the people.”  ~ Iyanla Vanzant ~ </div>
 <h1><center>MEDIA</center></h1>
 <div className='container'>
   <h2>Webinars</h2>

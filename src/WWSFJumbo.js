@@ -1,17 +1,15 @@
 import React from 'react'
- import { Modal, Button } from 'react-bootstrap';
-import Jumbotron from 'react-bootstrap/Jumbotron';
-import Container from 'react-bootstrap/Jumbotron';
+ //import { Modal, Button } from 'react-bootstrap';
+ import{ Container } from 'reactstrap'
+import { Jumbotron } from 'reactstrap' 
 import RacialJustice from './RacialJustice'
 import HumanRights from './HumanRights'
 import FamilyValues from './FamilyValues'
 import Video from './Video'
-
 import './App.css'
 import './whatwedo.css'
 
-
-export default function WWSFJumbo() {
+ function WWSFJumbo() {
     return (
       <>
         <div>
@@ -92,3 +90,4 @@ export default function WWSFJumbo() {
 }
 
 
+export default WWSFJumbo

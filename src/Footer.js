@@ -25,7 +25,8 @@ export default function Footer() {
                     <br />
               
                     <div className='emailcontact'>
-                    Request a copy of <a href="mailto:justice4familiesgb@gmail.com" target="_blank" rel="noopener"> the report here.</a>
+                    {/* Request a copy of 
+                    <a href="mailto:justice4familiesgb@gmail.com" target="_blank" rel="noopener"> the report here.</a> */}
                       
 
                          <br /> 
