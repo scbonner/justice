@@ -5,7 +5,7 @@ import { Jumbotron } from 'reactstrap'
 import RacialJustice from './RacialJustice'
 import HumanRights from './HumanRights'
 import FamilyValues from './FamilyValues'
-import Video from './Video'
+
 import './App.css'
 import './whatwedo.css'
 
@@ -13,7 +13,6 @@ import './whatwedo.css'
     return (
       <>
         <div>
-        <Video />
           {/* <marquee scrolldelay="100">***Simple scrolling text***</marquee> */}
             <Jumbotron fluid>
               <Container fluid id='protest'>

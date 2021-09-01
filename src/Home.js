@@ -4,7 +4,7 @@ import WhoWeAre from './WhoWeAre'
 import WhatWeDo from './WhatWeDo'
  import Footer from './Footer'
  import WWSFJumbo from './WWSFJumbo'
-// import Staff from './Staff'
+
 // import Partnerships from './Partnerships'
 // import Institute from './Institute'
 // import Policy from './Policy'
@@ -19,6 +19,7 @@ function Home() {
           <WWSFJumbo />
           <WhoWeAre />
           <WhatWeDo /> 
+         
           <Footer />
           </div>
     )
