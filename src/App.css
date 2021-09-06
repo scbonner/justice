@@ -1721,3 +1721,7 @@ h5 .card-title {
   font-weight: bold;
 
 }
+
+button variant {
+  text-align: center;
+}

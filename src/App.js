@@ -1,19 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.png';
-//import ContactForm from './ContactForm'
-//import ReportDownLoad from './ReportDownLoad'
-//import Trainings from './Trainings'
-//import ReportDownLoad from './ReportDownLoad'
-//import NavBar from './NavBar'
-//import WhatWeDo from './WhatWeDo'
-//import WhatwedoJumIn from './WhatwedoJumIn'
-//import WhatwedoJumb2 from './WhatwedoJumb2'
-//import WhoWeAre from './WhoWeAre'
-//import WhatWeStandFor from './WhatWeStandFor';
-//import Test from './Test'
+
 import 'bootstrap/dist/css/bootstrap.css'
 import './App.css';
-// import Nav fom './Nav'
+ //import TrainingCards from './TrainingCards'
 // import React from 'react';
 import {
   Route,
