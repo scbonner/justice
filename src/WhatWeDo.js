@@ -14,7 +14,7 @@ export default function WhatWeDo() {
     return (
 
 <div className="container" id='heading'>
-    <h1><center><strong>WHAT WE DO...</strong></center></h1>
+    {/* <h1><center><strong>WHAT WE DO...</strong></center></h1> */}
     <br />
     <div className="row row-flex">
       <div className="col-md-4 col-sm-6 col-xs-12">

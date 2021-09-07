@@ -17,13 +17,13 @@ import './whatwedo.css'
             <Jumbotron fluid>
               <Container fluid id='protest'>
                 <br /> <br /> <br /> <br /> <br /> <br /> 
-                  <strong><center><h1 className="display-3">WHAT WE STAND FOR:</h1></center></strong>
+                  <strong><center><h1 className="display-3">WHAT WE STAND FOR...</h1></center></strong>
                 
                   {/* <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> */}
                   <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
               </Container>
             </Jumbotron>
-              <div className='container'>
+              <div className='container'><br />
                 <h1><center>FAMILIES VALUED...</center></h1>
                 <div className="hero-image">
                   <div className="hero-text">
@@ -51,7 +51,6 @@ import './whatwedo.css'
           <Jumbotron fluid>
               <Container fluid id='themural'> 
                 <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />  <br />
-                  
                 <div className="hero-image">
                   <div className="hero-text">
                     <h1><center>RACIAL JUSTICE...</center></h1>
@@ -65,7 +64,8 @@ import './whatwedo.css'
             </Container>
            </Jumbotron>
         </div>
-
+<br />
+<br />
           <Jumbotron fluid>
             <Container fluid id='thecrowd'> 
               <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />  <br />

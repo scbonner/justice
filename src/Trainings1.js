@@ -13,6 +13,8 @@ export default function Trainings1() {
   
     return (
       <>
+      <br />
+      <br />
         <Button variant="dark" onClick={handleShow}>
           Learn More »
         </Button>
@@ -182,32 +184,32 @@ export default function Trainings1() {
 //                     </div>
 
 
-//                     <div className="col-4">
-//                         <div className="card mb-4">
-//                         {/* <img className="card-img-top img-fluid h-100" src="https://images.pexels.com/photos/4546025/pexels-photo-4546025.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="..."></img> */}
-//                                 <div className="card-body">
-//                                     <h4 className="card-title">Developing a Vision & Setting Broad Goals for Improved Family Engagement in your System or Organization </h4>
-//                                     <p className="card-text">Participants that have attended all J4F virtual learning experiences will have developed a common understanding and language relating to trauma, race, ethnicity, inequality, adolescent brain development and how each of these areas relates to “genuine and meaningful” family engagement and partnership. Now agencies and organizations are ready to develop a vision and broad goals for how family engagement can be successfully integrated into all aspects of the system or organization through new practices and policies.  During these sessions, trainers will lead the group in discussions designed to help them think outside the box to develop tools, strategies and policies that work for their particular organization/agency or improve upon existing ones.  Here are a few examples of the questions we discuss:
-//                                     </p>
-//                                     <ol>
-//                                       <li>
-//                                       What are the elements for a meaningful vision and mission statement? 
-//                                       </li>
-//                                       <li>
-//                                       How to work with families to get their ideas for the vision and mission? 
-//                                       </li>
-//                                       <li>
-//                                       What are key areas where goals are needed?
-//                                       </li>
-//                                       <li>
-//                                     	Do we have the necessary structures in place to support the goals? 
-//                                       </li>
-//                                     </ol>
-//                                     <p> This session is the first step in strategic planning and can be conducted in multiple ways. Smaller groups (20 or less) will join as one group.  Larger groups have divided their whole organization into smaller groups such as probation, detention staff or youth advocates.   If you have a larger organization or agency, breaking into smaller groups (such as departments) gives participants a chance to explore ideas in depth and focus on a greater details.  In addition to this session, trainers can set up technical assistance webinars/calls to help guide your agency/organization through the process.  </p>
-//                                 </div>
+                    // <div className="col-4">
+                    //     <div className="card mb-4">
+                    //     {/* <img className="card-img-top img-fluid h-100" src="https://images.pexels.com/photos/4546025/pexels-photo-4546025.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="..."></img> */}
+                    //             <div className="card-body">
+                    //                 <h4 className="card-title">Developing a Vision & Setting Broad Goals for Improved Family Engagement in your System or Organization </h4>
+                    //                 <p className="card-text">Participants that have attended all J4F virtual learning experiences will have developed a common understanding and language relating to trauma, race, ethnicity, inequality, adolescent brain development and how each of these areas relates to “genuine and meaningful” family engagement and partnership. Now agencies and organizations are ready to develop a vision and broad goals for how family engagement can be successfully integrated into all aspects of the system or organization through new practices and policies.  During these sessions, trainers will lead the group in discussions designed to help them think outside the box to develop tools, strategies and policies that work for their particular organization/agency or improve upon existing ones.  Here are a few examples of the questions we discuss:
+                    //                 </p>
+                    //                 <ol>
+                    //                   <li>
+                    //                   What are the elements for a meaningful vision and mission statement? 
+                    //                   </li>
+                    //                   <li>
+                    //                    How to work with families to get their ideas for the vision and mission? 
+                    //                   </li>
+                    //                   <li>
+                    //                   What are key areas where goals are needed?
+                    //                   </li>
+                    //                   <li>
+                    //                 	Do we have the necessary structures in place to support the goals? 
+                    //                   </li>
+                    //                 </ol>
+                    //                 <p> This session is the first step in strategic planning and can be conducted in multiple ways. Smaller groups (20 or less) will join as one group.  Larger groups have divided their whole organization into smaller groups such as probation, detention staff or youth advocates.   If you have a larger organization or agency, breaking into smaller groups (such as departments) gives participants a chance to explore ideas in depth and focus on a greater details.  In addition to this session, trainers can set up technical assistance webinars/calls to help guide your agency/organization through the process.  </p>
+                    //             </div>
                         
-//                                 </div>
-//                     </div>
+                    //             </div>
+                    // </div>
 
 
 //                     <div className="col-4">

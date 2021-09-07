@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from './logo.png';
 import Tip from './Tip'
-import Map from './Map'
+//import Map from './Map'
 import './footer.css'
 
 
@@ -12,29 +12,23 @@ export default function Footer() {
        <div>
         <br />
         
-                      <br />
-                      <br />
+        <br />
+        <br />
           <header className="App-header"> 
             <div className="container-fluid">
               </div>
-             
-        {/* Title above onclick button inside bottom picture */}
-                {/* <a href="j4f" className="navbar-brand mr-3"><h3><strong> */}
-                  <h3><center>Families Unlocking Futures:</center></h3>
-                  <h3><center>Solutions to the Crisis in Juvenile Justice...  <Tip /></center></h3>
-                    <br />
-              
+                <h3><center>Families Unlocking Futures:</center></h3>
+                <h3><center>Solutions to the Crisis in Juvenile Justice...  <Tip /></center></h3>
+                  <br />
                     <div className='emailcontact'>
                     {/* Request a copy of 
                     <a href="mailto:justice4familiesgb@gmail.com" target="_blank" rel="noopener"> the report here.</a> */}
-                      
-
-                         <br /> 
+                  <br /> 
                       {/* </button> */}
-                      <br />
-                      <br />
-                      <br />
-                      <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
                     </div> 
           </header>
 
@@ -43,18 +37,15 @@ export default function Footer() {
               <div className="container-fluid bg-dark py-5">
                 <div className="container pt-4">
                   <center><img src={logo} className="App-logo" height="100px" width="275px" alt="logo" ></img></center>
-                  <hr />
                   <br />
                     <div id="about" className="row">
                       <div className="col-lg order-lg-2">
                         <h4 className="mb-4"><center>Follow Us At:</center></h4>
                         <a href="https://www.facebook.com/Justice4Families">
-              <i className="fab fa-facebook-f">
-                <span style={{ marginLeft: "10px" }}>
-                  Facebook
-                </span>
-              </i>
-            </a>
+                          <i className="fab fa-facebook-f">
+                            <span style={{ marginLeft: "10px" }}> Facebook</span>
+                          </i>
+                        </a>
             {/* <AspectRatio ratio={16 / 9}>
               <iframe src="https://www.google.com/search?q=2090+Honeywell+Avenue+Bronx%2C+New+York+10460&rlz=1C1DIMA_enUS921US921&oq=2090+Honeywell+Avenue+Bronx%2C+New+York+10460&aqs=chrome..69i57j33i299.1842j0j7&sourceid=chrome&ie=UTF-8&output=svembed" alt="demo" ></iframe>
             </AspectRatio> */}
@@ -73,7 +64,7 @@ export default function Footer() {
                             <p>Bronx, New York 10460</p>
                             <p>Phone: 917.736.4286</p>
                             <p>Website:justice4families.org</p>
-                            <Map />
+                            {/* <Map /> */}
                             
                       {/* <h6> Need to find out where to link</h6>
                                 <center><a href="report"className="btn-footer bg-primary"> DONATE </a></center><br />

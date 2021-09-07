@@ -1,4 +1,5 @@
 import React from 'react';
+import WhatWeDo from './WhatWeDo';
 import 'bootstrap/dist/css/bootstrap.css';
 //import Button from 'bootstrap/dist/css/bootstrap.css'
 //import Card from 'bootstrap/dist/css/bootstrap.css'
@@ -14,13 +15,15 @@ export default function WhoWeAre() {
             
         <>
 
-        <h1><strong><center>WHO WE ARE...</center></strong></h1>
-        <br />
+       <br />
+        <h1><strong><center>WHAT WE DO...</center></strong></h1>
+        <WhatWeDo />
             <div className="container pt-4">
-             
-                 <div id="about" className="row">
+            
+                 {/* <div id="about" className="row">
                     <div className="col-lg order-lg-2">
                          <h3 className="mb-4"><center></center></h3>
+                         
                              <p className='cursive'><center>“Perhaps travel cannot prevent bigortry, but by demonstrating that all people cry, laugh, eat, worry and die. It can introduce the idea that if we try to understand each other, we may even become friends.”
                     ~ Maya Angelou ~</center> </p>
                  </div>
@@ -36,7 +39,7 @@ export default function WhoWeAre() {
                             <h3 className="mb-4" id='baldwin' ><center>"Not everything that is faced can be changed, but nothing can be changed until it is faced."<br /> ~ James Baldwin ~</center></h3>
                         
                             </div>
-                        </div>        
+                        </div>         */}
 
                             <div className="card">
                                 <div className="card-header" bg-primary>

@@ -1686,8 +1686,8 @@ h1 .title {
  
 }
 
-#shakehands {
-  background-image: url("./image/shakehands.jpeg");
+#shakehands2 {
+  background-image: url("./image/shakehands2.jpeg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -1705,6 +1705,21 @@ h1 .title {
   background-size: cover;
   position: relative;
 }
+
+
+
+#thepresentzeke1 {
+  background-image: url("./image/thepresentzeke1.jpeg");
+  height: 100%;
+  width: 100%;
+  border-color: black;
+  border-style: solid;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 
 #partplan {
   background-image: url("./image/theplan.jpeg");

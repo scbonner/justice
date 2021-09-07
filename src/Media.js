@@ -20,9 +20,9 @@ function Media() {
                 <p>Justice For Families invites you to hear this inspirational webinar with fathers advocating for justice!  Guests will hear from Elias (Eli) Gonzales, Mark Rolan, Eddie Torres and Bryce Knox all who have years of experience advocating for reforms that benefits families and young people.  This amazing group of fathers, from around the country, are working with state-based agencies, including law enforcement, probation, mental health and juvenile/family courts.</p>
                 <p><a className="btn btn-primary btn-lg" href="https://www.youtube.com/watch?v=bSsJ732yJyE" role="button">Click Start Video</a></p>
               </div>
-              <div className="col-xs-2">
+              {/* <div className="col-xs-2">
                 <img className="img-responsive" src="https://external-iad3-2.xx.fbcdn.net/safe_image.php?d=AQHDKiVunvTdt_is&w=476&h=249&url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FbSsJ732yJyE%2Fhqdefault.jpg&cfs=1&upscale=1&fallback=news_d_placeholder_publisher&ccb=3-5&_nc_hash=AQGmLwthaxYtXjF1" alt=""></img>
-              </div>
+              </div> */}
             </div>
           </div>
           <hr />

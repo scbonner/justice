@@ -1,7 +1,7 @@
 import React from 'react'
 import WhatWeStandFor from './WhatWeStandFor'
 import WhoWeAre from './WhoWeAre'
-import WhatWeDo from './WhatWeDo'
+//import WhatWeDo from './WhatWeDo'
  import Footer from './Footer'
  import WWSFJumbo from './WWSFJumbo'
 
@@ -15,13 +15,19 @@ import WhatWeDo from './WhatWeDo'
 function Home() {
     return (
         <div>
+        <br />
+         <h1><strong><center>WHO WE ARE...</center></strong></h1>
           <WhatWeStandFor /> 
           <WWSFJumbo />
           <WhoWeAre />
-          <WhatWeDo /> 
-         
+          {/* <WhatWeDo />  */}
           <Footer />
+          <br />
+          <br />
+          <hr />
           </div>
+          
+
     )
 }
 

@@ -12,7 +12,7 @@ function FamilyValues() {
     return (
       <>
         <Button variant="primary" onClick={handleShow}>
-          FAMILY VALUED
+          READ MORE »
         </Button>
   
         <Modal show={show} onHide={handleClose}>

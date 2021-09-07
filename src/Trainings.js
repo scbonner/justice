@@ -2,6 +2,8 @@ import * as React from 'react'
 // import 'bootstrap/dist/css/bootstrap.css';
 //import Trainings1 from './Trainings1'
 import TrainingCards from './TrainingCards'
+import TrainingsPic from './TrainingsPic'
+//import TrainingsVir from './TrainingsVir'
 
 
 
@@ -48,12 +50,11 @@ import TrainingCards from './TrainingCards'
               <li>Equity, Wealth, Race and Racism in the Justice System-Part 1 & 2</li>
               <li>Adolescent Brain Development and Youth Voice in the Justice System </li>
             </ol>
-          
-            {/* <Trainings1 />  */}
+            <h1>Courses</h1>     
             <TrainingCards />
             <br />
             <hr />   
-           
+          
             </div>
             </div>
 

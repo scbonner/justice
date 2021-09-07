@@ -11,7 +11,7 @@ const PartShakeImg = () => {
        
 
             <div clasNames="jumbotron">
-                      <div className="container" id='shakehands'>
+                      <div className="container" id='shakehands2'>
                         <div className="row">
                           </div>
                           <br /> <br /> <br /> 

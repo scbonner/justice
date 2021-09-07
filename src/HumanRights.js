@@ -12,7 +12,7 @@ function HumanRights() {
     return (
       <>
         <Button variant="primary" onClick={handleShow}>
-          HUMAN RIGHTS
+          LEARN MORE »
         </Button>
   
         <Modal show={show} onHide={handleClose}>
