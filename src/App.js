@@ -62,18 +62,7 @@ class App extends Component {
       </div>
        {/* <Test />  */}
 
-{/*   
-  
-   <NavBar />     */}
-    {/* 1st showing after navbar on home page */}
-     {/* <WWSFJumbo /> */}
-    {/* second section of home page consists of mission purpose vision values */}
-    {/* <WhatWeStandFor />   */}
-     {/* 3rd section consists of two side pics, quote in the middle, goals & strategies and   */}
-    {/* <WhoWeAre />
-     <WhatWeDo />  
-    <Footer /> */} 
-    {/* <ReportDownLoad /> */}
+
 </>
 
   )

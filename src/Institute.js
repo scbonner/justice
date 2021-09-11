@@ -3,9 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './institute.css'
 import './App.css'
 import WhatwedoJumIn from './WhatwedoJumIn'
-// import incarceratedyouth from './image/incarceratedyouth.jpg'
-// import theplan from './image/theplan.jpeg'
-// import Card from 'react-bootstrap/Card';
+
 
 export default function Institute() {
     return (

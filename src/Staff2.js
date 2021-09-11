@@ -19,7 +19,7 @@ export default function Staff2() {
                 <h3>Jane Doe</h3>
                   {/* <p className="title">CEO &amp; Founder</p> */}
                   <p className="title">Board Title</p>
-                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>A quote or comment to post</p>
                   <p>link to company/org.com</p>
               {/* <p><button className="button">Contact</button></p> */}
               </div>
@@ -32,7 +32,7 @@ export default function Staff2() {
               <div className="container">
                 <h3>Mike Ross</h3>
                   <p className="title">Board Title</p>
-                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>A quote or comment to post</p>
                   <p>link to company/org.com</p>
               </div>
           </div>
@@ -44,7 +44,7 @@ export default function Staff2() {
               <div className="container">
                 <h3>Jane Doe</h3>
                   <p className="title">Board Title</p>
-                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>A quote or comment to post</p>
                   <p>link to company/org.com</p>
               </div>
             </div>
@@ -55,7 +55,7 @@ export default function Staff2() {
               <div className="container">
                 <h3>Jane Doe</h3>
                   <p className="title">Board Title</p>
-                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>A quote or comment to post</p>
                   <p>link to company/org.com</p>
               </div>
           </div>
@@ -68,7 +68,7 @@ export default function Staff2() {
             <div className="container">
               <h3>Jane Doe</h3>
                 <p className="title">Board Title</p>
-                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>A quote or comment to post</p>
                 <p>link to company/org.com</p>
               {/* <p><button className="button">Contact</button></p> */}
             </div>
@@ -81,7 +81,7 @@ export default function Staff2() {
               <div className="container">
                 <h3>Jane Doe</h3>
                   <p className="title">Board Title</p>
-                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>A quote or comment to post</p>
                   <p>link to company/org.com</p>
             </div>
           </div>
@@ -93,7 +93,7 @@ export default function Staff2() {
               <div className="container">
                 <h3>Jane Doe</h3>
                   <p className="title">Board Title</p>
-                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>A quote or comment to post</p>
                   <p>link to company/org.com</p>
               </div>
           </div>
@@ -104,7 +104,7 @@ export default function Staff2() {
               <div className="container">
                 <h3>Jane Doe</h3>
                   <p className="title">Board Title</p>
-                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>A quote or comment to post</p>
                   <p>link to company/org.com</p>
               </div>
           </div>
