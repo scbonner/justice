@@ -1,6 +1,6 @@
 import React from 'react'
 import CircleNavbar from './CircleNavbar'
-//import Table from 'bootstrap/dist/css/bootstrap.css'
+import Reveal from 'react-reveal/Reveal';
 
 
 
@@ -10,8 +10,10 @@ export default function Partnerships() {
     return (
         
         <div>
+        <Reveal effect="fadeInUp">
         <br />
         <CircleNavbar />
+        </Reveal>
        
         {/* <br />
             <table className="table table-dark table-striped">

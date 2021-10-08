@@ -2,8 +2,7 @@ import * as React from 'react'
 // import 'bootstrap/dist/css/bootstrap.css';
 //import Trainings1 from './Trainings1'
 import TrainingCards from './TrainingCards'
-import TrainingsPic from './TrainingsPic'
-//import TrainingsVir from './TrainingsVir'
+
 
 
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import Zoom from 'react-reveal/Zoom';
 
 
 const PartGathering = () => {
@@ -8,6 +9,7 @@ const PartGathering = () => {
        
 
 <div clasNames="jumbotron">
+<Zoom left>
           <div className="container" id='thegathering'>
             <div className="row">
               </div>
@@ -22,6 +24,7 @@ const PartGathering = () => {
                     
                 </div>
             </div>
+            </Zoom>
 </div>
 </div>
 

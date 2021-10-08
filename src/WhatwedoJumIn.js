@@ -11,9 +11,10 @@ function WhatwedoJumIn() {
 
 <Jumbotron>
     <Jumbotron style={{ backgroundImage: `url(${ladiesinblue2})`, height: '85vh', color: 'white', fontWeight: 'bold' }}> 
+        <br />
+        <br />
+        <br />
         <center><h1 className="display-4" >THE INSTITUTE</h1></center>
-
-         <br />
          <br />
          <br />
          <br />

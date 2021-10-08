@@ -4,6 +4,8 @@ import WhoWeAre from './WhoWeAre'
 //import WhatWeDo from './WhatWeDo'
  import Footer from './Footer'
  import WWSFJumbo from './WWSFJumbo'
+ 
+
 
 // import Partnerships from './Partnerships'
 // import Institute from './Institute'
@@ -16,6 +18,8 @@ function Home() {
     return (
         <div>
         <br />
+       
+         {/* <Reveal effect="fadeInUp"> */}
          <h1><strong><center>WHO WE ARE...</center></strong></h1>
           <WhatWeStandFor /> 
           <WWSFJumbo />

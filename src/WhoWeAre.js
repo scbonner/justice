@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 //import Card from 'bootstrap/dist/css/bootstrap.css'
 import './App.css'
 import './staff.css'
+import Reveal from 'react-reveal/Reveal';
 
 
 //setup for board page
@@ -45,11 +46,13 @@ export default function WhoWeAre() {
                                 <div className="card-header" bg-primary>
                                     <h5><strong><center> GOALS & STRATEGIES </center></strong></h5>
                                         <div>
+                                        <Reveal effect="fadeInUp">
                                             <ul>
                                                 <li> <b>A</b>t every stage of the process, families are locked out of decisions that drive their children further along the school-to-prison pipeline. Where families try to participate, they are far too often disrespected, disregarded and blamed for their family member’s involvement in the system. Making matters worse, youth themselves are similarly excluded from the decision-making process and poor families are required to pay burdensome fees, fines and other systemic costs. These systemic flaws not only prevent families from being effective advocates for their children but also reinforce cycles of poverty and racial inequity.</li>
                                                 <br />
                                                 <li><b>J</b>ustice for Families works to change the power dynamic at each of the critical decision-making points along the school-to-prison pipeline. Together, by acting on behalf of all families, we will redirect the pipeline toward opportunity for all youth.</li>
                                             </ul>
+                                            </Reveal>
                                         </div>
         
                                         <div className="card-body form">

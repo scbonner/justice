@@ -1750,3 +1750,12 @@ h5 .card-title {
 button variant {
   text-align: center;
 }
+
+#bold {
+  font-weight: bold;
+  color: blue;
+}
+
+#image-responsive  {
+  padding: 10px 10px 10px 10px;
+}
