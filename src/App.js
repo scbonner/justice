@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.png';
-
 import 'bootstrap/dist/css/bootstrap.css'
 import './App.css';
- //import TrainingCards from './TrainingCards'
-// import React from 'react';
 import {
   Route,
   Link,
@@ -58,15 +55,11 @@ class App extends Component {
             <Redirect to="/" />
           </Switch>
         </div>
-       
       </div>
-       {/* <Test />  */}
-
-
 </>
 
-  )
-}
+    )
+  }
 }
 
 export default App

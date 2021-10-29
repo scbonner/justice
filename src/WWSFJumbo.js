@@ -60,9 +60,10 @@ import './whatwedo.css'
                 </div>
               <br /> <br /> <br />  <br /> <br /> <br /> <br /> <br /> <br />
               <br /> <br /> <br /> <br />  <br /> <br /> <br />
-                <p className='cursive'><center>"No problem can be solved from the same level of consciousness that created it." ~ Albert Einstein ~</center></p> <br /> <br /> 
+                 
             </Container>
            </Jumbotron>
+           <p className='cursive' id='bottom-right'><center>"No problem can be solved from the same level of consciousness that created it." ~ Albert Einstein ~</center></p> <br /> <br />
         </div>
 <br />
 <br />

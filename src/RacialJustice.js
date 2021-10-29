@@ -12,15 +12,16 @@ function RacialJustice() {
     return (
       <>
         <Button variant="primary" onClick={handleShow}>
-          LEARN MORE »
+          READ MORE »
         </Button>
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
-            <Modal.Title>Racial Justice</Modal.Title>
+            <Modal.Title variant="secondary">Racial Justice</Modal.Title>
           </Modal.Header>
-            <Modal.Body> <p>WHAT IS IT? Valuing families means respecting all families. It means supporting universal healthcare, the right to marry who you love, childcare supports for all families who need them, a living wage, meaningful job opportunities for young people and public safety strategies that prioritize family connection and respect familial rights. </p><br /> <br />
+             <Modal.Body> <p> What is it? “the proactive reinforcement of policies, practices, attitudes and actions that produce equitable power, opportunities, and treatment for all” --Rinku Sen</p>
 
-            <p>Getting there: ‘Family values’ have been defined by conservatives in ways that actually undermine family stability. The criminal justice system has penalized and punished families, tearing them apart and undermining their capacity to support each other which is why our work is necessary.</p>
+
+            <p>Getting There: A principle way in which institutional racism is maintained is through the criminal justice system, ICE and Homeland Security systems which collectively constitute a  discriminatory punishment system.  Justice Reinvestment, or the reallocation of resources away from these systems and toward systems of support for youth and families, will help unlock the power of communities to achieve racial justice.</p> 
              </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>

@@ -914,7 +914,8 @@ input {
         width: 100%;
         text-align: left;
         transition: all .4s ease-in-out; 
-        i{
+        
+        {
             position: absolute;
             width: 40px;
             height: 100%;
@@ -973,12 +974,17 @@ input {
   color: white;
 }  
 
+#bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
 
 #themural { 
 	background-image: url('./image/themural.jpeg');
 	background-size: cover; 
-	background-repeat: no-repeat; 
-  /* clip-path: circle(50% at 50% 50%); */
+	clip-path: polygon(0% 0%, 60% 0, 84% 50%, 64% 100%, 0% 100%);
   color: white;
 }  
 #thecrowd { 
