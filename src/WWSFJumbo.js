@@ -45,26 +45,28 @@ import './whatwedo.css'
                     
               <div>
             </div>   
-            <p className='cursive'><center>“For these are all our children, we will all profit by or pay for what they become.” ~ James Baldwin ~</center></p>
+            {/* <p className='cursive'><center>“For these are all our children, we will all profit by or pay for what they become.” ~ James Baldwin ~</center></p> */}
           </div>
-            
+          <div className="col-lg order-2">
           <Jumbotron fluid>
-              <Container fluid id='themural'> 
-                <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />  <br />
-                <div className="hero-image">
+            <Container fluid id='themural'> 
+              <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />  <br />
+              <div className="hero-image">
                   <div className="hero-text">
                     <h1><center>RACIAL JUSTICE...</center></h1>
-               <RacialJustice />
+            <RacialJustice />
               <br /> <br /> <br />  <br /> <br /> <br /> <br /> <br /> <br /> 
                   </div>
-                </div>
-              <br /> <br /> <br />  <br /> <br /> <br /> <br /> <br /> <br />
+              </div>
+                <br /> <br /> <br />  <br /> <br /> <br /> <br /> <br /> <br />
               <br /> <br /> <br /> <br />  <br /> <br /> <br />
-                 
+             <center><p className='cursive' id='top-left'>"No problem can be solved from the same level of consciousness that created it." ~ Albert Einstein ~</p></center>
             </Container>
-           </Jumbotron>
-           <p className='cursive' id='bottom-right'><center>"No problem can be solved from the same level of consciousness that created it." ~ Albert Einstein ~</center></p> <br /> <br />
+            {/* <div id='bottom-right'>
+            <p className='cursive' ><center>"No problem can be solved from</center></p> <p><center>the same level of consciousness that created it." ~ Albert Einstein ~</center></p> <br /> <br /></div> */}
+          </Jumbotron>
         </div>
+         <br /> <br /> 
 <br />
 <br />
           <Jumbotron fluid>
@@ -82,7 +84,7 @@ import './whatwedo.css'
                     <p className='cursive'><center>"In the end, we will remember not the words of our enemies, but the silence of our friends." ~ Martin Luther King, Jr. ~</center></p>  <br /> <br /> 
                 </Container>
               </Jumbotron>
-      
+      </div>
       </>
 
 

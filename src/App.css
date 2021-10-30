@@ -572,7 +572,7 @@ template {
   width: 300px;
   margin-left: 20px;
   height: 300px;
-  border: 10px solid #1C84B0;
+  border: 1px solid grey;
   perspective: 1000px;
   pointer-events: auto;
 }
@@ -602,14 +602,13 @@ template {
 }
 
 .flip-box-front {
-  
-  background-color: #1C84B0;
-  color: white;
+  background-color: white;
+  color: grey;
   
 }
 
 .flip-box-back {
-  background-color: #1C84B0;
+  background-color: grey;
   color: white;
   transform: rotateY(180deg);
   font-size: 14px;
@@ -974,25 +973,38 @@ input {
   color: white;
 }  
 
-#bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-}
+#top-left {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+  } 
 
 
 #themural { 
 	background-image: url('./image/themural.jpeg');
 	background-size: cover; 
-	clip-path: polygon(0% 0%, 60% 0, 84% 50%, 64% 100%, 0% 100%);
-  color: white;
+	clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+
+  color: black;
 }  
+
+
 #thecrowd { 
 	background-image: url('./image/thecrowd.jpeg');
 	background-size: cover; 
 	background-repeat: no-repeat; 
   /* clip-path: circle(50% at 50% 50%); */
   color: white;
+  clip-path: polygon(0 0, 78% 0, 100% 100%, 18% 100%);
+
+
+
+
 }  
 
 #threesacrowd {
@@ -1765,3 +1777,42 @@ button variant {
 #image-responsive  {
   padding: 10px 10px 10px 10px;
 }
+
+
+
+.hero-image2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./image/vanJones.jpeg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  font-size: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+
