@@ -1,6 +1,6 @@
 import React from 'react'
 import { Jumbotron } from 'reactstrap';
-import ladiesinblue2 from './image/ladiesinblue2.jpeg'
+import ladiesinblue2 from './Image/ladiesinblue2.jpeg'
 import './whatwedo.css'
 
 

@@ -3,7 +3,7 @@ import WhatWeStandFor from './WhatWeStandFor'
 import WhoWeAre from './WhoWeAre'
 import Footer from './Footer'
 import WWSFJumbo from './WWSFJumbo'
-import FirstPage from './FirstPage'
+
 
 
 function Home() {
@@ -11,7 +11,6 @@ function Home() {
         <div>
             <br />
                 <h1><strong><center>WHO WE ARE...</center></strong></h1>
-                <FirstPage />
                     <WhatWeStandFor /> 
                     <WWSFJumbo />
                     <WhoWeAre />

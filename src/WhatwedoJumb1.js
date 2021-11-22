@@ -1,6 +1,6 @@
 import React from 'react'
 import Jumbotron from 'react-bootstrap/Jumbotron';
-import thegathering from './image/thegathering.jpeg'
+import thegathering from './Image/thegathering.jpeg'
 import './whatwedo.css'
 
 

@@ -1,14 +1,9 @@
 import React from 'react'
 import HomeMission from './HomeMission'
-//import Jumbotron from 'react-bootstrap/Jumbotron';
 import HomePurpose from './HomePurpose'
 import HomeVision from './HomeVision'
 import HomeValues from './HomeValues'
-//import incarceratedyouth from './image/incarceratedyouth.jpeg'
 import './App.css'
-// import theplan from './image/theplan.jpeg';
-// import protest from './image/protest.jpeg';
-// import theprotest from './image/theprotest.jpeg'
 
 
 
@@ -85,6 +80,8 @@ export default function WhatWeStandFor() {
                                 </div>
                             </div>
                         </div>
+                            <p className='cursive'><center>"There is no greater agony than bearing an untold story inside you."</center></p> 
+                            <p className='cursive'><center>~ Maya Angelou ~</center></p>
                         <br />
                     <div>
                 </div>

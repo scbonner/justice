@@ -1,11 +1,9 @@
 import React from 'react'
- //import { Modal, Button } from 'react-bootstrap';
- import{ Container } from 'reactstrap'
+import{ Container } from 'reactstrap'
 import { Jumbotron } from 'reactstrap' 
 import RacialJustice from './RacialJustice'
 import HumanRights from './HumanRights'
 import FamilyValues from './FamilyValues'
-
 import './App.css'
 import './whatwedo.css'
 
@@ -23,6 +21,11 @@ import './whatwedo.css'
                   <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
               </Container>
             </Jumbotron>
+
+              <p className='cursive'><center>"A man who stands for nothing will fall for anything."</center></p> 
+                <p className='cursive'><center>~ Malcolm X ~</center></p>
+
+                <hr className="new1" />
               <div className='container'><br />
                 <h1><center>FAMILIES VALUED...</center></h1>
                 <div className="hero-image">
@@ -41,8 +44,10 @@ import './whatwedo.css'
                     <img src='https://images.pexels.com/photos/4400973/pexels-photo-4400973.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=280' alt="..." ></img>
                     <img src='https://images.pexels.com/photos/5211439/pexels-photo-5211439.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=180' alt="..." ></img>
                       <br />
+                      <p className='cursive'><center>"To be in your children’s memories tomorrow, you have to be in their lives today" </center></p>
+                      <p className='cursive'><center>~ Barbara Johnson ~</center></p>
+                      <hr className="new1" />
                       <br />
-                    
               <div>
             </div>   
             {/* <p className='cursive'><center>“For these are all our children, we will all profit by or pay for what they become.” ~ James Baldwin ~</center></p> */}
@@ -62,13 +67,15 @@ import './whatwedo.css'
               <br /> <br /> <br /> <br />  <br /> <br /> <br />
              <center><p className='cursive' id='top-left'>"No problem can be solved from the same level of consciousness that created it." ~ Albert Einstein ~</p></center>
             </Container>
-            {/* <div id='bottom-right'>
-            <p className='cursive' ><center>"No problem can be solved from</center></p> <p><center>the same level of consciousness that created it." ~ Albert Einstein ~</center></p> <br /> <br /></div> */}
+            <p className='cursive'><center>"No problem can be solved from the same level of consciousness that created it." </center></p>
+            <p className='cursive'><center>~ Albert Einstein ~</center></p>
           </Jumbotron>
+          <hr className="new1" />
         </div>
-         <br /> <br /> 
+         
 <br />
 <br />
+
           <Jumbotron fluid>
             <Container fluid id='thecrowd'> 
               <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />  <br />
@@ -81,9 +88,12 @@ import './whatwedo.css'
                 </div>
                     <br /> <br /> <br />  <br /> <br /> <br /> <br /> <br /> <br />
                     <br /> <br /> <br /> <br />  <br /> <br /> <br />
-                    <p className='cursive'><center>"In the end, we will remember not the words of our enemies, but the silence of our friends." ~ Martin Luther King, Jr. ~</center></p>  <br /> <br /> 
+                    
                 </Container>
+                <p className='cursive'><center>"In the end, we will remember not the words of our enemies, but the silence of our friends."</center></p> 
+                <p className='cursive'><center>~ Martin Luther King, Jr. ~</center></p>
               </Jumbotron>
+              <hr className="new1" />
       </div>
       </>
 

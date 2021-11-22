@@ -1,5 +1,5 @@
 import React from 'react'
-import Zoom from 'react-reveal/Zoom';
+//import Zoom from 'react-reveal/Zoom';
 
 
 
@@ -7,7 +7,7 @@ const PartPlan = () => {
     return (
         <div>
             <div clasNames="jumbotron">
-                <Zoom left>
+                {/* <Zoom left> */}
                     <div className="container" id='partplan'>
                         <div className="row"></div>
                             <br /> <br /> <br /> 
@@ -20,7 +20,7 @@ const PartPlan = () => {
                                 </div>
                         </div>
                     </div>
-                </Zoom>
+                {/* </Zoom> */}
             </div>
         </div>
     )

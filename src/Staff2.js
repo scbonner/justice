@@ -14,7 +14,7 @@ export default function Staff2() {
       <div className="row">
         <div className="column">
           <div id="card">
-            <img src="https://images.pexels.com/photos/2169434/pexels-photo-2169434.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Jane" width="100%"></img>
+          <img src="https://images.pexels.com/photos/773371/pexels-photo-773371.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Jane" width="100%"></img>
               <div className="container">
                 <h3>Jane Doe</h3>
                   {/* <p className="title">CEO &amp; Founder</p> */}
