@@ -49,9 +49,9 @@ import TrainingCards from './TrainingCards'
               <li>Equity, Wealth, Race and Racism in the Justice System-Part 1 & 2</li>
               <li>Adolescent Brain Development and Youth Voice in the Justice System </li>
             </ol>
-            <h1>Courses</h1>     
-            <TrainingCards />
             <br />
+            <h1><center>Courses</center></h1>     
+            <TrainingCards />
             <hr />   
           
             </div>

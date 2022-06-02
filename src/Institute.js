@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './institute.css'
 import './App.css'
 import WhatwedoJumIn from './WhatwedoJumIn'
-import Memory from './Memory';
+// import Memory from './Memory';
 
 
 export default function Institute() {
@@ -70,9 +70,24 @@ export default function Institute() {
           </ListGroup>
             </div>
           <br />
+          <br />
+
+          <div className='container'>
+          <h1>Justice Reinvestment</h1>
+          <p style={{textAlign: "justify"}}>Over the past 40 years, the United States built the largest prison system in the world; however, mass incarceration has not made communities safer. Despite this glaring and ugly truth local, state and federal governments continue to throw money behind this failure. The over-reliance on prisons resembles a public-safety Ponzi scheme. This scheme has devastated communities in its wake, worsening racial inequity while the gap between the rich and the poor widens. Unfortunately, too many still see incarceration as the only “public safety” strategy.</p>
+
+          <p style={{textAlign: "justify"}}>J4F works for “justice reinvestment” – the reallocation of government spending wasted on mass incarceration, failed “tough-on-crime” juvenile justice polices toward investment in families, youth opportunity, and low-income communities.&nbsp; A transformed youth justice system would reallocate resources to fund conflict-resolution and peace-building programs in schools as well as positive youth development and supervision programs as primary options for court-involved youth. Here are but a few examples of “justice reinvestment.”</p>
+          <br />
+
+          <center><h2>Checkout Our Guide</h2>
+          <a href="http://www.justice4families.org/wp-content/uploads/2013/04/J4F_Report_FINAL_082815.pdf" target="_blank">
+          <img aria-describedby="caption-attachment-1126" loading="lazy" className="wp-image-1126 size-thumbnail" src="http://www.justice4families.org/wp-content/uploads/2013/04/J4F_ReportCover_LowRes-150x150.jpg" alt="Download Our Guide" width="200" height="200"></img></a></center></div>
+          
+            {/* <Memory /> */}
+          <br />
+          <br />
+    </div>
   
-            <Memory />
-</div>
  
    
   

@@ -12,6 +12,13 @@
   /* text-align: center; */
  */
 
+
+
+ .invalid-feedback {
+  display: block !important;
+}
+
+
 .App-logo {
   height: 20vmin;
   pointer-events: none;
@@ -120,15 +127,6 @@ ul {
 
 
 
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
 .button-tertiary {
 	box-shadow: 0px 0px 0px 2px #9fb4f2;
 	/* background:linear-gradient(to bottom, #B8D29A 5%, #B8D29A 100%); */
@@ -231,6 +229,8 @@ h1 {
 
 hr {
   box-sizing: content-box; /* 1 */
+  width: 3px;
+  color: black;
   height: 0; /* 1 */
   overflow: visible; /* 2 */
 }
@@ -555,16 +555,17 @@ template {
 /* 
 //WHAT WE STAND FOR CODE */
 
-#heading{
+.container #heading .content colour-1{
  background-image: #7CAD41, #1C84B0,#B8D29A, #8C8C8B, #1C84B0, #7CAD41, #92C8E2;
- /* box-shadow: 0 4px 8px 0 rgba(.5, .5, .5, 0.7), 6px  6px 20px 8px rgba(0.5, .2, .5, 0.19); */
  margin-bottom: 20px;
 }
+
+
 .card .card-body {
   border: 5px;
   color: black;
   margin: auto;
- /* background-image: linear-gradient(to right, #7CAD41, #1C84B0,#B8D29A, #8C8C8B, #1C84B0, #7CAD41, #92C8E2);  */
+ 
 }
 
 .flip-box {
@@ -572,7 +573,7 @@ template {
   width: 300px;
   margin-left: 20px;
   height: 300px;
-  border: 1px solid grey;
+  /* border: 2px solid #1C84B0; */
   perspective: 1000px;
   pointer-events: auto;
 }
@@ -603,12 +604,12 @@ template {
 
 .flip-box-front {
   background-color: white;
-  color: grey;
+  color: #1C84B0;
   
 }
 
 .flip-box-back {
-  background-color: grey;
+  background-color: #1C84B0;
   color: white;
   transform: rotateY(180deg);
   font-size: 14px;
@@ -666,7 +667,7 @@ template {
 .colour-1 {
   background: #1C84B0;
   color: #fff;
-   border-radius: 50%;
+   border-radius: 60%;
   background-image: linear-gradient(to left, #7CAD41, #B8D29A,  #8C8C8B, #1C84B0, #92C8E2);
  
 
@@ -1130,10 +1131,11 @@ transform: translateY(-40px);
       box-shadow: 0 0 6px 6px #a7c5fb, 0 3px 6px #a7c5fb;
   }
   
-  .contaner {
-      position: relative;
-      width: 280px;
-      margin: auto;
+  .container {
+      position: flex;
+      width: 50px;
+      margin-left: 5em;
+      margin-right: 5em;
     }
     
      span {
@@ -1380,8 +1382,9 @@ p .container-shape {
   flex-wrap: wrap;
   height: 100%;
   padding: .5em;
-  border: 15px;
+  border: 2px;
   border-color: lightgrey;
+  box-shadow: 5%;
 }
 
 div,
@@ -1575,7 +1578,7 @@ h3 .mb-4
 .flex-container {
   padding: 5px;
   margin: 0;
-  outline: 1px solid red;
+  outline: 1px solid #1C84B0;;
   margin: 2em auto;
   
   display: -webkit-box;
@@ -1588,9 +1591,9 @@ h3 .mb-4
 }
 
 .flex-item {
-  background: tomato;
+  background: #1C84B0;;
   color: white;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 1em;
   text-align: center;
   margin: 1em;
@@ -1625,10 +1628,17 @@ h3 .mb-4
 
 /* FOOTER */
 
-/* .footer {
-  position: fixed-bottom;
+ #footer {
+
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
  
-} */
 
 div h3 {
   color:black;
@@ -1637,11 +1647,11 @@ div h3 {
   margin-bottom: 1.5em;
 }
 
-
-h3 .mb-4 .list-group a  {
+ 
+h3 .mb-4 .container .list-group a  {
   background-color: black;
-  width: 40px;;
-}
+  /* width: 20px; */
+} 
 
 #container .row .column h3 {
   margin-top: 4em;
@@ -1649,17 +1659,35 @@ h3 .mb-4 .list-group a  {
   font-weight: bold;
   color: black;
 }
+ 
+.mb-4 #containermenu {
+   position: center;
 
-.containermenu .list-group a .list-group-item .list-group-item-action {
+  /* bottom: 20px; */
+  margin-left: 8em;
   background-color: black;
+  color: white;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+} 
+ 
+
+.mb-4 .container .list-group {
+
+  background-color: royalblue;
 }
 
-.containerp {
-  margin-left: 8em;
+footer {
+	font-weight: bold;
+	color: blue;
+	background-color: black;
+}
+
+#containerp {
+  margin-left: 4em;
   margin-top: 2em;
-  margin-left: 2em;
   font-weight: bold;
-  margin-bottom: 1.5em;
+  /* margin-bottom: 1.5em; */
   color: black;
   
 } 
@@ -1669,7 +1697,6 @@ h3 .mb-4 .list-group a  {
   margin-left: 40%;
   color: white;
 }
-
 
 
 @media print {
@@ -1851,7 +1878,7 @@ hr.new1 {
   width: 2px;
   background-color: black;
   margin: 20px;
-  height: 18em;
+  height: 20em;
 }
 
 
@@ -1862,10 +1889,36 @@ hr.new1 {
   --shadow: rgba(0,0,0,.2);
 }
 
+
 html, body {
   background-color: var(--dark);
   margin: 5px;
 } */
+
+/* Create two equal columns that floats next to each other */
+.row #column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.containerdiv {
+  flex: 1 0 0;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+div #container {
+  color: black;
+  margin-top: 5em;
+  margin-left: flex;
+  border-left:rgba(.5, .5, .5, 0.7);
+}
 
 .container2 > a {
   display: flex;
@@ -1903,9 +1956,56 @@ html, body {
 }
 
 
-#header {
+#header #row #column {
   text-align: center;
-  padding: 32px;
+  padding: 20px;
+  border: 5px;
+}
+
+#header h1 {
+  text-align: center;
+  margin-top: 2em;
+}
+
+#header h2 {
+  text-align: center;
+  margin-top: .5em;
+}
+
+#header .container #row #column {
+border: 10 10;
+
+}
+
+/* #container .row .column {
+  position: center;
+  margin: 5em;
+  padding: 10em;
+ 
+}
+
+
+.divider {
+  display: inline-block;
+  width: 8px;
+  background-color: black;
+  display: flex;
+  height: 10em;
+
+} */
+
+#top-left {
+  position: absolute;
+  margin-top: 10em;
+  text-align: left;
+  margin-left: 4em;
+  color: black;
+  font-weight: bold;
+  padding: 15px;
+  background-color: white;
+  background-origin: border-box;
+  font-size: 15px;
+   opacity: .5;
 }
 
 #row {

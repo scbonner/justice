@@ -6,25 +6,24 @@ import './staff.css'
 //setup for board page
 
 export default function Staff2() {
-    return (
-      <div className="flexcontainer">
-       <div className='container'>
+  return (
+    <div className="flexcontainer">
+      <div className='container'>
         <h1><center>Board Members</center></h1>
-      <br />
-      <div className="row">
-        <div className="column">
-          <div id="card">
-          <img src="https://images.pexels.com/photos/773371/pexels-photo-773371.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Jane" width="100%"></img>
-              <div className="container">
-                <h3>Jane Doe</h3>
-                  {/* <p className="title">CEO &amp; Founder</p> */}
-                  <p className="title">Board Title</p>
-                  <p>A quote or comment to post</p>
-                  <p>link to company/org.com</p>
-              {/* <p><button className="button">Contact</button></p> */}
+          <br />
+            <div className="row">
+              <div className="column">
+                <div id="card">
+                  <img src="https://images.pexels.com/photos/773371/pexels-photo-773371.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Jane" width="100%"></img>
+                    <div className="container">
+                      <h3>Jane Doe</h3>
+                        {/* <p className="title">CEO &amp; Founder</p> */}
+                        <p className="title">Board Title</p>
+                        <p>A quote or comment to post</p>
+                    {/* <p><button className="button">Contact</button></p> */}
+                    </div>
+                </div>
               </div>
-          </div>
-        </div>
 
         <div className="column">
           <div id="card">
@@ -33,7 +32,6 @@ export default function Staff2() {
                 <h3>Mike Ross</h3>
                   <p className="title">Board Title</p>
                   <p>A quote or comment to post</p>
-                  <p>link to company/org.com</p>
               </div>
           </div>
         </div>
@@ -45,7 +43,6 @@ export default function Staff2() {
                 <h3>Jane Doe</h3>
                   <p className="title">Board Title</p>
                   <p>A quote or comment to post</p>
-                  <p>link to company/org.com</p>
               </div>
             </div>
         </div>
@@ -56,7 +53,6 @@ export default function Staff2() {
                 <h3>Jane Doe</h3>
                   <p className="title">Board Title</p>
                   <p>A quote or comment to post</p>
-                  <p>link to company/org.com</p>
               </div>
           </div>
         </div>
@@ -69,7 +65,6 @@ export default function Staff2() {
               <h3>Jane Doe</h3>
                 <p className="title">Board Title</p>
                 <p>A quote or comment to post</p>
-                <p>link to company/org.com</p>
               {/* <p><button className="button">Contact</button></p> */}
             </div>
           </div>
@@ -82,7 +77,6 @@ export default function Staff2() {
                 <h3>Jane Doe</h3>
                   <p className="title">Board Title</p>
                   <p>A quote or comment to post</p>
-                  <p>link to company/org.com</p>
             </div>
           </div>
         </div>
@@ -94,7 +88,6 @@ export default function Staff2() {
                 <h3>Jane Doe</h3>
                   <p className="title">Board Title</p>
                   <p>A quote or comment to post</p>
-                  <p>link to company/org.com</p>
               </div>
           </div>
         </div>
@@ -105,14 +98,13 @@ export default function Staff2() {
                 <h3>Jane Doe</h3>
                   <p className="title">Board Title</p>
                   <p>A quote or comment to post</p>
-                  <p>link to company/org.com</p>
               </div>
           </div>
         </div>
       </div>
     </div>
-    </div>
-    </div>
+  </div>
+  </div>
        
     )
 }

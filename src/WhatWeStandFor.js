@@ -12,7 +12,6 @@ export default function WhatWeStandFor() {
         <div>
             <div id="card mb-3">
                 <div className="card-body">
-                <br />
                     <div id='container' className='protest'>
                         <div className="row">
                             <div className="column">
@@ -20,7 +19,7 @@ export default function WhatWeStandFor() {
                                     <div className="flip-box-inner">
                                         <div className="flip-box-front">
                                         <img src=' https://images.pexels.com/photos/5905700/pexels-photo-5905700.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' className="card-img-top" alt="..."></img>
-                                            <h2>MISSION</h2>
+                                            <h2>MISSION>></h2>
                                         </div>
             {/* Backside of card and button for modal */}
                                     <div className="flip-box-back">
@@ -37,7 +36,7 @@ export default function WhatWeStandFor() {
                             <div className="flip-box-inner">
                                 <div className="flip-box-front">
                                     <img src='https://images.pexels.com/photos/5108415/pexels-photo-5108415.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' className="card-img-top" alt="..."></img> 
-                                        <h2>PURPOSE</h2>
+                                        <h2> PURPOSE>></h2>
                                 </div>
                                     <div className="flip-box-back">
                                         <br />
@@ -53,7 +52,7 @@ export default function WhatWeStandFor() {
                              <div className="flip-box-inner">
                                 <div className="flip-box-front">
                                     <img src='https://images.pexels.com/photos/2369217/pexels-photo-2369217.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' className="card-img-top" alt="..."></img> 
-                                         <h2>VISION</h2>
+                                         <h2> VISION>></h2>
                                  </div>
                                     <div className="flip-box-back">
                                         <br />
@@ -68,8 +67,8 @@ export default function WhatWeStandFor() {
                             <div className="flip-box">
                                 <div className="flip-box-inner">
                                      <div className="flip-box-front">
-                                        <img src='https://images.pexels.com/photos/6698318/pexels-photo-6698318.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150&w=140' className="card-img-top" alt="..."></img> 
-                                             <h2>VALUES</h2>
+                                        <img src='https://images.pexels.com/photos/6698318/pexels-photo-6698318.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150&w=140' className="card-img-top" alt="..."></img>
+                                             <h2> VALUES>></h2>
                                      </div>
                                         <div className="flip-box-back">
                                             <br />
@@ -80,6 +79,7 @@ export default function WhatWeStandFor() {
                                 </div>
                             </div>
                         </div>
+                        <br />
                             <p className='cursive'><center>"There is no greater agony than bearing an untold story inside you."</center></p> 
                             <p className='cursive'><center>~ Maya Angelou ~</center></p>
                         <br />

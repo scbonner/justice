@@ -8,7 +8,6 @@ export default function ContactForm() {
     <div>
     <br />
     <br />
-       
     <div className="container">
          <h3>Trainings</h3>
             <div className="row">

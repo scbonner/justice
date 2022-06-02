@@ -15,6 +15,8 @@ import Community from './Community'
 import Trainings from './Trainings'
 import Institute from './Institute'
 import Media from './Media'
+import Contact from './Contact'
+import Donate from './Donate'
 
 
 //import {Header} from 'react-bootstrap/Header'
@@ -40,6 +42,8 @@ function App() {
                     <li> <Link to="/community">Community</Link> </li>
                     <li> <Link to="/trainings">Trainings</Link> </li>
                     <li> <Link to="/media">Media</Link> </li>
+                    <li> <Link to="/contact">Contact</Link> </li>
+                    <li> <Link to="/donate">Donate</Link> </li>
                 </ul>
             </div>
             <div className="App-intro">
@@ -51,6 +55,8 @@ function App() {
                 <Route path="/community" component={Community} />
                 <Route path="/trainings" component={Trainings} />
                 <Route path="/media" component={Media} />
+                <Route path="/contact" component={Contact} />
+                <Route path="/donate" component={Donate} />
                 <Redirect to="/" />
               </Switch>
           
