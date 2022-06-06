@@ -3,7 +3,7 @@ import React from 'react'
 //import { Link } from 'react-router-dom'
 //import { Button } from 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/css/bootstrap.css';
-import './Jumbotron.css'
+import './jumbotron.css'
 
 
 
