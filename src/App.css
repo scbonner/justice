@@ -4,15 +4,6 @@
   box-sizing: border-box;
 }
 
-/* #menu {
-  text-align: center;
-} */
-
-/* .App {
-  /* text-align: center; */
- */
-
-
 
  .invalid-feedback {
   display: block !important;
@@ -34,11 +25,6 @@
   text-align: center;
 }
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 30s linear;
-  }
-} */
 
 
 /* This image appears above bottom footer. */
@@ -184,25 +170,23 @@ ul {
 /* Sections
    ========================================================================== */
 
-/**
- * Remove the margin in all browsers.
- */
+
 
 body {
   margin: 0;
 }
 
-/**
- * Render the `main` element consistently in IE.
+/*
+  Render the `main` element consistently in IE.
  */
 
 main {
   display: block;
 }
 
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
+/*
+ Correct the font size and margin on `h1` elements within `section` and
+ `article` contexts in Chrome, Firefox, and Safari.
  */
 
 h1 {
@@ -222,7 +206,7 @@ h1 {
 /* Grouping content
    ========================================================================== */
 
-/**
+/*
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
@@ -235,7 +219,7 @@ hr {
   overflow: visible; /* 2 */
 }
 
-/**
+/*
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
@@ -248,7 +232,7 @@ pre {
 /* Text-level semantics
    ========================================================================== */
 
-/**
+/*
  * Remove the gray background on active links in IE 10.
  */
 
@@ -256,7 +240,7 @@ a {
   background-color: transparent;
 }
 
-/**
+/*
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
@@ -267,7 +251,7 @@ abbr[title] {
   text-decoration: underline dotted; /* 2 */
 }
 
-/**
+/*
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
 
@@ -276,7 +260,7 @@ strong {
   font-weight: bolder;
 }
 
-/**
+/*
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
@@ -288,7 +272,7 @@ samp {
   font-size: 1em; /* 2 */
 }
 
-/**
+/*
  * Add the correct font size in all browsers.
  */
 
@@ -296,7 +280,7 @@ small {
   font-size: 80%;
 }
 
-/**
+/*
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
@@ -331,7 +315,7 @@ sup {
 /* Embedded content
    ========================================================================== */
 
-/**
+/*
  * Remove the border on images inside links in IE 10.
  */
 
@@ -342,7 +326,7 @@ img {
 /* Forms
    ========================================================================== */
 
-/**
+/*
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
@@ -364,7 +348,7 @@ textarea {
   margin: 0; /* 2 */
 }
 
-/**
+/*
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
@@ -374,7 +358,7 @@ input { /* 1 */
   overflow: visible;
 }
 
-/**
+/*
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
@@ -384,7 +368,7 @@ select { /* 1 */
   text-transform: none;
 }
 
-/**
+/*
  * Correct the inability to style clickable types in iOS and Safari.
  */
 
@@ -395,7 +379,7 @@ button,
   -webkit-appearance: button;
 }
 
-/**
+/*
  * Remove the inner border and padding in Firefox.
  */
 
@@ -407,7 +391,7 @@ button::-moz-focus-inner,
   padding: 0;
 }
 
-/**
+/*
  * Restore the focus styles unset by the previous rule.
  */
 
@@ -418,7 +402,7 @@ button:-moz-focusring,
   outline: 1px dotted ButtonText;
 }
 
-/**
+/*
  * Correct the padding in Firefox.
  */
 
@@ -426,7 +410,7 @@ fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
 
-/**
+/*
  * 1. Correct the text wrapping in Edge and IE.
  * 2. Correct the color inheritance from `fieldset` elements in IE.
  * 3. Remove the padding so developers are not caught out when they zero out
@@ -442,7 +426,7 @@ legend {
   white-space: normal; /* 1 */
 }
 
-/**
+/*
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
 
@@ -450,7 +434,7 @@ progress {
   vertical-align: baseline;
 }
 
-/**
+/*
  * Remove the default vertical scrollbar in IE 10+.
  */
 
@@ -458,7 +442,7 @@ textarea {
   overflow: auto;
 }
 
-/**
+/*
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
@@ -469,7 +453,7 @@ textarea {
   padding: 0; /* 2 */
 }
 
-/**
+/*
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
 
@@ -478,7 +462,7 @@ textarea {
   height: auto;
 }
 
-/**
+/*
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
@@ -488,7 +472,7 @@ textarea {
   outline-offset: -2px; /* 2 */
 }
 
-/**
+/*
  * Remove the inner padding in Chrome and Safari on macOS.
  */
 
@@ -496,7 +480,7 @@ textarea {
   -webkit-appearance: none;
 }
 
-/**
+/*
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
@@ -528,7 +512,7 @@ summary {
 /* Misc
    ========================================================================== */
 
-/**
+/*
  * Add the correct display in IE 10+.
  */
 
@@ -536,7 +520,7 @@ template {
   display: none;
 }
 
-/**
+/*
  * Add the correct display in IE 10.
  */
 
@@ -709,11 +693,12 @@ template {
   background-size: cover;
   color: black;
   
-  /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);  */
+  /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);  
+  */
 ;
 }
 
-/* ReportForm and it is rendered in the ReportDownLoad file*/
+/* ReportForm and it is rendered in the ReportDownLoad file */
 
 input {
   background-repeat: no-repeat;
@@ -835,10 +820,6 @@ input {
   font-weight: 300;
 }
 
-/* h1 {
-  font-weight: 300;
-  margin-bottom: 40px;
-} */
 
 /* Circle NavBar */
 
@@ -852,16 +833,7 @@ input {
   background: #abb1b8;
 }
 
-/* #circle3 {
-  display: flex;
-  width: 200px;
-  height: 200px;
-  background-color: green;
-  border-radius: 50%;
-  padding: 20px;
-  margin:20px;
-  display:"inline-block";
-} */
+
 
 .circle {
   display: flex;
@@ -914,7 +886,7 @@ input {
         width: 100%;
         text-align: left;
         transition: all .4s ease-in-out; 
-        
+    
         {
             position: absolute;
             width: 40px;
@@ -926,6 +898,7 @@ input {
             text-align: center;
             border-right: 1px solid transparent;
         }
+        
         &:hover{
             padding-left: 60px;
             background: #213744;
@@ -1141,8 +1114,7 @@ transform: translateY(-40px);
      span {
          font-family: 'sans-serif', Tahoma, Geneva, Verdana, sans-serif;
       position: absolute;
-      /* color: #f8cbad; */
-      /* -webkit-text-stroke: 1px #ed7d31; */
+      
       font-size: 30px;
     }
     
@@ -1352,9 +1324,6 @@ p .container-shape {
       height: 0;
       clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 
-      /* border-left: 40px solid transparent;
-      border-right: 40px solid transparent;
-      border-bottom: 80px solid lightblue; */
   }
   
 
@@ -1392,26 +1361,6 @@ card {
    color: black;
 
 }
-/* 
-.flexcontainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* You can set flex-wrap and
-     flex-direction individually */
-  /* flex-direction: row;
-  flex-wrap: wrap; */
-  /* Or do it all in one line
-    with flex flow */
-  /* flex-flow: row wrap; */
-  /* tweak where items line
-     up on the row
-     valid values are: flex-start,
-     flex-end, space-between,
-     space-around, stretch */
-  /* align-content: flex-end;
-
-} */
 
 
 /* Example of Jeannette  */
@@ -1600,7 +1549,7 @@ h3 .mb-4
   flex: 1 1 auto;
   /* outline: 1px solid blue; */
 
-  /* // whatever the breakpoints are that scaffold has set. */
+  /* whatever the breakpoints are that scaffold has set. */
   @media screen and (min-width: 320px) {
    width: 100vw;
   }
@@ -1883,17 +1832,7 @@ hr.new1 {
 
 
 /* Community */
-/* 
-:root {
-  --dark: #373349;
-  --shadow: rgba(0,0,0,.2);
-}
 
-
-html, body {
-  background-color: var(--dark);
-  margin: 5px;
-} */
 
 /* Create two equal columns that floats next to each other */
 .row #column {
@@ -1977,22 +1916,6 @@ border: 10 10;
 
 }
 
-/* #container .row .column {
-  position: center;
-  margin: 5em;
-  padding: 10em;
- 
-}
-
-
-.divider {
-  display: inline-block;
-  width: 8px;
-  background-color: black;
-  display: flex;
-  height: 10em;
-
-} */
 
 #top-left {
   position: absolute;
