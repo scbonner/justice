@@ -1,8 +1,8 @@
 import React from 'react'
 import logo from './logo.png';
 import Tip from './Tip'
-import './footer.css'
-import { Fortawesome } from '@fortawesome/free-solid-svg-icons'
+// import './Footer.css'
+// import { Fortawesome } from '@fortawesome/free-solid-svg-icons'
 
 
 export default function Footer() {
@@ -17,8 +17,8 @@ export default function Footer() {
               <div className='emailcontact'>
                 <center>
                   <button>
-      {/* ***** double check line 32 security  */}
-                  <a href="mailto:info@justiceforfamilies.org" target="_blank" rel="noopener"> Request copy of report.</a> 
+      {/* ***** double check line 32 security  line 21 considered a security risk*/}
+                  {/* <a href="mailto:info@justiceforfamilies.org" target="_blank" rel="noopener"> Request copy of report.</a>  */}
                   </button>
                 </center>
                 <br />

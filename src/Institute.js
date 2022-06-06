@@ -1,10 +1,10 @@
 import React from 'react';
 import { ListGroup, ListGroupItem } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './institute.css'
+import './Institute.css'
 import './App.css'
 import WhatwedoJumIn from './WhatwedoJumIn'
-// import Memory from './Memory';
+
 
 
 export default function Institute() {
@@ -80,8 +80,8 @@ export default function Institute() {
           <br />
 
           <center><h2>Checkout Our Guide</h2>
-          <a href="http://www.justice4families.org/wp-content/uploads/2013/04/J4F_Report_FINAL_082815.pdf" target="_blank">
-          <img aria-describedby="caption-attachment-1126" loading="lazy" className="wp-image-1126 size-thumbnail" src="http://www.justice4families.org/wp-content/uploads/2013/04/J4F_ReportCover_LowRes-150x150.jpg" alt="Download Our Guide" width="200" height="200"></img></a></center></div>
+          {/* <a href="http://www.justice4families.org/wp-content/uploads/2013/04/J4F_Report_FINAL_082815.pdf" target="_blank"> */}
+          <img aria-describedby="caption-attachment-1126" loading="lazy" className="wp-image-1126 size-thumbnail" src="http://www.justice4families.org/wp-content/uploads/2013/04/J4F_ReportCover_LowRes-150x150.jpg" alt="Download Our Guide" width="200" height="200"></img></center></div>
           
             {/* <Memory /> */}
           <br />

@@ -3,7 +3,7 @@ import React, { Fragment } from 'react'
 
 //import faStyles from 'font-awesome/css/font-awesome.css'
 
-import './social.css'
+import './Social.css'
 
 
 const SocialIcons = () => {
